@@ -1,20 +1,23 @@
 # Instruction set
 
-| Opcode | Mnemonic | Description | Size | Cycles |
-| --- | --- | --- | --- | --- |
+| Opcode | Mnemonic | Description | Size |
+| --- | --- | --- | --- |
 | `0x` | `hlt` | `stop the execution` | `1` |
 | `0x` | `mov r0, #i16` | `copy 16-bit immediate to r0`|
 | `0x` | `mov r0, r1` | `copy r1 to r0` | `1` |
 | `0x` | `mov r0, r2` | `copy r2 to r0` | `1` |
 | `0x` | `mov r0, pc` | `copy pc to r0` | `1` |
+| `0x` | `mov r0, sp` | `copy sp to r0` | `1` |
 | `0x` | `mov r1, #i16` | `copy 16-bit immediate to r1`|
 | `0x` | `mov r1, r0` | `copy r0 to r1` | `1` |
 | `0x` | `mov r1, r2` | `copy r2 to r1` | `1` |
 | `0x` | `mov r1, pc` | `copy pc to r1` | `1` |
+| `0x` | `mov r1, sp` | `copy sp to r1` | `1` |
 | `0x` | `mov r2, #i16` | `copy 16-bit immediate to r2`|
 | `0x` | `mov r2, r0` | `copy r0 to r2` | `1` |
 | `0x` | `mov r2, r1` | `copy r1 to r2` | `1` |
 | `0x` | `mov r2, pc` | `copy pc to r2` | `1` |
+| `0x` | `mov r2, sp` | `copy sp to r2` | `1` |
 | `0x` | `push r0` | `push r0 to stack` | `1` |
 | `0x` | `push r1` | `push r1 to stack` | `1` |
 | `0x` | `push r2` | `push r2 to stack` | `1` |
@@ -24,11 +27,13 @@
 | `0x` | `pop r2` | `pop stack to r2` | `1` |
 | `0x` | `pop pc` | `pop stack to pc` | `1` |
 | `0x` | `b #i16` | `unconditional branch to 16-bit immediate address` | `3` |
+| `0x` | `b r0` | `unconditional branch to r0` | `3` |
 | `0x` | `call #i16` | `push pc to stack and jump to 16-bit immediate address` | `3` |
 | `0x` | `call r0` | `push pc to stack and jump to r0` | `3` |
 | `0x` | `call r1` | `push pc to stack and jump to r1` | `3` |
 | `0x` | `call r2` | `push pc to stack and jump to r2` | `3` |
 | `0x` | `ret` | `pop pc from stack and return from subroutine` | `1` |
+| `0x` | `iret` | `return from interrupt` | `1` |
 | `0x` | `ldr r0, #i16` | `load r0 with memory at 16-bit immediate` | `3` |
 | `0x` | `ldr r0, [r0, #i16]` | `load r0 with memory at address in r0` | `1` |
 | `0x` | `ldr r0, [r1, #i16]` | `load r0 with memory at address in r1` | `1` |
@@ -54,6 +59,9 @@
 | `0x` | `str r2, #i16` | `store r2 in memory at immediate 16-bit address` | `1` |
 | `0x` | `str r2, [r0, #i16]` | `store r2 in memory at address in r0` | `1` |
 | `0x` | `str r2, [r1, #i16]` | `store r2 in memory at address in r1` | `1` |
+| `0x` | `sex r0` | `sign extend r0's lsb`
+| `0x` | `sex r1` | `sign extend r0's lsb`
+| `0x` | `sex r2` | `sign extend r0's lsb`
 | `0x` | `add r0, #i16` | `add 16-bit immediate to r0` 
 | `0x` | `add r0, r0` | `add r0 to r0`
 | `0x` | `add r0, r1` | `add r1 to r0` 
