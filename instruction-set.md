@@ -3,16 +3,19 @@
 | Opcode | Mnemonic | Description | Size |
 | --- | --- | --- | --- |
 | `0x` | `hlt` | `stop the execution` | `1` |
+| `0x` | `movb r0, #i8` | `copy 16-bit immediate to r0`| `2` |
 | `0x` | `mov r0, #i16` | `copy 16-bit immediate to r0`| `3` |
 | `0x` | `mov r0, r1` | `copy r1 to r0` | `1` |
 | `0x` | `mov r0, r2` | `copy r2 to r0` | `1` |
 | `0x` | `mov r0, pc` | `copy pc to r0` | `1` |
 | `0x` | `mov r0, sp` | `copy sp to r0` | `1` |
+| `0x` | `movb r1, #i8` | `copy 16-bit immediate to r1`| `2` |
 | `0x` | `mov r1, #i16` | `copy 16-bit immediate to r1`| `3` |
 | `0x` | `mov r1, r0` | `copy r0 to r1` | `1` |
 | `0x` | `mov r1, r2` | `copy r2 to r1` | `1` |
 | `0x` | `mov r1, pc` | `copy pc to r1` | `1` |
 | `0x` | `mov r1, sp` | `copy sp to r1` | `1` |
+| `0x` | `movb r2, #i8` | `copy 16-bit immediate to r2`| `2` |
 | `0x` | `mov r2, #i16` | `copy 16-bit immediate to r2`| `3` |
 | `0x` | `mov r2, r0` | `copy r0 to r2` | `1` |
 | `0x` | `mov r2, r1` | `copy r1 to r2` | `1` |
@@ -109,63 +112,81 @@
 | `0x` | `sex r0` | `sign extend r0's lsb` | `1` |
 | `0x` | `sex r1` | `sign extend r1's lsb` | `1` |
 | `0x` | `sex r2` | `sign extend r2's lsb` | `1` |
+| `0x` | `addb r0, #i8` | `add 16-bit immediate to r0` | `2` |
 | `0x` | `add r0, #i16` | `add 16-bit immediate to r0` | `3` |
 | `0x` | `add r0, r0` | `add r0 to r0` | `1` |
 | `0x` | `add r0, r1` | `add r1 to r0` | `1` |
 | `0x` | `add r0, r2` | `add r2 to r0` | `1` |
+| `0x` | `addb r1, #i8` | `add 16-bit immediate to r1`  | `2` |
 | `0x` | `add r1, #i16` | `add 16-bit immediate to r1`  | `3` |
 | `0x` | `add r1, r0` | `add r0 to r1` | `1` |
 | `0x` | `add r1, r1` | `add r1 to r1`  | `1` |
 | `0x` | `add r1, r2` | `add r2 to r1` | `1` |
+| `0x` | `addb r2, #i8` | `add 16-bit immediate to r2`  | `2` |
 | `0x` | `add r2, #i16` | `add 16-bit immediate to r2`  | `3` |
 | `0x` | `add r2, r0` | `add r0 to r2` | `1` |
 | `0x` | `add r2, r1` | `add r1 to r2`  | `1` |
 | `0x` | `add r2, r2` | `add r2 to r2` | `1` |
+| `0x` | `adcb r0, #i8` | `add with carry 16-bit immediate to r0`  | `2` |
 | `0x` | `adc r0, #i16` | `add with carry 16-bit immediate to r0`  | `3` |
 | `0x` | `adc r0, r0` | `add with carry r0 to r0` | `1` |
 | `0x` | `adc r0, r1` | `add with carry r1 to r0`  | `1` |
 | `0x` | `adc r0, r2` | `add with carry r2 to r0` | `1` |
+| `0x` | `adcb r1, #i8` | `add with carry 16-bit immediate to r1`  | `2` |
 | `0x` | `adc r1, #i16` | `add with carry 16-bit immediate to r1`  | `3` |
 | `0x` | `adc r1, r0` | `add with carry r0 to r1` | `1` |
 | `0x` | `adc r1, r1` | `add with carry r1 to r1`  | `1` |
 | `0x` | `adc r1, r2` | `add with carry r2 to r1` | `1` |
+| `0x` | `adcb r2, #i8` | `add with carry 16-bit immediate to r2`  | `2` |
 | `0x` | `adc r2, #i16` | `add with carry 16-bit immediate to r2`  | `3` |
 | `0x` | `adc r2, r0` | `add with carry r0 to r2` | `1` |
 | `0x` | `adc r2, r1` | `add with carry r1 to r2`  | `1` |
 | `0x` | `adc r2, r2` | `add with carry r2 to r2` | `1` |
+| `0x` | `subb r0, #i8` | `substract 16-bit immediate from r0`  | `2` |
 | `0x` | `sub r0, #i16` | `substract 16-bit immediate from r0`  | `3` |
 | `0x` | `sub r0, r1` | `substract r1 from r0`  | `1` |
 | `0x` | `sub r0, r2` | `substract r2 from r0`  | `1` |
+| `0x` | `subb r1, #i8` | `substract 16-bit immediate from r1`  | `2` |
 | `0x` | `sub r1, #i16` | `substract 16-bit immediate from r1`  | `3` |
 | `0x` | `sub r1, r0` | `substract r0 from r1` | `1` |
 | `0x` | `sub r1, r2` | `substract r2 from r1` | `1` |
+| `0x` | `subb r2, #i8` | `substract 16-bit immediate from r2`  | `2` |
 | `0x` | `sub r2, #i16` | `substract 16-bit immediate from r2`  | `3` |
 | `0x` | `sub r2, r0` | `substract r0 from r2` | `1` |
 | `0x` | `sub r2, r1` | `substract r1 from r2` | `1` |
+| `0x` | `andb r0, #i8` | `bitwise and on 16-bit immediate and r0, result in r0`  | `2` |
 | `0x` | `and r0, #i16` | `bitwise and on 16-bit immediate and r0, result in r0`  | `3` |
 | `0x` | `and r0, r1` | `bitwise and on r1 from r0, result in r0`  | `1` |
 | `0x` | `and r0, r2` | `bitwise and on r2 from r0, result in r0` | `1` |
+| `0x` | `andb r1, #i8` | `bitwise and on 16-bit immediate and r1, result in r1`  | `2` |
 | `0x` | `and r1, #i16` | `bitwise and on 16-bit immediate and r1, result in r1`  | `3` |
 | `0x` | `and r1, r0` | `bitwise and on r0 and r1, result in r1` | `1` |
 | `0x` | `and r1, r2` | `bitwise and on r2 from r1, result in r1` | `1` |
+| `0x` | `andb r2, #i8` | `bitwise and on 16-bit immediate and r2, result in r2`  | `2` |
 | `0x` | `and r2, #i16` | `bitwise and on 16-bit immediate and r2, result in r2`  | `3` |
 | `0x` | `and r2, r0` | `bitwise and on r0 and r2, result in r2` | `1` |
 | `0x` | `and r2, r1` | `bitwise and on r1 from r2, result in r2` | `1` |
+| `0x` | `orb r0, #i8` | `bitwise or on 16-bit immediate and r0, result in r0`  | `2` |
 | `0x` | `or r0, #i16` | `bitwise or on 16-bit immediate and r0, result in r0`  | `3` |
 | `0x` | `or r0, r1` | `bitwise or on r1 from r0, result in r0` | `1` |
 | `0x` | `or r0, r2` | `bitwise or on r2 from r0, result in r0` | `1` |
+| `0x` | `orb r1, #i8` | `bitwise or on 16-bit immediate and r1, result in r1`  | `2` |
 | `0x` | `or r1, #i16` | `bitwise or on 16-bit immediate and r1, result in r1`  | `3` |
 | `0x` | `or r1, r0` | `bitwise or on r0 and r1, result in r1`  | `1` |
 | `0x` | `or r1, r2` | `bitwise or on r2 from r1, result in r1` | `1` |
+| `0x` | `orb r2, #i8` | `bitwise or on 16-bit immediate and r2, result in r2`  | `2` |
 | `0x` | `or r2, #i16` | `bitwise or on 16-bit immediate and r2, result in r2`  | `3` |
 | `0x` | `or r2, r0` | `bitwise or on r0 and r2, result in r2` | `1` |
 | `0x` | `or r2, r1` | `bitwise or on r1 from r2, result in r2` | `1` |
+| `0x` | `xorb r0, #i8` | `bitwise or on 16-bit immediate and r0, result in r0`  | `2` |
 | `0x` | `xor r0, #i16` | `bitwise or on 16-bit immediate and r0, result in r0`  | `3` |
 | `0x` | `xor r0, r1` | `bitwise xor on r1 from r0, result in r0`  | `1` |
 | `0x` | `xor r0, r2` | `bitwise xor on r2 from r0, result in r0` | `1` |
+| `0x` | `xorb r1, #i8` | `bitwise xor on 16-bit immediate and r1, result in r1`  | `2` |
 | `0x` | `xor r1, #i16` | `bitwise xor on 16-bit immediate and r1, result in r1`  | `3` |
 | `0x` | `xor r1, r0` | `bitwise xor on r0 and r1, result in r1` | `1` |
 | `0x` | `xor r1, r2` | `bitwise xor on r2 from r1, result in r1` | `1` |
+| `0x` | `xorb r2, #i8` | `bitwise xor on 16-bit immediate and r2, result in r2`  | `2` |
 | `0x` | `xor r2, #i16` | `bitwise xor on 16-bit immediate and r2, result in r2`  | `3` |
 | `0x` | `xor r2, r0` | `bitwise xor on r0 and r2, result in r2` | `1` |
 | `0x` | `xor r2, r1` | `bitwise xor on r1 from r2, result in r2` | `1` |
@@ -187,12 +208,15 @@
 | `0x` | `lsr r2, #i8` | `logical shift right r2, 8-bit immediate times` | `2` |
 | `0x` | `lsr r2, r0` | `logical shift right r2, r0 times` | `1` |
 | `0x` | `lsr r2, r1` | `logical shift right r2, r1 times` | `1` |
+| `0x` | `cmpb r0, #i8` | `compare r0 to 16-bit immediate` | `2` |
 | `0x` | `cmp r0, #i16` | `compare r0 to 16-bit immediate` | `3` |
 | `0x` | `cmp r0, r1` | `compare r0 to r1` | `1` |
 | `0x` | `cmp r0, r2` | `compare r0 to r2` | `1` |
+| `0x` | `cmpb r1, #i8` | `compare r1 to 16-bit immediate` | `2` |
 | `0x` | `cmp r1, #i16` | `compare r1 to 16-bit immediate` | `3` |
 | `0x` | `cmp r1, r0` | `compare r1 to r0` | `1` |
 | `0x` | `cmp r1, r2` | `compare r1 to r2` | `1` |
+| `0x` | `cmpb r2, #i8` | `compare r2 to 16-bit immediate` | `2` |
 | `0x` | `cmp r2, #i16` | `compare r2 to 16-bit immediate` | `3` |
 | `0x` | `cmp r2, r0` | `compare r2 to r0` | `1` |
 | `0x` | `cmp r2, r1` | `compare r2 to r1` | `1` |
