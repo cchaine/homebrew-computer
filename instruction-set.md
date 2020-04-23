@@ -46,10 +46,18 @@
 | `0x` | `ldr r2, [r0, #i16]` | `load r2 with memory at address in r0` | `1` |
 | `0x` | `ldr r2, [r1, #i16]` | `load r2 with memory at address in r1` | `1` |
 | `0x` | `ldr r2, [r2, #i16]` | `load r2 with memory at address in r2` | `1` |
-| `0x` | `ldr r3, #i16` | `load r3 with memory at 16-bit immediate` | `3` |
-| `0x` | `ldr r3, [r0, #i16]` | `load r3 with memory at address in r0` | `1` |
-| `0x` | `ldr r3, [r1, #i16]` | `load r3 with memory at address in r1` | `1` |
-| `0x` | `ldr r3, [r2, #i16]` | `load r3 with memory at address in r2` | `1` |
+| `0x` | `ldrb r0, #i16` | `load r0's lsb with memory byte at 16-bit immediate` | `3` |
+| `0x` | `ldrb r0, [r0, #i16]` | `load r0's lsb with memory at address in r0` | `1` |
+| `0x` | `ldrb r0, [r1, #i16]` | `load r0's lsb with memory at address in r1` | `1` |
+| `0x` | `ldrb r0, [r2, #i16]` | `load r0's lsb with memory at address in r2` | `1` |
+| `0x` | `ldrb r1, #i16` | `load r1's lsb with memory at 16-bit immediate` | `3` |
+| `0x` | `ldrb r1, [r0, #i16]` | `load r1's lsb with memory at address in r0` | `1` |
+| `0x` | `ldrb r1, [r1, #i16]` | `load r1's lsb with memory at address in r1` | `1` |
+| `0x` | `ldrb r1, [r2, #i16]` | `load r1's lsb with memory at address in r2` | `1` |
+| `0x` | `ldrb r2, #i16` | `load r2's lsb with memory at 16-bit immediate` | `3` |
+| `0x` | `ldrb r2, [r0, #i16]` | `load r2's lsb with memory at address in r0` | `1` |
+| `0x` | `ldrb r2, [r1, #i16]` | `load r2's lsb with memory at address in r1` | `1` |
+| `0x` | `ldrb r2, [r2, #i16]` | `load r2's lsb with memory at address in r2` | `1` |
 | `0x` | `str r0, #i16` | `store r0 in memory at immediate 16-bit address` | `1` |
 | `0x` | `str r0, [r1, #i16]` | `store r0 in memory at address in r1` | `1` |
 | `0x` | `str r0, [r2, #i16]` | `store r0 in memory at address in r2` | `1` |
@@ -59,9 +67,18 @@
 | `0x` | `str r2, #i16` | `store r2 in memory at immediate 16-bit address` | `1` |
 | `0x` | `str r2, [r0, #i16]` | `store r2 in memory at address in r0` | `1` |
 | `0x` | `str r2, [r1, #i16]` | `store r2 in memory at address in r1` | `1` |
+| `0x` | `strb r0, #i16` | `store r0's lsb in memory at immediate 16-bit address` | `1` |
+| `0x` | `strb r0, [r1, #i16]` | `store r0's lsb in memory at address in r1` | `1` |
+| `0x` | `strb r0, [r2, #i16]` | `store r0's lsb in memory at address in r2` | `1` |
+| `0x` | `strb r1, #i16` | `store r1's lsb in memory at immediate 16-bit address` | `1` |
+| `0x` | `strb r1, [r0, #i16]` | `store r1's lsb in memory at address in r0` | `1` |
+| `0x` | `strb r1, [r2, #i16]` | `store r1's lsb in memory at address in r2` | `1` |
+| `0x` | `strb r2, #i16` | `store r2's lsb in memory at immediate 16-bit address` | `1` |
+| `0x` | `strb r2, [r0, #i16]` | `store r2's lsb in memory at address in r0` | `1` |
+| `0x` | `strb r2, [r1, #i16]` | `store r2's lsb in memory at address in r1` | `1` |
 | `0x` | `sex r0` | `sign extend r0's lsb`
-| `0x` | `sex r1` | `sign extend r0's lsb`
-| `0x` | `sex r2` | `sign extend r0's lsb`
+| `0x` | `sex r1` | `sign extend r1's lsb`
+| `0x` | `sex r2` | `sign extend r2's lsb`
 | `0x` | `add r0, #i16` | `add 16-bit immediate to r0` 
 | `0x` | `add r0, r0` | `add r0 to r0`
 | `0x` | `add r0, r1` | `add r1 to r0` 
