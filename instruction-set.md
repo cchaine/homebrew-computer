@@ -217,38 +217,38 @@
 | `0xD4` | `bc i#16` | `jump to 16-bit address if carry` | `3` |
 | `0xD5` | `syscall #i8` | `call a system interrupt` | `2` |
 | `0xD6` | `iow r0, #i16` | `write r0 to an io at 16-bit immediate address`  | `3` |
-| `0xD7` | `iow r0, [r1, #i8]` | `write r0 to an io at 16-bit immediate address`  | `2` |
-| `0xD8` | `iow r0, [r2, #i8]` | `write r0 to an io at 16-bit immediate address`  | `2` |
+| `0xD7` | `iow r0, [r1, #i8]` | `write r0 to an io at r1, 8-bit immediate offset`  | `2` |
+| `0xD8` | `iow r0, [r2, #i8]` | `write r0 to an io at r2, 8-bit immediate offset`  | `2` |
 | `0xD9` | `iow r1, #i16` | `write r1 to an io at 16-bit immediate address` | `3` |
-| `0xDA` | `iow r1, [r0, #i8]` | `write r1 to an io at 16-bit immediate address` | `2` |
-| `0xDB` | `iow r1, [r1, #i8]` | `write r1 to an io at 16-bit immediate address` | `2` |
+| `0xDA` | `iow r1, [r0, #i8]` | `write r1 to an io at r0, 8-bit immediate offset` | `2` |
+| `0xDB` | `iow r1, [r2, #i8]` | `write r1 to an io at r2, 8-bit immediate offset` | `2` |
 | `0xDC` | `iow r2, #i16` | `write r2 to an io at 16-bit immediate address` | `3` |
-| `0xDD` | `iow r2, [r0, #i8]` | `write r2 to an io at 16-bit immediate address` | `2` |
-| `0xDE` | `iow r2, [r1, #i8]` | `write r2 to an io at 16-bit immediate address` | `2` |
+| `0xDD` | `iow r2, [r0, #i8]` | `write r2 to an io at r0, 8-bit immediate offset` | `2` |
+| `0xDE` | `iow r2, [r1, #i8]` | `write r2 to an io at r1, 8-bit immediate offset` | `2` |
 | `0xDF` | `iowb r0, #i16` | `write r0's lsb to an io at 16-bit immediate address`  | `3` |
-| `0xE0` | `iowb r0, [r1, #i8]` | `write r0's lsb to an io at 16-bit immediate address`  | `2` |
-| `0xE1` | `iowb r0, [r2, #i8]` | `write r0's lsb to an io at 16-bit immediate address`  | `2` |
+| `0xE0` | `iowb r0, [r1, #i8]` | `write r0's lsb to an io at r1, 8-bit immediate offset`  | `2` |
+| `0xE1` | `iowb r0, [r2, #i8]` | `write r0's lsb to an io at r2, 8-bit immediate offset`  | `2` |
 | `0xE2` | `iowb r1, #i16` | `write r1's lsb to an io at 16-bit immediate address` | `3` |
-| `0xE3` | `iowb r1, [r0, #i8]` | `write r1's lsb to an io at 16-bit immediate address` | `2` |
-| `0xE4` | `iowb r1, [r2, #i8]` | `write r1's lsb to an io at 16-bit immediate address` | `2` |
+| `0xE3` | `iowb r1, [r0, #i8]` | `write r1's lsb to an io at r0, 8-bit immediate offset` | `2` |
+| `0xE4` | `iowb r1, [r2, #i8]` | `write r1's lsb to an io at r2, 8-bit immediate offset` | `2` |
 | `0xE5` | `iowb r2, #i16` | `write r2's lsb to an io at 16-bit immediate address` | `3` |
-| `0xE6` | `iowb r2, [r0, #i8]` | `write r2's lsb to an io at 16-bit immediate address` | `2` |
-| `0xE7` | `iowb r2, [r1, #i8]` | `write r2's lsb to an io at 16-bit immediate address` | `2` |
+| `0xE6` | `iowb r2, [r0, #i8]` | `write r2's lsb to an io at r0, 8-bit immediate offset` | `2` |
+| `0xE7` | `iowb r2, [r1, #i8]` | `write r2's lsb to an io at r1, 8-bit immediate offset` | `2` |
 | `0xE8` | `ior r0, #i16` | `read io at 16-bit immediate address to r0` | `3` |
-| `0xE9` | `ior r0, [r1, #i8]` | `read io at 16-bit immediate address to r0` | `2` |
-| `0xEA` | `ior r0, [r2, #i8]` | `read io at 16-bit immediate address to r0` | `2` |
+| `0xE9` | `ior r0, [r1, #i8]` | `read io at r1, 8-bit immediate offset, to r0` | `2` |
+| `0xEA` | `ior r0, [r2, #i8]` | `read io at r2, 8-bit immediate offset, to r0` | `2` |
 | `0xEB` | `ior r1, #i16` | `read io at 16-bit immediate address to r1` | `3` |
-| `0xEC` | `ior r1, [r0, #i8]` | `read io at 16-bit immediate address to r1` | `2` |
-| `0xED` | `ior r1, [r2, #i8]` | `read io at 16-bit immediate address to r1` | `2` |
+| `0xEC` | `ior r1, [r0, #i8]` | `read io at r0, 8-bit immediate offset, to r1` | `2` |
+| `0xED` | `ior r1, [r2, #i8]` | `read io at r2, 8-bit immediate offset, to r1` | `2` |
 | `0xEE` | `ior r2, #i16` | `read io at 16-bit immediate address to r2` | `3` |
-| `0xEF` | `ior r2, [r0, #i8]` | `read io at 16-bit immediate address to r2` | `2` |
-| `0xF0` | `ior r2, [r1, #i8]` | `read io at 16-bit immediate address to r2` | `2` |
+| `0xEF` | `ior r2, [r0, #i8]` | `read io at r0, 8-bit immediate offset, to r2` | `2` |
+| `0xF0` | `ior r2, [r1, #i8]` | `read io at r1, 8-bit immediate offset, to r2` | `2` |
 | `0xF1` | `iorb r0, #i16` | `read io at 16-bit immediate address to r0's lsb` | `3` |
-| `0xF2` | `iorb r0, [r1, #i8]` | `read io at 16-bit immediate address to r0's lsb` | `2` |
-| `0xF3` | `iorb r0, [r2, #i8]` | `read io at 16-bit immediate address to r0's lsb` | `2` |
+| `0xF2` | `iorb r0, [r1, #i8]` | `read io at r1, 8-bit immediate offset, to r0's lsb` | `2` |
+| `0xF3` | `iorb r0, [r2, #i8]` | `read io at r2, 8-bit immediate offset, to r0's lsb` | `2` |
 | `0xF4` | `iorb r1, #i16` | `read io at 16-bit immediate address to r1's lsb` | `3` |
-| `0xF5` | `iorb r1, [r0, #i8]` | `read io at 16-bit immediate address to r1's lsb` | `2` |
-| `0xF6` | `iorb r1, [r2, #i8]` | `read io at 16-bit immediate address to r1's lsb` | `2` |
+| `0xF5` | `iorb r1, [r0, #i8]` | `read io at r0, 8-bit immediate offset, to r1's lsb` | `2` |
+| `0xF6` | `iorb r1, [r2, #i8]` | `read io at r2, 8-bit immediate offset, to r1's lsb` | `2` |
 | `0xF7` | `iorb r2, #i16` | `read io at 16-bit immediate address to r2's lsb` | `3` |
-| `0xF8` | `iorb r2, [r0, #i8]` | `read io at 16-bit immediate address to r2's lsb` | `2` |
-| `0xF9` | `iorb r2, [r1, #i8]` | `read io at 16-bit immediate address to r2's lsb` | `2` |
+| `0xF8` | `iorb r2, [r0, #i8]` | `read io at r0, 8-bit immediate offset, to r2's lsb` | `2` |
+| `0xF9` | `iorb r2, [r1, #i8]` | `read io at r1, 8-bit immediate offset, to r2's lsb` | `2` |
