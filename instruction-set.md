@@ -4,7 +4,7 @@
 | --- | --- | --- | --- | --- |
 | `0x00 ` | `hlt` | `stop the execution` | `1` | `1` |
 | `0x01 ` | `movb r0, #i8` | `copy 8-bit immediate to r0`| `2` | `1` |
-| `0x02 ` | `mov r0, #i16` | `copy 16-bit immediate to r0`| `3` |
+| `0x02 ` | `mov r0, #i16` | `copy 16-bit immediate to r0`| `3` | `2` |
 | `0x03 ` | `mov r0, r1` | `copy r1 to r0` | `1` |
 | `0x04 ` | `mov r0, r2` | `copy r2 to r0` | `1` |
 | `0x05 ` | `mov r0, pc` | `copy pc to r0` | `1` |
