@@ -7,20 +7,14 @@
 | `0x02 ` | `mov r0, #i16` | `copy 16-bit immediate to r0`| `3` | `2` |
 | `0x03 ` | `mov r0, r1` | `copy r1 to r0` | `1` |
 | `0x04 ` | `mov r0, r2` | `copy r2 to r0` | `1` |
-| `0x05 ` | `mov r0, pc` | `copy pc to r0` | `1` |
-| `0x06 ` | `mov r0, sp` | `copy sp to r0` | `1` |
 | `0x07 ` | `movb r1, #i8` | `copy 8-bit immediate to r1`| `2` |
 | `0x08 ` | `mov r1, #i16` | `copy 16-bit immediate to r1`| `3` |
 | `0x09 ` | `mov r1, r0` | `copy r0 to r1` | `1` |
 | `0x0A ` | `mov r1, r2` | `copy r2 to r1` | `1` |
-| `0x0B ` | `mov r1, pc` | `copy pc to r1` | `1` |
-| `0x0C ` | `mov r1, sp` | `copy sp to r1` | `1` |
 | `0x0D ` | `movb r2, #i8` | `copy 8-bit immediate to r2`| `2` |
 | `0x0E ` | `mov r2, #i16` | `copy 16-bit immediate to r2`| `3` |
 | `0x0F ` | `mov r2, r0` | `copy r0 to r2` | `1` |
 | `0x10` | `mov r2, r1` | `copy r1 to r2` | `1` |
-| `0x11` | `mov r2, pc` | `copy pc to r2` | `1` |
-| `0x12` | `mov r2, sp` | `copy sp to r2` | `1` |
 | `0x13` | `push r0` | `push r0 to stack` | `1` |
 | `0x14` | `push r1` | `push r1 to stack` | `1` |
 | `0x15` | `push r2` | `push r2 to stack` | `1` |
