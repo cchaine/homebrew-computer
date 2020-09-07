@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name IS62C256AL-45ULI-TR)(type Legacy)(uri "/Users/cchaine/Documents/Kicad Custom Libraries/IS62C256AL-45ULI-TR/IS62C256AL-45ULI-TR.lib")(options "")(descr ""))
+  (lib (name computer-rescue)(type Legacy)(uri ${KIPRJMOD}/computer-rescue.lib)(options "")(descr ""))
 )

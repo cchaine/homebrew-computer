@@ -1,25 +1,4 @@
-18638383985382304
-74HC173D_653
-SOIC127P600X175-16N
-
-
-0
-16
-16
-AT28C64B-15PU
-DIP1555W45P254L3733H482Q28
-
-
-0
-28
-28
-AT28C64B-15PU
-SOIC127P1030X265-28N
-
-
-0
-28
-28
+18630387587757556
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -51617,20 +51596,6 @@ heatsink
 0
 2
 1
-IS62C256AL-45ULI-TR
-SOIC127P1210X305-28N
-
-
-0
-28
-28
-IS62C256AL-45ULI-TR
-SOP55P1340X120-28N
-
-
-0
-28
-28
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
