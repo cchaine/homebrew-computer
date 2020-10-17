@@ -1,0 +1,8 @@
+Liste des composants :
+
+ - 16-bit register 		 	-> 74LVC16374ADGG,112
+ - 4-bit binary counter		-> 74LVC163PW,118
+ - ALU							-> XC9500XL
+ - Control Unit				-> XC9600XL
+
+Vérifier les tensions d'entrée et sortie
