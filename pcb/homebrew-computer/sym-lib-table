@@ -1,5 +1,6 @@
 (sym_lib_table
   (lib (name 74LVC16374ADGG)(type Legacy)(uri ${KIPRJMOD}/libs/74LVC16374ADGG.lib)(options "")(descr ""))
-  (lib (name 74LVC163)(type Legacy)(uri ${KIPRJMOD}/libs/74LVC163.lib)(options "")(descr ""))
+  (lib (name 74LVC161)(type Legacy)(uri ${KIPRJMOD}/libs/74LVC161.lib)(options "")(descr ""))
   (lib (name XC9500XL)(type Legacy)(uri ${KIPRJMOD}/libs/XC9500XL.lib)(options "")(descr ""))
+  (lib (name 74AVC8T245)(type Legacy)(uri ${KIPRJMOD}/libs/74AVC8T245.lib)(options "")(descr ""))
 )
