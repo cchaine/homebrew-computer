@@ -1,9 +1,9 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr User 8661 8268
 encoding utf-8
-Sheet 3 5
+Sheet 3 7
 Title ""
 Date ""
 Rev ""
@@ -13,4 +13,500 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L XC9500XL:XC9536XL-10VQG44C U?
+U 1 1 5F928CAF
+P 5900 6200
+AR Path="/5F8B5CB7/5F928CAF" Ref="U?"  Part="1" 
+AR Path="/5F95DC76/5F928CAF" Ref="U?"  Part="1" 
+AR Path="/5F8B5E3D/5F928CAF" Ref="U?"  Part="1" 
+F 0 "U?" H 5950 5450 50  0000 R CNN
+F 1 "XC9536XL-10VQG44C" H 6300 5550 50  0000 R CNN
+F 2 "" H 5900 6200 50  0001 C CNN
+F 3 "" H 5900 6200 50  0001 C CNN
+	1    5900 6200
+	-1   0    0    1   
+$EndComp
+$Comp
+L XC9500XL:XC9536XL-10VQG44C U?
+U 2 1 5F928CB5
+P 5500 1100
+AR Path="/5F8B5CB7/5F928CB5" Ref="U?"  Part="2" 
+AR Path="/5F95DC76/5F928CB5" Ref="U?"  Part="2" 
+AR Path="/5F8B5E3D/5F928CB5" Ref="U?"  Part="2" 
+F 0 "U?" H 5475 1165 50  0000 C CNN
+F 1 "XC9536XL-10VQG44C" H 5475 1074 50  0000 C CNN
+F 2 "" H 5500 1100 50  0001 C CNN
+F 3 "" H 5500 1100 50  0001 C CNN
+	2    5500 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L XC9500XL:XC9536XL-10VQG44C U?
+U 5 1 5F928CBB
+P 6250 2600
+AR Path="/5F8B5CB7/5F928CBB" Ref="U?"  Part="5" 
+AR Path="/5F95DC76/5F928CBB" Ref="U?"  Part="5" 
+AR Path="/5F8B5E3D/5F928CBB" Ref="U?"  Part="5" 
+F 0 "U?" H 6283 2665 50  0000 C CNN
+F 1 "XC9536XL-10VQG44C" H 6283 2574 50  0000 C CNN
+F 2 "" H 6250 2600 50  0001 C CNN
+F 3 "" H 6250 2600 50  0001 C CNN
+	5    6250 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F928CC1
+P 4550 1000
+AR Path="/5F8B5CB7/5F928CC1" Ref="#PWR?"  Part="1" 
+AR Path="/5F95DC76/5F928CC1" Ref="#PWR?"  Part="1" 
+AR Path="/5F8B5E3D/5F928CC1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4550 850 50  0001 C CNN
+F 1 "+3.3V" H 4565 1173 50  0000 C CNN
+F 2 "" H 4550 1000 50  0001 C CNN
+F 3 "" H 4550 1000 50  0001 C CNN
+	1    4550 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 1000 4550 1300
+$Comp
+L power:GND #PWR?
+U 1 1 5F928CC8
+P 6600 1650
+AR Path="/5F8B5CB7/5F928CC8" Ref="#PWR?"  Part="1" 
+AR Path="/5F95DC76/5F928CC8" Ref="#PWR?"  Part="1" 
+AR Path="/5F8B5E3D/5F928CC8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6600 1400 50  0001 C CNN
+F 1 "GND" H 6605 1477 50  0000 C CNN
+F 2 "" H 6600 1650 50  0001 C CNN
+F 3 "" H 6600 1650 50  0001 C CNN
+	1    6600 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F928CCE
+P 5100 1700
+AR Path="/5F8B5CB7/5F928CCE" Ref="C?"  Part="1" 
+AR Path="/5F95DC76/5F928CCE" Ref="C?"  Part="1" 
+AR Path="/5F8B5E3D/5F928CCE" Ref="C?"  Part="1" 
+F 0 "C?" H 5192 1746 50  0000 L CNN
+F 1 "100n" H 5192 1655 50  0000 L CNN
+F 2 "" H 5100 1700 50  0001 C CNN
+F 3 "~" H 5100 1700 50  0001 C CNN
+	1    5100 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F928CD4
+P 5450 1700
+AR Path="/5F8B5CB7/5F928CD4" Ref="C?"  Part="1" 
+AR Path="/5F95DC76/5F928CD4" Ref="C?"  Part="1" 
+AR Path="/5F8B5E3D/5F928CD4" Ref="C?"  Part="1" 
+F 0 "C?" H 5542 1746 50  0000 L CNN
+F 1 "100n" H 5542 1655 50  0000 L CNN
+F 2 "" H 5450 1700 50  0001 C CNN
+F 3 "~" H 5450 1700 50  0001 C CNN
+	1    5450 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F928CDA
+P 5800 1700
+AR Path="/5F8B5CB7/5F928CDA" Ref="C?"  Part="1" 
+AR Path="/5F95DC76/5F928CDA" Ref="C?"  Part="1" 
+AR Path="/5F8B5E3D/5F928CDA" Ref="C?"  Part="1" 
+F 0 "C?" H 5892 1746 50  0000 L CNN
+F 1 "100n" H 5892 1655 50  0000 L CNN
+F 2 "" H 5800 1700 50  0001 C CNN
+F 3 "~" H 5800 1700 50  0001 C CNN
+	1    5800 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 1300 4700 1300
+Wire Wire Line
+	4700 1300 4700 1600
+Wire Wire Line
+	4700 1600 5100 1600
+Connection ~ 4700 1300
+Wire Wire Line
+	4700 1300 4750 1300
+Wire Wire Line
+	5100 1600 5450 1600
+Connection ~ 5100 1600
+Connection ~ 5450 1600
+Wire Wire Line
+	5450 1600 5800 1600
+Wire Wire Line
+	6200 1300 6200 1400
+Wire Wire Line
+	6200 1600 5800 1600
+Connection ~ 6200 1400
+Wire Wire Line
+	6200 1400 6200 1600
+Connection ~ 5800 1600
+Wire Wire Line
+	5100 1800 5450 1800
+Connection ~ 5450 1800
+Wire Wire Line
+	5450 1800 5800 1800
+Connection ~ 6600 1550
+Wire Wire Line
+	6600 1550 6700 1550
+Wire Wire Line
+	6600 1550 6600 1650
+Wire Wire Line
+	6500 1550 6600 1550
+$Comp
+L XC9500XL:XC9536XL-10VQG44C U?
+U 3 1 5F928CF5
+P 6250 1350
+AR Path="/5F8B5CB7/5F928CF5" Ref="U?"  Part="3" 
+AR Path="/5F95DC76/5F928CF5" Ref="U?"  Part="3" 
+AR Path="/5F8B5E3D/5F928CF5" Ref="U?"  Part="3" 
+F 0 "U?" V 6600 1050 50  0000 R CNN
+F 1 "XC9536XL-10VQG44C" V 6500 1450 50  0000 R CNN
+F 2 "" H 6250 1350 50  0001 C CNN
+F 3 "" H 6250 1350 50  0001 C CNN
+	3    6250 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F928CFB
+P 5450 1800
+AR Path="/5F8B5CB7/5F928CFB" Ref="#PWR?"  Part="1" 
+AR Path="/5F95DC76/5F928CFB" Ref="#PWR?"  Part="1" 
+AR Path="/5F8B5E3D/5F928CFB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5450 1550 50  0001 C CNN
+F 1 "GND" H 5455 1627 50  0000 C CNN
+F 2 "" H 5450 1800 50  0001 C CNN
+F 3 "" H 5450 1800 50  0001 C CNN
+	1    5450 1800
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	4400 700  7050 700 
+Wire Notes Line
+	7050 700  7050 2100
+Wire Notes Line
+	7050 2100 4400 2100
+Wire Notes Line
+	4400 2100 4400 700 
+Text Notes 4400 700  0    50   ~ 0
+Power
+Text HLabel 5700 5700 0    50   Input ~ 0
+TMS
+Text HLabel 5700 5800 0    50   Input ~ 0
+TDO
+Text HLabel 5700 5900 0    50   Input ~ 0
+TDI
+Text HLabel 5700 6000 0    50   Input ~ 0
+TCK
+Wire Notes Line
+	5250 5300 6550 5300
+Wire Notes Line
+	6550 5300 6550 6300
+Wire Notes Line
+	6550 6300 5250 6300
+Wire Notes Line
+	5250 6300 5250 5300
+Text Notes 5250 5300 0    50   ~ 0
+JTAG
+Wire Notes Line
+	4550 2450 7150 2450
+Wire Notes Line
+	7150 2450 7150 4900
+Wire Notes Line
+	7150 4900 4550 4900
+Wire Notes Line
+	4550 4900 4550 2450
+Text Notes 4550 2450 0    50   ~ 0
+Inputs/Outputs
+$Comp
+L XC9500XL:XC9536XL-10VQG44C U?
+U 4 1 5F928D14
+P 5750 2600
+AR Path="/5F8B5CB7/5F928D14" Ref="U?"  Part="4" 
+AR Path="/5F95DC76/5F928D14" Ref="U?"  Part="4" 
+AR Path="/5F8B5E3D/5F928D14" Ref="U?"  Part="4" 
+F 0 "U?" H 5650 600 50  0000 L CNN
+F 1 "XC9536XL-10VQG44C" H 5300 500 50  0000 L CNN
+F 2 "" H 5750 2600 50  0001 C CNN
+F 3 "" H 5750 2600 50  0001 C CNN
+	4    5750 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LVC16374ADGG:74LVC16374ADGG,112 U?
+U 1 1 5F928D1A
+P 2100 1750
+AR Path="/5F8C07F0/5F928D1A" Ref="U?"  Part="1" 
+AR Path="/5F95DC76/5F928D1A" Ref="U?"  Part="1" 
+AR Path="/5F8B5E3D/5F928D1A" Ref="U?"  Part="1" 
+F 0 "U?" H 2100 2150 50  0000 C CNN
+F 1 "74LVC16374ADGG,112" H 2100 2050 50  0000 C CNN
+F 2 "" H 2100 1750 50  0001 C CNN
+F 3 "" H 2100 1750 50  0001 C CNN
+	1    2100 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LVC16374ADGG:74LVC16374ADGG,112 U?
+U 2 1 5F928D20
+P 2100 5250
+AR Path="/5F8C07F0/5F928D20" Ref="U?"  Part="2" 
+AR Path="/5F95DC76/5F928D20" Ref="U?"  Part="2" 
+AR Path="/5F8B5E3D/5F928D20" Ref="U?"  Part="2" 
+F 0 "U?" H 2125 5265 50  0000 C CNN
+F 1 "74LVC16374ADGG,112" H 2125 5174 50  0000 C CNN
+F 2 "" H 2100 5250 50  0001 C CNN
+F 3 "" H 2100 5250 50  0001 C CNN
+	2    2100 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 5500 1800 5600
+Connection ~ 1800 5600
+Wire Wire Line
+	1800 5600 1800 5700
+Connection ~ 1800 5700
+Wire Wire Line
+	1800 5700 1800 5800
+Connection ~ 1800 5800
+Wire Wire Line
+	1800 5800 1800 5850
+Connection ~ 1800 5900
+Wire Wire Line
+	1800 5900 1800 6000
+Connection ~ 1800 6000
+Wire Wire Line
+	1800 6000 1800 6100
+Connection ~ 1800 6100
+Wire Wire Line
+	1800 6100 1800 6200
+$Comp
+L Device:C_Small C?
+U 1 1 5F928D33
+P 2650 6550
+AR Path="/5F8C07F0/5F928D33" Ref="C?"  Part="1" 
+AR Path="/5F95DC76/5F928D33" Ref="C?"  Part="1" 
+AR Path="/5F8B5E3D/5F928D33" Ref="C?"  Part="1" 
+F 0 "C?" H 2742 6596 50  0000 L CNN
+F 1 "100n" H 2742 6505 50  0000 L CNN
+F 2 "" H 2650 6550 50  0001 C CNN
+F 3 "~" H 2650 6550 50  0001 C CNN
+	1    2650 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F928D39
+P 1600 6550
+AR Path="/5F8C07F0/5F928D39" Ref="C?"  Part="1" 
+AR Path="/5F95DC76/5F928D39" Ref="C?"  Part="1" 
+AR Path="/5F8B5E3D/5F928D39" Ref="C?"  Part="1" 
+F 0 "C?" H 1692 6596 50  0000 L CNN
+F 1 "100n" H 1692 6505 50  0000 L CNN
+F 2 "" H 1600 6550 50  0001 C CNN
+F 3 "~" H 1600 6550 50  0001 C CNN
+	1    1600 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F928D3F
+P 1950 6550
+AR Path="/5F8C07F0/5F928D3F" Ref="C?"  Part="1" 
+AR Path="/5F95DC76/5F928D3F" Ref="C?"  Part="1" 
+AR Path="/5F8B5E3D/5F928D3F" Ref="C?"  Part="1" 
+F 0 "C?" H 2042 6596 50  0000 L CNN
+F 1 "100n" H 2042 6505 50  0000 L CNN
+F 2 "" H 1950 6550 50  0001 C CNN
+F 3 "~" H 1950 6550 50  0001 C CNN
+	1    1950 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F928D45
+P 2300 6550
+AR Path="/5F8C07F0/5F928D45" Ref="C?"  Part="1" 
+AR Path="/5F95DC76/5F928D45" Ref="C?"  Part="1" 
+AR Path="/5F8B5E3D/5F928D45" Ref="C?"  Part="1" 
+F 0 "C?" H 2392 6596 50  0000 L CNN
+F 1 "100n" H 2392 6505 50  0000 L CNN
+F 2 "" H 2300 6550 50  0001 C CNN
+F 3 "~" H 2300 6550 50  0001 C CNN
+	1    2300 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 6450 1950 6450
+Connection ~ 1950 6450
+Wire Wire Line
+	1950 6450 2300 6450
+Connection ~ 2300 6450
+Wire Wire Line
+	2300 6450 2450 6450
+Wire Wire Line
+	2450 5650 2450 5750
+Connection ~ 2450 6450
+Wire Wire Line
+	2450 6450 2650 6450
+Connection ~ 2450 5750
+Wire Wire Line
+	2450 5750 2450 5850
+Connection ~ 2450 5850
+Wire Wire Line
+	2450 5850 2450 5950
+Connection ~ 2450 5950
+Wire Wire Line
+	2450 5950 2450 6450
+$Comp
+L power:GND #PWR?
+U 1 1 5F928D59
+P 2150 6850
+AR Path="/5F8C07F0/5F928D59" Ref="#PWR?"  Part="1" 
+AR Path="/5F95DC76/5F928D59" Ref="#PWR?"  Part="1" 
+AR Path="/5F8B5E3D/5F928D59" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2150 6600 50  0001 C CNN
+F 1 "GND" H 2155 6677 50  0000 C CNN
+F 2 "" H 2150 6850 50  0001 C CNN
+F 3 "" H 2150 6850 50  0001 C CNN
+	1    2150 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 6650 1950 6650
+Connection ~ 1950 6650
+Wire Wire Line
+	1950 6650 2150 6650
+Connection ~ 2300 6650
+Wire Wire Line
+	2300 6650 2650 6650
+Wire Wire Line
+	2150 6650 2150 6800
+Connection ~ 2150 6650
+Wire Wire Line
+	2150 6650 2300 6650
+Wire Wire Line
+	2150 6800 1350 6800
+Wire Wire Line
+	1350 6800 1350 5850
+Wire Wire Line
+	1350 5850 1800 5850
+Connection ~ 2150 6800
+Wire Wire Line
+	2150 6800 2150 6850
+Connection ~ 1800 5850
+Wire Wire Line
+	1800 5850 1800 5900
+Wire Notes Line
+	1200 5100 1200 7150
+Wire Notes Line
+	1200 7150 3000 7150
+Wire Notes Line
+	3000 7150 3000 5100
+Wire Notes Line
+	3000 5100 1200 5100
+Text Notes 1200 5100 0    50   ~ 0
+Power
+Text HLabel 2450 2400 2    50   Input ~ 0
+DBUS1
+Text HLabel 2450 2500 2    50   Input ~ 0
+DBUS2
+Text HLabel 2450 2600 2    50   Input ~ 0
+DBUS3
+Text HLabel 2450 2700 2    50   Input ~ 0
+DBUS4
+Text HLabel 2450 2800 2    50   Input ~ 0
+DBUS5
+Text HLabel 2450 2900 2    50   Input ~ 0
+DBUS6
+Text HLabel 2450 3000 2    50   Input ~ 0
+DBUS7
+Text HLabel 2450 3100 2    50   Input ~ 0
+DBUS8
+Text HLabel 2450 3200 2    50   Input ~ 0
+DBUS9
+Text HLabel 2450 3300 2    50   Input ~ 0
+DBUS10
+Text HLabel 2450 3400 2    50   Input ~ 0
+DBUS11
+Text HLabel 2450 3500 2    50   Input ~ 0
+DBUS12
+Text HLabel 2450 3600 2    50   Input ~ 0
+DBUS13
+Text HLabel 2450 3700 2    50   Input ~ 0
+DBUS14
+Text HLabel 2450 3800 2    50   Input ~ 0
+DBUS15
+Text HLabel 2450 3900 2    50   Input ~ 0
+DBUS16
+Text HLabel 1700 2400 0    50   Input ~ 0
+DBUS1
+Text HLabel 1700 2500 0    50   Input ~ 0
+DBUS2
+Text HLabel 1700 2600 0    50   Input ~ 0
+DBUS3
+Text HLabel 1700 2700 0    50   Input ~ 0
+DBUS4
+Text HLabel 1700 2800 0    50   Input ~ 0
+DBUS5
+Text HLabel 1700 2900 0    50   Input ~ 0
+DBUS6
+Text HLabel 1700 3000 0    50   Input ~ 0
+DBUS7
+Text HLabel 1700 3100 0    50   Input ~ 0
+DBUS8
+Text HLabel 1700 3200 0    50   Input ~ 0
+DBUS9
+Text HLabel 1700 3300 0    50   Input ~ 0
+DBUS10
+Text HLabel 1700 3400 0    50   Input ~ 0
+DBUS11
+Text HLabel 1700 3500 0    50   Input ~ 0
+DBUS12
+Text HLabel 1700 3600 0    50   Input ~ 0
+DBUS13
+Text HLabel 1700 3700 0    50   Input ~ 0
+DBUS14
+Text HLabel 1700 3800 0    50   Input ~ 0
+DBUS15
+Text HLabel 1700 3900 0    50   Input ~ 0
+DBUS16
+Wire Notes Line
+	1250 1250 2900 1250
+Wire Notes Line
+	2900 1250 2900 4700
+Wire Notes Line
+	2900 4700 1250 4700
+Wire Notes Line
+	1250 4700 1250 1250
+Text Notes 1250 1250 0    50   ~ 0
+Register
+Wire Notes Line
+	1000 1050 3200 1050
+Wire Notes Line
+	3200 1050 3200 7350
+Wire Notes Line
+	3200 7350 1000 7350
+Wire Notes Line
+	1000 7350 1000 1050
+Text Notes 1000 1050 0    50   ~ 0
+Instruction register
+Wire Wire Line
+	2050 2050 2150 2050
+Text HLabel 2100 2050 1    50   Input ~ 0
+INSTR_OUT
+Wire Wire Line
+	2050 4200 2150 4200
+Text HLabel 2100 4200 3    50   Input ~ 0
+INSTR_IN
 $EndSCHEMATC
