@@ -5,4 +5,5 @@
   (lib (name DS1077L)(type Legacy)(uri ${KIPRJMOD}/libs/DS1077L.lib)(options "")(descr ""))
   (lib (name 74AVC16T245)(type Legacy)(uri ${KIPRJMOD}/libs/74AVC16T245.lib)(options "")(descr ""))
   (lib (name 74LVC1G14)(type Legacy)(uri ${KIPRJMOD}/libs/74LVC1G14.lib)(options "")(descr ""))
+  (lib (name YC248)(type Legacy)(uri ${KIPRJMOD}/libs/YC248.lib)(options "")(descr ""))
 )
