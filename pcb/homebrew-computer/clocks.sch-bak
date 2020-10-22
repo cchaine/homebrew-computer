@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 7874 4134
 encoding utf-8
-Sheet 7 8
+Sheet 6 8
 Title ""
 Date ""
 Rev ""
@@ -250,4 +250,6 @@ Wire Notes Line
 	4600 1750 4600 900 
 Text Notes 4600 900  0    50   ~ 0
 Clock inversion
+Text Notes 4500 2000 0    50   ~ 0
+We could add a ring counter to make three clocks out of one
 $EndSCHEMATC

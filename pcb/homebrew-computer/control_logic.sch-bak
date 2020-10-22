@@ -417,38 +417,6 @@ Wire Notes Line
 	3000 5100 1200 5100
 Text Notes 1200 5100 0    50   ~ 0
 Power
-Text HLabel 2450 2400 2    50   Input ~ 0
-DBUS1
-Text HLabel 2450 2500 2    50   Input ~ 0
-DBUS2
-Text HLabel 2450 2600 2    50   Input ~ 0
-DBUS3
-Text HLabel 2450 2700 2    50   Input ~ 0
-DBUS4
-Text HLabel 2450 2800 2    50   Input ~ 0
-DBUS5
-Text HLabel 2450 2900 2    50   Input ~ 0
-DBUS6
-Text HLabel 2450 3000 2    50   Input ~ 0
-DBUS7
-Text HLabel 2450 3100 2    50   Input ~ 0
-DBUS8
-Text HLabel 2450 3200 2    50   Input ~ 0
-DBUS9
-Text HLabel 2450 3300 2    50   Input ~ 0
-DBUS10
-Text HLabel 2450 3400 2    50   Input ~ 0
-DBUS11
-Text HLabel 2450 3500 2    50   Input ~ 0
-DBUS12
-Text HLabel 2450 3600 2    50   Input ~ 0
-DBUS13
-Text HLabel 2450 3700 2    50   Input ~ 0
-DBUS14
-Text HLabel 2450 3800 2    50   Input ~ 0
-DBUS15
-Text HLabel 2450 3900 2    50   Input ~ 0
-DBUS16
 Text HLabel 1700 2400 0    50   Input ~ 0
 DBUS1
 Text HLabel 1700 2500 0    50   Input ~ 0

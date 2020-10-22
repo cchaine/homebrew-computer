@@ -13,4 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 3250 2850 0    50   Italic 0
+This part needs to include logic for handling peripheral interrupts
 $EndSCHEMATC
