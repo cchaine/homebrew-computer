@@ -6,4 +6,6 @@
   (lib (name 74AVC16T245)(type Legacy)(uri ${KIPRJMOD}/libs/74AVC16T245.lib)(options "")(descr ""))
   (lib (name 74LVC1G14)(type Legacy)(uri ${KIPRJMOD}/libs/74LVC1G14.lib)(options "")(descr ""))
   (lib (name YC248)(type Legacy)(uri ${KIPRJMOD}/libs/YC248.lib)(options "")(descr ""))
+  (lib (name 74LVC574A)(type Legacy)(uri ${KIPRJMOD}/libs/74LVC574A.lib)(options "")(descr ""))
+  (lib (name 74LVC1G175)(type Legacy)(uri ${KIPRJMOD}/libs/74LVC1G175.lib)(options "")(descr ""))
 )
