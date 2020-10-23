@@ -8,3 +8,4 @@ Liste des composants :
  - Clock generator			-> DS1077L
  - ALU					-> XC9500XL
  - Control Unit				-> XC9600XL
+ - Connectors				-> Molex Pico-Clasp
