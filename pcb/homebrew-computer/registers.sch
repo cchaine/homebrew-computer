@@ -1,13 +1,13 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr User 11811 9843
+$Descr User 13386 9843
 encoding utf-8
-Sheet 3 7
-Title ""
-Date ""
-Rev ""
-Comp ""
+Sheet 4 7
+Title "Registers"
+Date "2020-10-24"
+Rev "A"
+Comp "cchaine"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -996,5 +996,251 @@ BUS14
 Text HLabel 7300 3850 2    50   3State ~ 0
 BUS15
 Text HLabel 7300 3950 2    50   3State ~ 0
+BUS16
+$Comp
+L 74LVC16374ADGG:74LVC16374ADGG,112 U?
+U 1 1 5F959227
+P 11700 1800
+F 0 "U?" H 11700 2200 50  0000 C CNN
+F 1 "74LVC16374ADGG,112" H 11700 2100 50  0000 C CNN
+F 2 "" H 11700 1800 50  0001 C CNN
+F 3 "" H 11700 1800 50  0001 C CNN
+	1    11700 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LVC16374ADGG:74LVC16374ADGG,112 U?
+U 2 1 5F95922D
+P 11700 5300
+F 0 "U?" H 11725 5315 50  0000 C CNN
+F 1 "74LVC16374ADGG,112" H 11725 5224 50  0000 C CNN
+F 2 "" H 11700 5300 50  0001 C CNN
+F 3 "" H 11700 5300 50  0001 C CNN
+	2    11700 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11400 5550 11400 5650
+Connection ~ 11400 5650
+Wire Wire Line
+	11400 5650 11400 5750
+Connection ~ 11400 5750
+Wire Wire Line
+	11400 5750 11400 5850
+Connection ~ 11400 5850
+Wire Wire Line
+	11400 5850 11400 5900
+Connection ~ 11400 5950
+Wire Wire Line
+	11400 5950 11400 6050
+Connection ~ 11400 6050
+Wire Wire Line
+	11400 6050 11400 6150
+Connection ~ 11400 6150
+Wire Wire Line
+	11400 6150 11400 6250
+$Comp
+L Device:C_Small C?
+U 1 1 5F959240
+P 12250 6600
+F 0 "C?" H 12342 6646 50  0000 L CNN
+F 1 "100n" H 12342 6555 50  0000 L CNN
+F 2 "" H 12250 6600 50  0001 C CNN
+F 3 "~" H 12250 6600 50  0001 C CNN
+	1    12250 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F959246
+P 11200 6600
+F 0 "C?" H 11292 6646 50  0000 L CNN
+F 1 "100n" H 11292 6555 50  0000 L CNN
+F 2 "" H 11200 6600 50  0001 C CNN
+F 3 "~" H 11200 6600 50  0001 C CNN
+	1    11200 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F95924C
+P 11550 6600
+F 0 "C?" H 11642 6646 50  0000 L CNN
+F 1 "100n" H 11642 6555 50  0000 L CNN
+F 2 "" H 11550 6600 50  0001 C CNN
+F 3 "~" H 11550 6600 50  0001 C CNN
+	1    11550 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F959252
+P 11900 6600
+F 0 "C?" H 11992 6646 50  0000 L CNN
+F 1 "100n" H 11992 6555 50  0000 L CNN
+F 2 "" H 11900 6600 50  0001 C CNN
+F 3 "~" H 11900 6600 50  0001 C CNN
+	1    11900 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11200 6500 11550 6500
+Connection ~ 11550 6500
+Wire Wire Line
+	11550 6500 11900 6500
+Connection ~ 11900 6500
+Wire Wire Line
+	11900 6500 12050 6500
+Wire Wire Line
+	12050 5700 12050 5800
+Connection ~ 12050 6500
+Wire Wire Line
+	12050 6500 12250 6500
+Connection ~ 12050 5800
+Wire Wire Line
+	12050 5800 12050 5900
+Connection ~ 12050 5900
+Wire Wire Line
+	12050 5900 12050 6000
+Connection ~ 12050 6000
+Wire Wire Line
+	12050 6000 12050 6500
+$Comp
+L power:GND #PWR?
+U 1 1 5F959266
+P 11750 6900
+F 0 "#PWR?" H 11750 6650 50  0001 C CNN
+F 1 "GND" H 11755 6727 50  0000 C CNN
+F 2 "" H 11750 6900 50  0001 C CNN
+F 3 "" H 11750 6900 50  0001 C CNN
+	1    11750 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11200 6700 11550 6700
+Connection ~ 11550 6700
+Wire Wire Line
+	11550 6700 11750 6700
+Connection ~ 11900 6700
+Wire Wire Line
+	11900 6700 12250 6700
+Wire Wire Line
+	11750 6700 11750 6850
+Connection ~ 11750 6700
+Wire Wire Line
+	11750 6700 11900 6700
+Wire Wire Line
+	11750 6850 10950 6850
+Wire Wire Line
+	10950 6850 10950 5900
+Wire Wire Line
+	10950 5900 11400 5900
+Connection ~ 11750 6850
+Wire Wire Line
+	11750 6850 11750 6900
+Connection ~ 11400 5900
+Wire Wire Line
+	11400 5900 11400 5950
+Wire Notes Line
+	10800 5150 10800 7200
+Wire Notes Line
+	10800 7200 12600 7200
+Wire Notes Line
+	12600 7200 12600 5150
+Wire Notes Line
+	12600 5150 10800 5150
+Text Notes 10800 5150 0    50   ~ 0
+Power
+Wire Notes Line
+	10850 1300 12500 1300
+Wire Notes Line
+	12500 1300 12500 4750
+Wire Notes Line
+	12500 4750 10850 4750
+Wire Notes Line
+	10850 4750 10850 1300
+Text Notes 10850 1300 0    50   ~ 0
+Register
+Wire Notes Line
+	10600 1100 12800 1100
+Wire Notes Line
+	12800 1100 12800 7400
+Wire Notes Line
+	12800 7400 10600 7400
+Wire Notes Line
+	10600 7400 10600 1100
+Text Notes 10600 1100 0    50   ~ 0
+Base Pointer
+Wire Wire Line
+	11650 2100 11750 2100
+Text HLabel 11700 2100 1    50   Input ~ 0
+BP_OUT
+Wire Wire Line
+	11650 4250 11750 4250
+Text HLabel 11700 4250 3    50   Input ~ 0
+BP_IN
+Text HLabel 11300 2450 0    50   Input ~ 0
+BUS1
+Text HLabel 11300 2550 0    50   Input ~ 0
+BUS2
+Text HLabel 11300 2650 0    50   Input ~ 0
+BUS3
+Text HLabel 11300 2750 0    50   Input ~ 0
+BUS4
+Text HLabel 11300 2850 0    50   Input ~ 0
+BUS5
+Text HLabel 11300 2950 0    50   Input ~ 0
+BUS6
+Text HLabel 11300 3050 0    50   Input ~ 0
+BUS7
+Text HLabel 11300 3150 0    50   Input ~ 0
+BUS8
+Text HLabel 11300 3250 0    50   Input ~ 0
+BUS9
+Text HLabel 11300 3350 0    50   Input ~ 0
+BUS10
+Text HLabel 11300 3450 0    50   Input ~ 0
+BUS11
+Text HLabel 11300 3550 0    50   Input ~ 0
+BUS12
+Text HLabel 11300 3650 0    50   Input ~ 0
+BUS13
+Text HLabel 11300 3750 0    50   Input ~ 0
+BUS14
+Text HLabel 11300 3850 0    50   Input ~ 0
+BUS15
+Text HLabel 11300 3950 0    50   Input ~ 0
+BUS16
+Text HLabel 12050 2450 2    50   3State ~ 0
+BUS1
+Text HLabel 12050 2550 2    50   3State ~ 0
+BUS2
+Text HLabel 12050 2650 2    50   3State ~ 0
+BUS3
+Text HLabel 12050 2750 2    50   3State ~ 0
+BUS4
+Text HLabel 12050 2850 2    50   3State ~ 0
+BUS5
+Text HLabel 12050 2950 2    50   3State ~ 0
+BUS6
+Text HLabel 12050 3050 2    50   3State ~ 0
+BUS7
+Text HLabel 12050 3150 2    50   3State ~ 0
+BUS8
+Text HLabel 12050 3250 2    50   3State ~ 0
+BUS9
+Text HLabel 12050 3350 2    50   3State ~ 0
+BUS10
+Text HLabel 12050 3450 2    50   3State ~ 0
+BUS11
+Text HLabel 12050 3550 2    50   3State ~ 0
+BUS12
+Text HLabel 12050 3650 2    50   3State ~ 0
+BUS13
+Text HLabel 12050 3750 2    50   3State ~ 0
+BUS14
+Text HLabel 12050 3850 2    50   3State ~ 0
+BUS15
+Text HLabel 12050 3950 2    50   3State ~ 0
 BUS16
 $EndSCHEMATC

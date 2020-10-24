@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 8661 8268
 encoding utf-8
-Sheet 2 7
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -477,4 +477,68 @@ Text HLabel 1700 3800 0    50   Input ~ 0
 BUS15
 Text HLabel 1700 3900 0    50   Input ~ 0
 BUS16
+Text GLabel 2450 2400 2    50   Output ~ 0
+IR1
+Text GLabel 2450 2500 2    50   Output ~ 0
+IR2
+Text GLabel 2450 2600 2    50   Output ~ 0
+IR3
+Text GLabel 2450 2700 2    50   Output ~ 0
+IR4
+Text GLabel 2450 2800 2    50   Output ~ 0
+IR5
+Text GLabel 2450 2900 2    50   Output ~ 0
+IR6
+Text GLabel 2450 3000 2    50   Output ~ 0
+IR7
+Text GLabel 2450 3100 2    50   Output ~ 0
+IR8
+Text GLabel 2450 3200 2    50   Output ~ 0
+IR9
+Text GLabel 2450 3300 2    50   Output ~ 0
+IR10
+Text GLabel 2450 3400 2    50   Output ~ 0
+IR11
+Text GLabel 2450 3500 2    50   Output ~ 0
+IR12
+Text GLabel 2450 3600 2    50   Output ~ 0
+IR13
+Text GLabel 2450 3700 2    50   Output ~ 0
+IR14
+Text GLabel 2450 3800 2    50   Output ~ 0
+IR15
+Text GLabel 2450 3900 2    50   Output ~ 0
+IR16
+Text GLabel 6550 2800 2    50   Input ~ 0
+IR1
+Text GLabel 6550 2900 2    50   Input ~ 0
+IR2
+Text GLabel 6550 3000 2    50   Input ~ 0
+IR3
+Text GLabel 6550 3100 2    50   Input ~ 0
+IR4
+Text GLabel 6550 3200 2    50   Input ~ 0
+IR5
+Text GLabel 6550 3300 2    50   Input ~ 0
+IR6
+Text GLabel 6550 3400 2    50   Input ~ 0
+IR7
+Text GLabel 6550 3500 2    50   Input ~ 0
+IR8
+Text GLabel 6550 3600 2    50   Input ~ 0
+IR9
+Text GLabel 6550 3700 2    50   Input ~ 0
+IR10
+Text GLabel 6550 3800 2    50   Input ~ 0
+IR11
+Text GLabel 6550 3900 2    50   Input ~ 0
+IR12
+Text GLabel 6550 4000 2    50   Input ~ 0
+IR13
+Text GLabel 6550 4100 2    50   Input ~ 0
+IR14
+Text GLabel 6550 4200 2    50   Input ~ 0
+IR15
+Text GLabel 6550 4300 2    50   Input ~ 0
+IR16
 $EndSCHEMATC

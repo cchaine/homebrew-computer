@@ -3,11 +3,11 @@ EELAYER 30 0
 EELAYER END
 $Descr User 8661 5906
 encoding utf-8
-Sheet 8 7
-Title ""
-Date ""
-Rev ""
-Comp ""
+Sheet 3 7
+Title "Arithmetic and Logic Unit"
+Date "2020-10-24"
+Rev "A"
+Comp "cchaine"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -183,7 +183,7 @@ Text Notes 1000 700  0    50   ~ 0
 Power
 Text HLabel 1900 3600 0    50   Input ~ 0
 TMS
-Text HLabel 1900 3700 0    50   Input ~ 0
+Text HLabel 1900 3700 0    50   Output ~ 0
 TDO
 Text HLabel 1900 3800 0    50   Input ~ 0
 TDI
@@ -207,10 +207,6 @@ Text HLabel 5350 2050 0    50   3State ~ 0
 OP3
 Text HLabel 5350 2150 0    50   3State ~ 0
 OP4
-Text HLabel 5350 1550 0    50   3State ~ 0
-CLK
-Text HLabel 5350 1650 0    50   3State ~ 0
-CLK_I
 Text HLabel 5350 2550 0    50   3State ~ 0
 FLAG_ZERO
 Text HLabel 5350 2650 0    50   3State ~ 0
@@ -222,7 +218,6 @@ FLAG_OVERFLOW
 NoConn ~ 5350 1250
 NoConn ~ 5350 1350
 NoConn ~ 5350 1450
-NoConn ~ 5350 1750
 NoConn ~ 5350 2250
 NoConn ~ 5350 2450
 Wire Notes Line
@@ -270,4 +265,10 @@ BUS15
 Text HLabel 6500 2750 2    50   3State ~ 0
 BUS16
 NoConn ~ 6500 2850
+Text HLabel 5350 1550 0    50   Input ~ 0
+A_IN
+Text HLabel 5350 1650 0    50   Input ~ 0
+B_IN
+Text HLabel 5350 1750 0    50   Input ~ 0
+OP_IN
 $EndSCHEMATC
