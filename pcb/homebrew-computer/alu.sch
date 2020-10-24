@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 8661 5906
 encoding utf-8
-Sheet 4 8
+Sheet 8 7
 Title ""
 Date ""
 Rev ""
@@ -199,38 +199,6 @@ Wire Notes Line
 	1450 4200 1450 3200
 Text Notes 1450 3200 0    50   ~ 0
 JTAG
-Text HLabel 6500 1250 2    50   3State ~ 0
-DBUS1
-Text HLabel 6500 1350 2    50   3State ~ 0
-DBUS2
-Text HLabel 6500 1450 2    50   3State ~ 0
-DBUS3
-Text HLabel 6500 1550 2    50   3State ~ 0
-DBUS4
-Text HLabel 6500 1650 2    50   3State ~ 0
-DBUS5
-Text HLabel 6500 1750 2    50   BiDi ~ 0
-DBUS6
-Text HLabel 6500 1850 2    50   BiDi ~ 0
-DBUS7
-Text HLabel 6500 2450 2    50   BiDi ~ 0
-DBUS13
-Text HLabel 6500 2350 2    50   BiDi ~ 0
-DBUS12
-Text HLabel 6500 2250 2    50   BiDi ~ 0
-DBUS11
-Text HLabel 6500 2150 2    50   BiDi ~ 0
-DBUS10
-Text HLabel 6500 2050 2    50   BiDi ~ 0
-DBUS9
-Text HLabel 6500 1950 2    50   BiDi ~ 0
-DBUS8
-Text HLabel 6500 2550 2    50   BiDi ~ 0
-DBUS14
-Text HLabel 6500 2650 2    50   BiDi ~ 0
-DBUS15
-Text HLabel 6500 2750 2    50   BiDi ~ 0
-DBUS16
 Text HLabel 5350 1850 0    50   Input ~ 0
 OP1
 Text HLabel 5350 1950 0    50   3State ~ 0
@@ -269,4 +237,37 @@ Text Notes 4500 900  0    50   ~ 0
 Inputs/Outputs
 Text HLabel 5350 2350 0    50   Input ~ 0
 OE_I
+Text HLabel 6500 1250 2    50   3State ~ 0
+BUS1
+Text HLabel 6500 1350 2    50   3State ~ 0
+BUS2
+Text HLabel 6500 1450 2    50   3State ~ 0
+BUS3
+Text HLabel 6500 1550 2    50   3State ~ 0
+BUS4
+Text HLabel 6500 1650 2    50   3State ~ 0
+BUS5
+Text HLabel 6500 1750 2    50   3State ~ 0
+BUS6
+Text HLabel 6500 1850 2    50   3State ~ 0
+BUS7
+Text HLabel 6500 1950 2    50   3State ~ 0
+BUS8
+Text HLabel 6500 2050 2    50   3State ~ 0
+BUS9
+Text HLabel 6500 2150 2    50   3State ~ 0
+BUS10
+Text HLabel 6500 2250 2    50   3State ~ 0
+BUS11
+Text HLabel 6500 2350 2    50   3State ~ 0
+BUS12
+Text HLabel 6500 2450 2    50   3State ~ 0
+BUS13
+Text HLabel 6500 2550 2    50   3State ~ 0
+BUS14
+Text HLabel 6500 2650 2    50   3State ~ 0
+BUS15
+Text HLabel 6500 2750 2    50   3State ~ 0
+BUS16
+NoConn ~ 6500 2850
 $EndSCHEMATC

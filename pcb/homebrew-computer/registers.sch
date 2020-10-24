@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 11811 9843
 encoding utf-8
-Sheet 3 8
+Sheet 3 7
 Title ""
 Date ""
 Rev ""
@@ -171,70 +171,6 @@ Text HLabel 2100 2100 1    50   Input ~ 0
 REG1_OUT_L
 Text HLabel 2200 2100 1    50   Input ~ 0
 REG1_OUT_H
-Text HLabel 2500 2450 2    50   Input ~ 0
-DBUS1
-Text HLabel 2500 2550 2    50   Input ~ 0
-DBUS2
-Text HLabel 2500 2650 2    50   Input ~ 0
-DBUS3
-Text HLabel 2500 2750 2    50   Input ~ 0
-DBUS4
-Text HLabel 2500 2850 2    50   Input ~ 0
-DBUS5
-Text HLabel 2500 2950 2    50   Input ~ 0
-DBUS6
-Text HLabel 2500 3050 2    50   Input ~ 0
-DBUS7
-Text HLabel 2500 3150 2    50   Input ~ 0
-DBUS8
-Text HLabel 2500 3250 2    50   Input ~ 0
-DBUS9
-Text HLabel 2500 3350 2    50   Input ~ 0
-DBUS10
-Text HLabel 2500 3450 2    50   Input ~ 0
-DBUS11
-Text HLabel 2500 3550 2    50   Input ~ 0
-DBUS12
-Text HLabel 2500 3650 2    50   Input ~ 0
-DBUS13
-Text HLabel 2500 3750 2    50   Input ~ 0
-DBUS14
-Text HLabel 2500 3850 2    50   Input ~ 0
-DBUS15
-Text HLabel 2500 3950 2    50   Input ~ 0
-DBUS16
-Text HLabel 1750 2450 0    50   Input ~ 0
-DBUS1
-Text HLabel 1750 2550 0    50   Input ~ 0
-DBUS2
-Text HLabel 1750 2650 0    50   Input ~ 0
-DBUS3
-Text HLabel 1750 2750 0    50   Input ~ 0
-DBUS4
-Text HLabel 1750 2850 0    50   Input ~ 0
-DBUS5
-Text HLabel 1750 2950 0    50   Input ~ 0
-DBUS6
-Text HLabel 1750 3050 0    50   Input ~ 0
-DBUS7
-Text HLabel 1750 3150 0    50   Input ~ 0
-DBUS8
-Text HLabel 1750 3250 0    50   Input ~ 0
-DBUS9
-Text HLabel 1750 3350 0    50   Input ~ 0
-DBUS10
-Text HLabel 1750 3450 0    50   Input ~ 0
-DBUS11
-Text HLabel 1750 3550 0    50   Input ~ 0
-DBUS12
-Text HLabel 1750 3650 0    50   Input ~ 0
-DBUS13
-Text HLabel 1750 3750 0    50   Input ~ 0
-DBUS14
-Text HLabel 1750 3850 0    50   Input ~ 0
-DBUS15
-Text HLabel 1750 3950 0    50   Input ~ 0
-DBUS16
 Text HLabel 2100 4250 3    50   Input ~ 0
 REG1_IN_L
 Text HLabel 2200 4250 3    50   Input ~ 0
@@ -417,70 +353,6 @@ Text HLabel 4500 2100 1    50   Input ~ 0
 REG2_OUT_L
 Text HLabel 4600 2100 1    50   Input ~ 0
 REG2_OUT_H
-Text HLabel 4900 2450 2    50   Input ~ 0
-DBUS1
-Text HLabel 4900 2550 2    50   Input ~ 0
-DBUS2
-Text HLabel 4900 2650 2    50   Input ~ 0
-DBUS3
-Text HLabel 4900 2750 2    50   Input ~ 0
-DBUS4
-Text HLabel 4900 2850 2    50   Input ~ 0
-DBUS5
-Text HLabel 4900 2950 2    50   Input ~ 0
-DBUS6
-Text HLabel 4900 3050 2    50   Input ~ 0
-DBUS7
-Text HLabel 4900 3150 2    50   Input ~ 0
-DBUS8
-Text HLabel 4900 3250 2    50   Input ~ 0
-DBUS9
-Text HLabel 4900 3350 2    50   Input ~ 0
-DBUS10
-Text HLabel 4900 3450 2    50   Input ~ 0
-DBUS11
-Text HLabel 4900 3550 2    50   Input ~ 0
-DBUS12
-Text HLabel 4900 3650 2    50   Input ~ 0
-DBUS13
-Text HLabel 4900 3750 2    50   Input ~ 0
-DBUS14
-Text HLabel 4900 3850 2    50   Input ~ 0
-DBUS15
-Text HLabel 4900 3950 2    50   Input ~ 0
-DBUS16
-Text HLabel 4150 2450 0    50   Input ~ 0
-DBUS1
-Text HLabel 4150 2550 0    50   Input ~ 0
-DBUS2
-Text HLabel 4150 2650 0    50   Input ~ 0
-DBUS3
-Text HLabel 4150 2750 0    50   Input ~ 0
-DBUS4
-Text HLabel 4150 2850 0    50   Input ~ 0
-DBUS5
-Text HLabel 4150 2950 0    50   Input ~ 0
-DBUS6
-Text HLabel 4150 3050 0    50   Input ~ 0
-DBUS7
-Text HLabel 4150 3150 0    50   Input ~ 0
-DBUS8
-Text HLabel 4150 3250 0    50   Input ~ 0
-DBUS9
-Text HLabel 4150 3350 0    50   Input ~ 0
-DBUS10
-Text HLabel 4150 3450 0    50   Input ~ 0
-DBUS11
-Text HLabel 4150 3550 0    50   Input ~ 0
-DBUS12
-Text HLabel 4150 3650 0    50   Input ~ 0
-DBUS13
-Text HLabel 4150 3750 0    50   Input ~ 0
-DBUS14
-Text HLabel 4150 3850 0    50   Input ~ 0
-DBUS15
-Text HLabel 4150 3950 0    50   Input ~ 0
-DBUS16
 Text HLabel 4500 4250 3    50   Input ~ 0
 REG2_IN_L
 Text HLabel 4600 4250 3    50   Input ~ 0
@@ -663,70 +535,6 @@ Text HLabel 6900 2100 1    50   Input ~ 0
 REG3_OUT_L
 Text HLabel 7000 2100 1    50   Input ~ 0
 REG3_OUT_H
-Text HLabel 7300 2450 2    50   Input ~ 0
-DBUS1
-Text HLabel 7300 2550 2    50   Input ~ 0
-DBUS2
-Text HLabel 7300 2650 2    50   Input ~ 0
-DBUS3
-Text HLabel 7300 2750 2    50   Input ~ 0
-DBUS4
-Text HLabel 7300 2850 2    50   Input ~ 0
-DBUS5
-Text HLabel 7300 2950 2    50   Input ~ 0
-DBUS6
-Text HLabel 7300 3050 2    50   Input ~ 0
-DBUS7
-Text HLabel 7300 3150 2    50   Input ~ 0
-DBUS8
-Text HLabel 7300 3250 2    50   Input ~ 0
-DBUS9
-Text HLabel 7300 3350 2    50   Input ~ 0
-DBUS10
-Text HLabel 7300 3450 2    50   Input ~ 0
-DBUS11
-Text HLabel 7300 3550 2    50   Input ~ 0
-DBUS12
-Text HLabel 7300 3650 2    50   Input ~ 0
-DBUS13
-Text HLabel 7300 3750 2    50   Input ~ 0
-DBUS14
-Text HLabel 7300 3850 2    50   Input ~ 0
-DBUS15
-Text HLabel 7300 3950 2    50   Input ~ 0
-DBUS16
-Text HLabel 6550 2450 0    50   Input ~ 0
-DBUS1
-Text HLabel 6550 2550 0    50   Input ~ 0
-DBUS2
-Text HLabel 6550 2650 0    50   Input ~ 0
-DBUS3
-Text HLabel 6550 2750 0    50   Input ~ 0
-DBUS4
-Text HLabel 6550 2850 0    50   Input ~ 0
-DBUS5
-Text HLabel 6550 2950 0    50   Input ~ 0
-DBUS6
-Text HLabel 6550 3050 0    50   Input ~ 0
-DBUS7
-Text HLabel 6550 3150 0    50   Input ~ 0
-DBUS8
-Text HLabel 6550 3250 0    50   Input ~ 0
-DBUS9
-Text HLabel 6550 3350 0    50   Input ~ 0
-DBUS10
-Text HLabel 6550 3450 0    50   Input ~ 0
-DBUS11
-Text HLabel 6550 3550 0    50   Input ~ 0
-DBUS12
-Text HLabel 6550 3650 0    50   Input ~ 0
-DBUS13
-Text HLabel 6550 3750 0    50   Input ~ 0
-DBUS14
-Text HLabel 6550 3850 0    50   Input ~ 0
-DBUS15
-Text HLabel 6550 3950 0    50   Input ~ 0
-DBUS16
 Text HLabel 6900 4250 3    50   Input ~ 0
 REG3_IN_L
 Text HLabel 7000 4250 3    50   Input ~ 0
@@ -905,70 +713,6 @@ Wire Notes Line
 	10250 5150 8450 5150
 Text Notes 8450 5150 0    50   ~ 0
 Power
-Text HLabel 9700 2450 2    50   Input ~ 0
-DBUS1
-Text HLabel 9700 2550 2    50   Input ~ 0
-DBUS2
-Text HLabel 9700 2650 2    50   Input ~ 0
-DBUS3
-Text HLabel 9700 2750 2    50   Input ~ 0
-DBUS4
-Text HLabel 9700 2850 2    50   Input ~ 0
-DBUS5
-Text HLabel 9700 2950 2    50   Input ~ 0
-DBUS6
-Text HLabel 9700 3050 2    50   Input ~ 0
-DBUS7
-Text HLabel 9700 3150 2    50   Input ~ 0
-DBUS8
-Text HLabel 9700 3250 2    50   Input ~ 0
-DBUS9
-Text HLabel 9700 3350 2    50   Input ~ 0
-DBUS10
-Text HLabel 9700 3450 2    50   Input ~ 0
-DBUS11
-Text HLabel 9700 3550 2    50   Input ~ 0
-DBUS12
-Text HLabel 9700 3650 2    50   Input ~ 0
-DBUS13
-Text HLabel 9700 3750 2    50   Input ~ 0
-DBUS14
-Text HLabel 9700 3850 2    50   Input ~ 0
-DBUS15
-Text HLabel 9700 3950 2    50   Input ~ 0
-DBUS16
-Text HLabel 8950 2450 0    50   Input ~ 0
-DBUS1
-Text HLabel 8950 2550 0    50   Input ~ 0
-DBUS2
-Text HLabel 8950 2650 0    50   Input ~ 0
-DBUS3
-Text HLabel 8950 2750 0    50   Input ~ 0
-DBUS4
-Text HLabel 8950 2850 0    50   Input ~ 0
-DBUS5
-Text HLabel 8950 2950 0    50   Input ~ 0
-DBUS6
-Text HLabel 8950 3050 0    50   Input ~ 0
-DBUS7
-Text HLabel 8950 3150 0    50   Input ~ 0
-DBUS8
-Text HLabel 8950 3250 0    50   Input ~ 0
-DBUS9
-Text HLabel 8950 3350 0    50   Input ~ 0
-DBUS10
-Text HLabel 8950 3450 0    50   Input ~ 0
-DBUS11
-Text HLabel 8950 3550 0    50   Input ~ 0
-DBUS12
-Text HLabel 8950 3650 0    50   Input ~ 0
-DBUS13
-Text HLabel 8950 3750 0    50   Input ~ 0
-DBUS14
-Text HLabel 8950 3850 0    50   Input ~ 0
-DBUS15
-Text HLabel 8950 3950 0    50   Input ~ 0
-DBUS16
 Wire Notes Line
 	8500 1300 10150 1300
 Wire Notes Line
@@ -997,4 +741,260 @@ Wire Wire Line
 	9300 4250 9400 4250
 Text HLabel 9350 4250 3    50   Input ~ 0
 SP_IN
+Text HLabel 1750 2450 0    50   Input ~ 0
+BUS1
+Text HLabel 1750 2550 0    50   Input ~ 0
+BUS2
+Text HLabel 1750 2650 0    50   Input ~ 0
+BUS3
+Text HLabel 1750 2750 0    50   Input ~ 0
+BUS4
+Text HLabel 1750 2850 0    50   Input ~ 0
+BUS5
+Text HLabel 1750 2950 0    50   Input ~ 0
+BUS6
+Text HLabel 1750 3050 0    50   Input ~ 0
+BUS7
+Text HLabel 1750 3150 0    50   Input ~ 0
+BUS8
+Text HLabel 1750 3250 0    50   Input ~ 0
+BUS9
+Text HLabel 1750 3350 0    50   Input ~ 0
+BUS10
+Text HLabel 1750 3450 0    50   Input ~ 0
+BUS11
+Text HLabel 1750 3550 0    50   Input ~ 0
+BUS12
+Text HLabel 1750 3650 0    50   Input ~ 0
+BUS13
+Text HLabel 1750 3750 0    50   Input ~ 0
+BUS14
+Text HLabel 1750 3850 0    50   Input ~ 0
+BUS15
+Text HLabel 1750 3950 0    50   Input ~ 0
+BUS16
+Text HLabel 4150 2450 0    50   Input ~ 0
+BUS1
+Text HLabel 4150 2550 0    50   Input ~ 0
+BUS2
+Text HLabel 4150 2650 0    50   Input ~ 0
+BUS3
+Text HLabel 4150 2750 0    50   Input ~ 0
+BUS4
+Text HLabel 4150 2850 0    50   Input ~ 0
+BUS5
+Text HLabel 4150 2950 0    50   Input ~ 0
+BUS6
+Text HLabel 4150 3050 0    50   Input ~ 0
+BUS7
+Text HLabel 4150 3150 0    50   Input ~ 0
+BUS8
+Text HLabel 4150 3250 0    50   Input ~ 0
+BUS9
+Text HLabel 4150 3350 0    50   Input ~ 0
+BUS10
+Text HLabel 4150 3450 0    50   Input ~ 0
+BUS11
+Text HLabel 4150 3550 0    50   Input ~ 0
+BUS12
+Text HLabel 4150 3650 0    50   Input ~ 0
+BUS13
+Text HLabel 4150 3750 0    50   Input ~ 0
+BUS14
+Text HLabel 4150 3850 0    50   Input ~ 0
+BUS15
+Text HLabel 4150 3950 0    50   Input ~ 0
+BUS16
+Text HLabel 6550 2450 0    50   Input ~ 0
+BUS1
+Text HLabel 6550 2550 0    50   Input ~ 0
+BUS2
+Text HLabel 6550 2650 0    50   Input ~ 0
+BUS3
+Text HLabel 6550 2750 0    50   Input ~ 0
+BUS4
+Text HLabel 6550 2850 0    50   Input ~ 0
+BUS5
+Text HLabel 6550 2950 0    50   Input ~ 0
+BUS6
+Text HLabel 6550 3050 0    50   Input ~ 0
+BUS7
+Text HLabel 6550 3150 0    50   Input ~ 0
+BUS8
+Text HLabel 6550 3250 0    50   Input ~ 0
+BUS9
+Text HLabel 6550 3350 0    50   Input ~ 0
+BUS10
+Text HLabel 6550 3450 0    50   Input ~ 0
+BUS11
+Text HLabel 6550 3550 0    50   Input ~ 0
+BUS12
+Text HLabel 6550 3650 0    50   Input ~ 0
+BUS13
+Text HLabel 6550 3750 0    50   Input ~ 0
+BUS14
+Text HLabel 6550 3850 0    50   Input ~ 0
+BUS15
+Text HLabel 6550 3950 0    50   Input ~ 0
+BUS16
+Text HLabel 8950 2450 0    50   Input ~ 0
+BUS1
+Text HLabel 8950 2550 0    50   Input ~ 0
+BUS2
+Text HLabel 8950 2650 0    50   Input ~ 0
+BUS3
+Text HLabel 8950 2750 0    50   Input ~ 0
+BUS4
+Text HLabel 8950 2850 0    50   Input ~ 0
+BUS5
+Text HLabel 8950 2950 0    50   Input ~ 0
+BUS6
+Text HLabel 8950 3050 0    50   Input ~ 0
+BUS7
+Text HLabel 8950 3150 0    50   Input ~ 0
+BUS8
+Text HLabel 8950 3250 0    50   Input ~ 0
+BUS9
+Text HLabel 8950 3350 0    50   Input ~ 0
+BUS10
+Text HLabel 8950 3450 0    50   Input ~ 0
+BUS11
+Text HLabel 8950 3550 0    50   Input ~ 0
+BUS12
+Text HLabel 8950 3650 0    50   Input ~ 0
+BUS13
+Text HLabel 8950 3750 0    50   Input ~ 0
+BUS14
+Text HLabel 8950 3850 0    50   Input ~ 0
+BUS15
+Text HLabel 8950 3950 0    50   Input ~ 0
+BUS16
+Text HLabel 2500 2450 2    50   3State ~ 0
+BUS1
+Text HLabel 2500 2550 2    50   3State ~ 0
+BUS2
+Text HLabel 2500 2650 2    50   3State ~ 0
+BUS3
+Text HLabel 2500 2750 2    50   3State ~ 0
+BUS4
+Text HLabel 2500 2850 2    50   3State ~ 0
+BUS5
+Text HLabel 2500 2950 2    50   3State ~ 0
+BUS6
+Text HLabel 2500 3050 2    50   3State ~ 0
+BUS7
+Text HLabel 2500 3150 2    50   3State ~ 0
+BUS8
+Text HLabel 2500 3250 2    50   3State ~ 0
+BUS9
+Text HLabel 2500 3350 2    50   3State ~ 0
+BUS10
+Text HLabel 2500 3450 2    50   3State ~ 0
+BUS11
+Text HLabel 2500 3550 2    50   3State ~ 0
+BUS12
+Text HLabel 2500 3650 2    50   3State ~ 0
+BUS13
+Text HLabel 2500 3750 2    50   3State ~ 0
+BUS14
+Text HLabel 2500 3850 2    50   3State ~ 0
+BUS15
+Text HLabel 2500 3950 2    50   3State ~ 0
+BUS16
+Text HLabel 4900 2450 2    50   3State ~ 0
+BUS1
+Text HLabel 4900 2550 2    50   3State ~ 0
+BUS2
+Text HLabel 4900 2650 2    50   3State ~ 0
+BUS3
+Text HLabel 4900 2750 2    50   3State ~ 0
+BUS4
+Text HLabel 4900 2850 2    50   3State ~ 0
+BUS5
+Text HLabel 4900 2950 2    50   3State ~ 0
+BUS6
+Text HLabel 4900 3050 2    50   3State ~ 0
+BUS7
+Text HLabel 4900 3150 2    50   3State ~ 0
+BUS8
+Text HLabel 4900 3250 2    50   3State ~ 0
+BUS9
+Text HLabel 4900 3350 2    50   3State ~ 0
+BUS10
+Text HLabel 4900 3450 2    50   3State ~ 0
+BUS11
+Text HLabel 4900 3550 2    50   3State ~ 0
+BUS12
+Text HLabel 4900 3650 2    50   3State ~ 0
+BUS13
+Text HLabel 4900 3750 2    50   3State ~ 0
+BUS14
+Text HLabel 4900 3850 2    50   3State ~ 0
+BUS15
+Text HLabel 4900 3950 2    50   3State ~ 0
+BUS16
+Text HLabel 9700 2450 2    50   3State ~ 0
+BUS1
+Text HLabel 9700 2550 2    50   3State ~ 0
+BUS2
+Text HLabel 9700 2650 2    50   3State ~ 0
+BUS3
+Text HLabel 9700 2750 2    50   3State ~ 0
+BUS4
+Text HLabel 9700 2850 2    50   3State ~ 0
+BUS5
+Text HLabel 9700 2950 2    50   3State ~ 0
+BUS6
+Text HLabel 9700 3050 2    50   3State ~ 0
+BUS7
+Text HLabel 9700 3150 2    50   3State ~ 0
+BUS8
+Text HLabel 9700 3250 2    50   3State ~ 0
+BUS9
+Text HLabel 9700 3350 2    50   3State ~ 0
+BUS10
+Text HLabel 9700 3450 2    50   3State ~ 0
+BUS11
+Text HLabel 9700 3550 2    50   3State ~ 0
+BUS12
+Text HLabel 9700 3650 2    50   3State ~ 0
+BUS13
+Text HLabel 9700 3750 2    50   3State ~ 0
+BUS14
+Text HLabel 9700 3850 2    50   3State ~ 0
+BUS15
+Text HLabel 9700 3950 2    50   3State ~ 0
+BUS16
+Text HLabel 7300 2450 2    50   3State ~ 0
+BUS1
+Text HLabel 7300 2550 2    50   3State ~ 0
+BUS2
+Text HLabel 7300 2650 2    50   3State ~ 0
+BUS3
+Text HLabel 7300 2750 2    50   3State ~ 0
+BUS4
+Text HLabel 7300 2850 2    50   3State ~ 0
+BUS5
+Text HLabel 7300 2950 2    50   3State ~ 0
+BUS6
+Text HLabel 7300 3050 2    50   3State ~ 0
+BUS7
+Text HLabel 7300 3150 2    50   3State ~ 0
+BUS8
+Text HLabel 7300 3250 2    50   3State ~ 0
+BUS9
+Text HLabel 7300 3350 2    50   3State ~ 0
+BUS10
+Text HLabel 7300 3450 2    50   3State ~ 0
+BUS11
+Text HLabel 7300 3550 2    50   3State ~ 0
+BUS12
+Text HLabel 7300 3650 2    50   3State ~ 0
+BUS13
+Text HLabel 7300 3750 2    50   3State ~ 0
+BUS14
+Text HLabel 7300 3850 2    50   3State ~ 0
+BUS15
+Text HLabel 7300 3950 2    50   3State ~ 0
+BUS16
 $EndSCHEMATC

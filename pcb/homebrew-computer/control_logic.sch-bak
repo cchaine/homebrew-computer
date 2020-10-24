@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 8661 8268
 encoding utf-8
-Sheet 3 8
+Sheet 2 7
 Title ""
 Date ""
 Rev ""
@@ -417,38 +417,6 @@ Wire Notes Line
 	3000 5100 1200 5100
 Text Notes 1200 5100 0    50   ~ 0
 Power
-Text HLabel 1700 2400 0    50   Input ~ 0
-DBUS1
-Text HLabel 1700 2500 0    50   Input ~ 0
-DBUS2
-Text HLabel 1700 2600 0    50   Input ~ 0
-DBUS3
-Text HLabel 1700 2700 0    50   Input ~ 0
-DBUS4
-Text HLabel 1700 2800 0    50   Input ~ 0
-DBUS5
-Text HLabel 1700 2900 0    50   Input ~ 0
-DBUS6
-Text HLabel 1700 3000 0    50   Input ~ 0
-DBUS7
-Text HLabel 1700 3100 0    50   Input ~ 0
-DBUS8
-Text HLabel 1700 3200 0    50   Input ~ 0
-DBUS9
-Text HLabel 1700 3300 0    50   Input ~ 0
-DBUS10
-Text HLabel 1700 3400 0    50   Input ~ 0
-DBUS11
-Text HLabel 1700 3500 0    50   Input ~ 0
-DBUS12
-Text HLabel 1700 3600 0    50   Input ~ 0
-DBUS13
-Text HLabel 1700 3700 0    50   Input ~ 0
-DBUS14
-Text HLabel 1700 3800 0    50   Input ~ 0
-DBUS15
-Text HLabel 1700 3900 0    50   Input ~ 0
-DBUS16
 Wire Notes Line
 	1250 1250 2900 1250
 Wire Notes Line
@@ -477,4 +445,36 @@ Wire Wire Line
 	2050 4200 2150 4200
 Text HLabel 2100 4200 3    50   Input ~ 0
 INSTR_IN
+Text HLabel 1700 2400 0    50   Input ~ 0
+BUS1
+Text HLabel 1700 2500 0    50   Input ~ 0
+BUS2
+Text HLabel 1700 2600 0    50   Input ~ 0
+BUS3
+Text HLabel 1700 2700 0    50   Input ~ 0
+BUS4
+Text HLabel 1700 2800 0    50   Input ~ 0
+BUS5
+Text HLabel 1700 2900 0    50   Input ~ 0
+BUS6
+Text HLabel 1700 3000 0    50   Input ~ 0
+BUS7
+Text HLabel 1700 3100 0    50   Input ~ 0
+BUS8
+Text HLabel 1700 3200 0    50   Input ~ 0
+BUS9
+Text HLabel 1700 3300 0    50   Input ~ 0
+BUS10
+Text HLabel 1700 3400 0    50   Input ~ 0
+BUS11
+Text HLabel 1700 3500 0    50   Input ~ 0
+BUS12
+Text HLabel 1700 3600 0    50   Input ~ 0
+BUS13
+Text HLabel 1700 3700 0    50   Input ~ 0
+BUS14
+Text HLabel 1700 3800 0    50   Input ~ 0
+BUS15
+Text HLabel 1700 3900 0    50   Input ~ 0
+BUS16
 $EndSCHEMATC

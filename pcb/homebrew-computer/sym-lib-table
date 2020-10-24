@@ -10,4 +10,5 @@
   (lib (name 74LVC1G175)(type Legacy)(uri ${KIPRJMOD}/libs/74LVC1G175.lib)(options "")(descr ""))
   (lib (name 74AVC4T245)(type Legacy)(uri ${KIPRJMOD}/libs/74AVC4T245.lib)(options "")(descr ""))
   (lib (name 74LVC1G32)(type Legacy)(uri ${KIPRJMOD}/libs/74LVC1G32.lib)(options "")(descr ""))
+  (lib (name 74LVC1G08)(type Legacy)(uri ${KIPRJMOD}/libs/74LVC1G08.lib)(options "")(descr ""))
 )
