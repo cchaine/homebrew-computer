@@ -171,18 +171,8 @@ Text HLabel 2100 2100 1    50   Input ~ 0
 REG1_OUT_L
 Text HLabel 2200 2100 1    50   Input ~ 0
 REG1_OUT_H
-Text HLabel 2100 4250 3    50   Input ~ 0
-REG1_IN_L
-Text HLabel 2200 4250 3    50   Input ~ 0
-REG1_IN_H
 Wire Notes Line
 	1300 1300 2950 1300
-Wire Notes Line
-	2950 1300 2950 4750
-Wire Notes Line
-	2950 4750 1300 4750
-Wire Notes Line
-	1300 4750 1300 1300
 Text Notes 1300 1300 0    50   ~ 0
 Register
 Wire Notes Line
@@ -353,18 +343,8 @@ Text HLabel 4500 2100 1    50   Input ~ 0
 REG2_OUT_L
 Text HLabel 4600 2100 1    50   Input ~ 0
 REG2_OUT_H
-Text HLabel 4500 4250 3    50   Input ~ 0
-REG2_IN_L
-Text HLabel 4600 4250 3    50   Input ~ 0
-REG2_IN_H
 Wire Notes Line
 	3700 1300 5350 1300
-Wire Notes Line
-	5350 1300 5350 4750
-Wire Notes Line
-	5350 4750 3700 4750
-Wire Notes Line
-	3700 4750 3700 1300
 Text Notes 3700 1300 0    50   ~ 0
 Register
 Wire Notes Line
@@ -535,10 +515,6 @@ Text HLabel 6900 2100 1    50   Input ~ 0
 REG3_OUT_L
 Text HLabel 7000 2100 1    50   Input ~ 0
 REG3_OUT_H
-Text HLabel 6900 4250 3    50   Input ~ 0
-REG3_IN_L
-Text HLabel 7000 4250 3    50   Input ~ 0
-REG3_IN_H
 Wire Notes Line
 	6100 1300 7750 1300
 Wire Notes Line
@@ -1243,4 +1219,30 @@ Text HLabel 12050 3850 2    50   3State ~ 0
 BUS15
 Text HLabel 12050 3950 2    50   3State ~ 0
 BUS16
+Text HLabel 7000 4250 3    50   Input ~ 0
+REG3_IN_H
+Text HLabel 6900 4250 3    50   Input ~ 0
+REG3_IN_L
+Wire Notes Line
+	5350 1300 5350 4750
+Wire Notes Line
+	3700 4750 3700 1300
+Wire Notes Line
+	5350 4750 3700 4750
+Text HLabel 4600 4250 3    50   Input ~ 0
+REG2_IN_H
+Text HLabel 4500 4250 3    50   Input ~ 0
+REG2_IN_L
+Wire Notes Line
+	2950 1300 2950 4750
+Wire Notes Line
+	1300 4750 1300 1300
+Wire Notes Line
+	2950 4750 1300 4750
+Text HLabel 2200 4250 3    50   Input ~ 0
+REG1_IN_H
+Text HLabel 2100 4250 3    50   Input ~ 0
+REG1_IN_L
+Text Notes 1050 7750 0    50   Italic 0
+There is no reset logic here as\nreading from an unset register is\nan undefined behavior.
 $EndSCHEMATC

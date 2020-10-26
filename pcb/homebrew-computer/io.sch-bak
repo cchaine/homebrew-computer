@@ -150,15 +150,8 @@ Connection ~ 6850 2000
 Wire Wire Line
 	6850 2000 6850 1700
 Wire Wire Line
-	6900 2300 6850 2300
-Connection ~ 6850 2300
-Wire Wire Line
-	6850 2300 6850 2000
-Wire Wire Line
 	6900 2600 6850 2600
 Connection ~ 6850 2600
-Wire Wire Line
-	6850 2600 6850 2300
 Wire Wire Line
 	6900 2900 6850 2900
 Connection ~ 6850 2900
@@ -894,4 +887,14 @@ Wire Notes Line
 	750  6450 4050 6450
 Wire Notes Line
 	750  750  4050 750 
+Text HLabel 6750 2300 0    50   Input Italic 0
+RESET
+Wire Wire Line
+	6750 2300 6900 2300
+Wire Wire Line
+	6850 2000 6850 2600
+Text Notes 6300 5000 0    50   Italic 0
+This connector is slightly too small for the purpose,\nbut the next step is 50 ways.
+Text Notes 6300 5250 0    50   Italic 0
+The interrupt controller should be reset when \nthe RESET pin is HIGH.
 $EndSCHEMATC
