@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 9449 8268
 encoding utf-8
-Sheet 7 7
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -117,7 +117,7 @@ Wire Notes Line
 	5200 6300 5200 5300
 Text Notes 5200 5300 0    50   ~ 0
 JTAG
-Text Notes 3800 2350 0    50   ~ 0
+Text Notes 3600 2350 0    50   ~ 0
 Inputs/Outputs
 $Comp
 L 74LVC16374ADGG:74LVC16374ADGG,112 U?
@@ -318,8 +318,6 @@ Wire Wire Line
 	2050 2050 2150 2050
 Wire Wire Line
 	2050 4200 2150 4200
-Text HLabel 2100 4200 3    50   Input ~ 0
-INSTR_IN
 Text HLabel 1700 2400 0    50   Input ~ 0
 BUS1
 Text HLabel 1700 2500 0    50   Input ~ 0
@@ -404,59 +402,59 @@ Text HLabel 6900 3550 0    50   Output ~ 0
 OP_IN
 Text HLabel 6900 3650 0    50   Output ~ 0
 OP1
-Text HLabel 4550 2650 0    50   Output ~ 0
+Text HLabel 4350 2650 0    50   Output ~ 0
 OP2
-Text HLabel 4550 2750 0    50   Output ~ 0
+Text HLabel 4350 2750 0    50   Output ~ 0
 OP3
-Text HLabel 4550 2850 0    50   Output ~ 0
+Text HLabel 4350 2850 0    50   Output ~ 0
 OP4
-Text HLabel 4550 2950 0    50   Output ~ 0
+Text HLabel 4350 2950 0    50   Output ~ 0
 ALU_OUT_I
-Text HLabel 4550 3050 0    50   Input ~ 0
+Text HLabel 4350 3050 0    50   Input ~ 0
 FLAG_NEG
-Text HLabel 4550 3150 0    50   Input ~ 0
+Text HLabel 4350 3150 0    50   Input ~ 0
 FLAG_ZERO
-Text HLabel 4550 3250 0    50   Input ~ 0
+Text HLabel 4350 3250 0    50   Input ~ 0
 FLAG_CARRY
-Text HLabel 4550 3350 0    50   Input ~ 0
+Text HLabel 4350 3350 0    50   Input ~ 0
 FLAG_OVERFLOW
-Text HLabel 4550 3450 0    50   Input ~ 0
+Text HLabel 4350 3450 0    50   Input ~ 0
 REG1_OUT_L_I
-Text HLabel 4550 3550 0    50   Input ~ 0
+Text HLabel 4350 3550 0    50   Input ~ 0
 REG1_OUT_H_I
-Text HLabel 4550 3800 0    50   Input ~ 0
+Text HLabel 4350 3800 0    50   Output ~ 0
 REG1_IN_H
-Text HLabel 4550 3900 0    50   Input ~ 0
+Text HLabel 4350 3900 0    50   Output ~ 0
 REG1_IN_L
-Text HLabel 4550 4000 0    50   Input ~ 0
+Text HLabel 4350 4000 0    50   Output ~ 0
 REG2_OUT_L_I
-Text HLabel 4550 4200 0    50   Input ~ 0
+Text HLabel 4350 4200 0    50   Output ~ 0
 REG2_OUT_H_I
-Text HLabel 4550 4300 0    50   Input ~ 0
+Text HLabel 4350 4300 0    50   Output ~ 0
 REG2_IN_H
-Text HLabel 4550 4400 0    50   Input ~ 0
+Text HLabel 4350 4400 0    50   Output ~ 0
 REG2_IN_L
-Text HLabel 4550 4500 0    50   Input ~ 0
+Text HLabel 4350 4500 0    50   Output ~ 0
 REG3_OUT_L_I
-Text HLabel 4550 4600 0    50   Input ~ 0
+Text HLabel 4350 4600 0    50   Output ~ 0
 REG3_OUT_H_I
-Text HLabel 6000 3650 2    50   Input ~ 0
+Text HLabel 5800 3650 2    50   Output ~ 0
 REG3_IN_H
-Text HLabel 6000 2850 2    50   Input ~ 0
+Text HLabel 5800 2850 2    50   Output ~ 0
 REG3_IN_L
-Text HLabel 6000 2950 2    50   Input ~ 0
+Text HLabel 5800 2950 2    50   Output ~ 0
 SP_OUT_I
-Text HLabel 6000 3050 2    50   Input ~ 0
+Text HLabel 5800 3050 2    50   Output ~ 0
 SP_IN
-Text HLabel 6000 3150 2    50   Input ~ 0
+Text HLabel 5800 3150 2    50   Output ~ 0
 BP_OUT_I
-Text HLabel 6000 3250 2    50   Input ~ 0
+Text HLabel 5800 3250 2    50   Output ~ 0
 BP_IN
-Text HLabel 6000 3350 2    50   Input ~ 0
+Text HLabel 5800 3350 2    50   Output ~ 0
 PC_COUNT
-Text HLabel 6000 3450 2    50   Input ~ 0
+Text HLabel 5800 3450 2    50   Output ~ 0
 PC_OUT_I
-Text HLabel 6000 3550 2    50   Input ~ 0
+Text HLabel 5800 3550 2    50   Output ~ 0
 PC_IN
 $Comp
 L XC9500XL:XC95144XL-10TQ100C U?
@@ -486,8 +484,8 @@ U 1 1 5FA3E0E2
 P 7600 1800
 AR Path="/5F8B5CB7/5FA3E0E2" Ref="#PWR?"  Part="1" 
 AR Path="/5F95DC76/5FA3E0E2" Ref="#PWR?"  Part="1" 
-AR Path="/5F8B5E3D/5FA3E0E2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7600 1550 50  0001 C CNN
+AR Path="/5F8B5E3D/5FA3E0E2" Ref="#PWR0142"  Part="1" 
+F 0 "#PWR0142" H 7600 1550 50  0001 C CNN
 F 1 "GND" H 7605 1627 50  0000 C CNN
 F 2 "" H 7600 1800 50  0001 C CNN
 F 3 "" H 7600 1800 50  0001 C CNN
@@ -599,8 +597,8 @@ U 1 1 5FA5DEF3
 P 5900 1500
 AR Path="/5F8B5CB7/5FA5DEF3" Ref="#PWR?"  Part="1" 
 AR Path="/5F95DC76/5FA5DEF3" Ref="#PWR?"  Part="1" 
-AR Path="/5F8B5E3D/5FA5DEF3" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5900 1350 50  0001 C CNN
+AR Path="/5F8B5E3D/5FA5DEF3" Ref="#PWR0143"  Part="1" 
+F 0 "#PWR0143" H 5900 1350 50  0001 C CNN
 F 1 "+3.3V" H 5915 1673 50  0000 C CNN
 F 2 "" H 5900 1500 50  0001 C CNN
 F 3 "" H 5900 1500 50  0001 C CNN
@@ -648,8 +646,8 @@ U 1 1 5FA6644B
 P 6250 900
 AR Path="/5F8B5CB7/5FA6644B" Ref="#PWR?"  Part="1" 
 AR Path="/5F95DC76/5FA6644B" Ref="#PWR?"  Part="1" 
-AR Path="/5F8B5E3D/5FA6644B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6250 750 50  0001 C CNN
+AR Path="/5F8B5E3D/5FA6644B" Ref="#PWR0144"  Part="1" 
+F 0 "#PWR0144" H 6250 750 50  0001 C CNN
 F 1 "+3.3V" H 6265 1073 50  0000 C CNN
 F 2 "" H 6250 900 50  0001 C CNN
 F 3 "" H 6250 900 50  0001 C CNN
@@ -667,23 +665,23 @@ Wire Notes Line
 $Comp
 L XC9500XL:XC95144XL-10TQ100C U?
 U 4 1 5FA7DC14
-P 4650 2400
-F 0 "U?" H 4400 2400 50  0000 R CNN
-F 1 "XC95144XL-10TQ100C" H 4800 2300 50  0000 R CNN
-F 2 "" H 4650 2400 50  0001 C CNN
-F 3 "" H 4650 2400 50  0001 C CNN
-	4    4650 2400
+P 4450 2400
+F 0 "U?" H 4200 2400 50  0000 R CNN
+F 1 "XC95144XL-10TQ100C" H 4600 2300 50  0000 R CNN
+F 2 "" H 4450 2400 50  0001 C CNN
+F 3 "" H 4450 2400 50  0001 C CNN
+	4    4450 2400
 	-1   0    0    -1  
 $EndComp
 $Comp
 L XC9500XL:XC95144XL-10TQ100C U?
 U 6 1 5FA858A3
-P 4850 3600
-F 0 "U?" H 4850 2350 50  0000 R CNN
-F 1 "XC95144XL-10TQ100C" H 5400 2250 50  0000 R CNN
-F 2 "" H 4850 3600 50  0001 C CNN
-F 3 "" H 4850 3600 50  0001 C CNN
-	6    4850 3600
+P 4650 3600
+F 0 "U?" H 4650 2350 50  0000 R CNN
+F 1 "XC95144XL-10TQ100C" H 5200 2250 50  0000 R CNN
+F 2 "" H 4650 3600 50  0001 C CNN
+F 3 "" H 4650 3600 50  0001 C CNN
+	6    4650 3600
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -697,9 +695,9 @@ F 3 "" H 7250 2550 50  0001 C CNN
 	8    7250 2550
 	-1   0    0    -1  
 $EndComp
-Text HLabel 4550 3650 0    50   Input ~ 0
+Text HLabel 4350 3650 0    50   Input ~ 0
 CLK
-Text HLabel 4550 4100 0    50   Input ~ 0
+Text HLabel 4350 4100 0    50   Input ~ 0
 CLK_I
 $Comp
 L XC9500XL:XC95144XL-10TQ100C U?
@@ -726,44 +724,44 @@ $EndComp
 $Comp
 L XC9500XL:XC95144XL-10TQ100C U?
 U 5 1 5FADBDB0
-P 5900 2500
-F 0 "U?" H 5658 2490 50  0000 C CNN
-F 1 "XC95144XL-10TQ100C" H 5750 2400 50  0000 C CNN
-F 2 "" H 5900 2475 50  0001 C CNN
-F 3 "" H 5900 2475 50  0001 C CNN
-	5    5900 2500
+P 5700 2500
+F 0 "U?" H 5458 2490 50  0000 C CNN
+F 1 "XC95144XL-10TQ100C" H 5550 2400 50  0000 C CNN
+F 2 "" H 5700 2475 50  0001 C CNN
+F 3 "" H 5700 2475 50  0001 C CNN
+	5    5700 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L XC9500XL:XC95144XL-10TQ100C U?
 U 7 1 5FA897E9
-P 5700 3600
-F 0 "U?" H 5600 2350 50  0000 C CNN
-F 1 "XC95144XL-10TQ100C" H 5700 2250 50  0000 C CNN
-F 2 "" H 5700 3600 50  0001 C CNN
-F 3 "" H 5700 3600 50  0001 C CNN
-	7    5700 3600
+P 5500 3600
+F 0 "U?" H 5400 2350 50  0000 C CNN
+F 1 "XC95144XL-10TQ100C" H 5500 2250 50  0000 C CNN
+F 2 "" H 5500 3600 50  0001 C CNN
+F 3 "" H 5500 3600 50  0001 C CNN
+	7    5500 3600
 	1    0    0    -1  
 $EndComp
-Text GLabel 6000 4700 2    50   Input ~ 0
+Text GLabel 5800 4700 2    50   Input ~ 0
 IR10
-Text GLabel 6000 4600 2    50   Input ~ 0
+Text GLabel 5800 4600 2    50   Input ~ 0
 IR9
-Text GLabel 6000 4500 2    50   Input ~ 0
+Text GLabel 5800 4500 2    50   Input ~ 0
 IR8
-Text GLabel 6000 4400 2    50   Input ~ 0
+Text GLabel 5800 4400 2    50   Input ~ 0
 IR7
-Text GLabel 6000 4300 2    50   Input ~ 0
+Text GLabel 5800 4300 2    50   Input ~ 0
 IR6
-Text GLabel 6000 4200 2    50   Input ~ 0
+Text GLabel 5800 4200 2    50   Input ~ 0
 IR5
-Text GLabel 6000 4100 2    50   Input ~ 0
+Text GLabel 5800 4100 2    50   Input ~ 0
 IR4
-Text GLabel 6000 4000 2    50   Input ~ 0
+Text GLabel 5800 4000 2    50   Input ~ 0
 IR3
-Text GLabel 6000 3900 2    50   Input ~ 0
+Text GLabel 5800 3900 2    50   Input ~ 0
 IR2
-Text GLabel 6000 3800 2    50   Input ~ 0
+Text GLabel 5800 3800 2    50   Input ~ 0
 IR1
 $Comp
 L XC9500XL:XC95144XL-10TQ100C U?
@@ -776,24 +774,18 @@ F 3 "" H 7950 3575 50  0001 C CNN
 	11   7950 3600
 	1    0    0    -1  
 $EndComp
-Text HLabel 6000 2750 2    50   Input ~ 0
+Text HLabel 5800 2750 2    50   Input ~ 0
 RESET
 Wire Notes Line
-	8700 2350 8700 5050
-Wire Notes Line
-	8700 5050 3800 5050
-Wire Notes Line
-	3800 5050 3800 2350
-Wire Notes Line
-	3800 2350 8700 2350
+	3600 5050 3600 2350
 $Comp
 L power:GND #PWR?
 U 1 1 5FB4050E
 P 2550 2050
 AR Path="/5F8C07F0/5FB4050E" Ref="#PWR?"  Part="1" 
 AR Path="/5F95DC76/5FB4050E" Ref="#PWR?"  Part="1" 
-AR Path="/5F8B5E3D/5FB4050E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2550 1800 50  0001 C CNN
+AR Path="/5F8B5E3D/5FB4050E" Ref="#PWR0145"  Part="1" 
+F 0 "#PWR0145" H 2550 1800 50  0001 C CNN
 F 1 "GND" H 2555 1877 50  0000 C CNN
 F 2 "" H 2550 2050 50  0001 C CNN
 F 3 "" H 2550 2050 50  0001 C CNN
@@ -805,4 +797,32 @@ Wire Wire Line
 Connection ~ 2150 2050
 Text Notes 1250 4900 0    50   Italic 0
 The instruction register is always\noutputing its content to the control logic
+Text HLabel 6900 3800 0    50   Input ~ 0
+INT
+Text HLabel 6900 3900 0    50   Output ~ 0
+INT_OUT_I
+Text HLabel 6900 4000 0    50   Output ~ 0
+RST_INT
+Text HLabel 6900 4100 0    50   Output ~ 0
+IO_OUT
+Text HLabel 6900 4200 0    50   Output ~ 0
+IO_IN
+Text HLabel 6900 4300 0    50   Output ~ 0
+IO_OUTB
+Text HLabel 6900 4400 0    50   Output ~ 0
+IO_INB
+Text HLabel 6900 4500 0    50   Output ~ 0
+IO_ADDR_IN
+Text HLabel 6900 4600 0    50   Output ~ 0
+PERIPH_MEM_SPACE
+Wire Notes Line
+	8650 2350 8650 5050
+Wire Notes Line
+	3600 5050 8650 5050
+Wire Notes Line
+	3600 2350 8650 2350
+Text GLabel 2100 4200 3    50   Input ~ 0
+INSTR_IN
+Text GLabel 6900 4700 0    50   Input ~ 0
+INSTR_IN
 $EndSCHEMATC

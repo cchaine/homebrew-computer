@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 8661 5906
 encoding utf-8
-Sheet 3 7
+Sheet 2 7
 Title "Arithmetic and Logic Unit"
 Date "2020-10-24"
 Rev "A"

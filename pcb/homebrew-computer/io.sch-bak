@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 9055 7087
 encoding utf-8
-Sheet 6 7
+Sheet 3 7
 Title "Inputs and Outputs"
 Date "2020-10-24"
 Rev "A"
@@ -273,12 +273,6 @@ Text GLabel 6750 2700 0    50   Output ~ 0
 INT1
 Text GLabel 6750 2800 0    50   Output ~ 0
 INT2
-Text GLabel 5000 2800 0    50   Input ~ 0
-INT0
-Text GLabel 5000 2900 0    50   Input ~ 0
-INT1
-Text GLabel 5000 3000 0    50   Input ~ 0
-INT2
 Wire Wire Line
 	5000 3100 5000 3200
 Connection ~ 5000 3200
@@ -374,8 +368,8 @@ L power:GND #PWR?
 U 1 1 5F9B5D81
 P 2700 5850
 AR Path="/5F95DC76/5F9B5D81" Ref="#PWR?"  Part="1" 
-AR Path="/5F8B5DB4/5F9B5D81" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2700 5600 50  0001 C CNN
+AR Path="/5F8B5DB4/5F9B5D81" Ref="#PWR0129"  Part="1" 
+F 0 "#PWR0129" H 2700 5600 50  0001 C CNN
 F 1 "GND" H 2705 5677 50  0000 C CNN
 F 2 "" H 2700 5850 50  0001 C CNN
 F 3 "" H 2700 5850 50  0001 C CNN
@@ -408,8 +402,8 @@ L power:+3.3V #PWR?
 U 1 1 5F9B5D95
 P 1950 5350
 AR Path="/5F95DC76/5F9B5D95" Ref="#PWR?"  Part="1" 
-AR Path="/5F8B5DB4/5F9B5D95" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1950 5200 50  0001 C CNN
+AR Path="/5F8B5DB4/5F9B5D95" Ref="#PWR0130"  Part="1" 
+F 0 "#PWR0130" H 1950 5200 50  0001 C CNN
 F 1 "+3.3V" H 1750 5450 50  0000 C CNN
 F 2 "" H 1950 5350 50  0001 C CNN
 F 3 "" H 1950 5350 50  0001 C CNN
@@ -482,8 +476,8 @@ L power:+3.3V #PWR?
 U 1 1 5F9B5DB9
 P 1850 4550
 AR Path="/5F95DC76/5F9B5DB9" Ref="#PWR?"  Part="1" 
-AR Path="/5F8B5DB4/5F9B5DB9" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1850 4400 50  0001 C CNN
+AR Path="/5F8B5DB4/5F9B5DB9" Ref="#PWR0131"  Part="1" 
+F 0 "#PWR0131" H 1850 4400 50  0001 C CNN
 F 1 "+3.3V" H 1650 4650 50  0000 C CNN
 F 2 "" H 1850 4550 50  0001 C CNN
 F 3 "" H 1850 4550 50  0001 C CNN
@@ -495,8 +489,8 @@ L power:GND #PWR?
 U 1 1 5F9B5DBF
 P 1850 4750
 AR Path="/5F95DC76/5F9B5DBF" Ref="#PWR?"  Part="1" 
-AR Path="/5F8B5DB4/5F9B5DBF" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1850 4500 50  0001 C CNN
+AR Path="/5F8B5DB4/5F9B5DBF" Ref="#PWR0132"  Part="1" 
+F 0 "#PWR0132" H 1850 4500 50  0001 C CNN
 F 1 "GND" H 1855 4577 50  0000 C CNN
 F 2 "" H 1850 4750 50  0001 C CNN
 F 3 "" H 1850 4750 50  0001 C CNN
@@ -544,8 +538,8 @@ L power:+3.3V #PWR?
 U 1 1 5F9B5DDA
 P 1600 3450
 AR Path="/5F95DC76/5F9B5DDA" Ref="#PWR?"  Part="1" 
-AR Path="/5F8B5DB4/5F9B5DDA" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1600 3300 50  0001 C CNN
+AR Path="/5F8B5DB4/5F9B5DDA" Ref="#PWR0133"  Part="1" 
+F 0 "#PWR0133" H 1600 3300 50  0001 C CNN
 F 1 "+3.3V" H 1550 3600 50  0000 C CNN
 F 2 "" H 1600 3450 50  0001 C CNN
 F 3 "" H 1600 3450 50  0001 C CNN
@@ -553,38 +547,6 @@ F 3 "" H 1600 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 1600 3450
-Text GLabel 2650 1250 2    50   BiDi ~ 0
-IO1
-Text GLabel 2650 1350 2    50   BiDi ~ 0
-IO2
-Text GLabel 2650 1450 2    50   BiDi ~ 0
-IO3
-Text GLabel 2650 1550 2    50   BiDi ~ 0
-IO4
-Text GLabel 2650 1650 2    50   BiDi ~ 0
-IO5
-Text GLabel 2650 1750 2    50   BiDi ~ 0
-IO6
-Text GLabel 2650 1850 2    50   BiDi ~ 0
-IO7
-Text GLabel 2650 1950 2    50   BiDi ~ 0
-IO8
-Text GLabel 2650 2050 2    50   BiDi ~ 0
-IO9
-Text GLabel 2650 2150 2    50   BiDi ~ 0
-IO10
-Text GLabel 2650 2250 2    50   BiDi ~ 0
-IO11
-Text GLabel 2650 2350 2    50   BiDi ~ 0
-IO12
-Text GLabel 2650 2450 2    50   BiDi ~ 0
-IO13
-Text GLabel 2650 2550 2    50   BiDi ~ 0
-IO14
-Text GLabel 2650 2650 2    50   BiDi ~ 0
-IO15
-Text GLabel 2650 2750 2    50   BiDi ~ 0
-IO16
 Text HLabel 3400 3350 2    50   Input ~ 0
 IO_OUT
 Text HLabel 3400 3450 2    50   Input ~ 0
@@ -703,8 +665,8 @@ L power:+3.3V #PWR?
 U 1 1 5F9B5E3B
 P 2400 3400
 AR Path="/5F95DC76/5F9B5E3B" Ref="#PWR?"  Part="1" 
-AR Path="/5F8B5DB4/5F9B5E3B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2400 3250 50  0001 C CNN
+AR Path="/5F8B5DB4/5F9B5E3B" Ref="#PWR0134"  Part="1" 
+F 0 "#PWR0134" H 2400 3250 50  0001 C CNN
 F 1 "+3.3V" H 2250 3500 50  0000 C CNN
 F 2 "" H 2400 3400 50  0001 C CNN
 F 3 "" H 2400 3400 50  0001 C CNN
@@ -716,8 +678,8 @@ L power:GND #PWR?
 U 1 1 5F9B5E41
 P 3050 3600
 AR Path="/5F95DC76/5F9B5E41" Ref="#PWR?"  Part="1" 
-AR Path="/5F8B5DB4/5F9B5E41" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3050 3350 50  0001 C CNN
+AR Path="/5F8B5DB4/5F9B5E41" Ref="#PWR0135"  Part="1" 
+F 0 "#PWR0135" H 3050 3350 50  0001 C CNN
 F 1 "GND" H 3055 3427 50  0000 C CNN
 F 2 "" H 3050 3600 50  0001 C CNN
 F 3 "" H 3050 3600 50  0001 C CNN
@@ -744,8 +706,8 @@ L power:+3.3V #PWR?
 U 1 1 5F9B5E50
 P 3100 4550
 AR Path="/5F95DC76/5F9B5E50" Ref="#PWR?"  Part="1" 
-AR Path="/5F8B5DB4/5F9B5E50" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3100 4400 50  0001 C CNN
+AR Path="/5F8B5DB4/5F9B5E50" Ref="#PWR0136"  Part="1" 
+F 0 "#PWR0136" H 3100 4400 50  0001 C CNN
 F 1 "+3.3V" H 2900 4650 50  0000 C CNN
 F 2 "" H 3100 4550 50  0001 C CNN
 F 3 "" H 3100 4550 50  0001 C CNN
@@ -757,8 +719,8 @@ L power:GND #PWR?
 U 1 1 5F9B5E56
 P 3100 4750
 AR Path="/5F95DC76/5F9B5E56" Ref="#PWR?"  Part="1" 
-AR Path="/5F8B5DB4/5F9B5E56" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3100 4500 50  0001 C CNN
+AR Path="/5F8B5DB4/5F9B5E56" Ref="#PWR0137"  Part="1" 
+F 0 "#PWR0137" H 3100 4500 50  0001 C CNN
 F 1 "GND" H 3105 4577 50  0000 C CNN
 F 2 "" H 3100 4750 50  0001 C CNN
 F 3 "" H 3100 4750 50  0001 C CNN
@@ -897,4 +859,42 @@ Text Notes 6300 5000 0    50   Italic 0
 This connector is slightly too small for the purpose,\nbut the next step is 50 ways.
 Text Notes 6300 5250 0    50   Italic 0
 The interrupt controller should be reset when \nthe RESET pin is HIGH.
+Text GLabel 2650 2750 2    50   BiDi ~ 0
+IO16
+Text GLabel 2650 2650 2    50   BiDi ~ 0
+IO15
+Text GLabel 2650 2550 2    50   BiDi ~ 0
+IO14
+Text GLabel 2650 2450 2    50   BiDi ~ 0
+IO13
+Text GLabel 2650 2350 2    50   BiDi ~ 0
+IO12
+Text GLabel 2650 2250 2    50   BiDi ~ 0
+IO11
+Text GLabel 2650 2150 2    50   BiDi ~ 0
+IO10
+Text GLabel 2650 2050 2    50   BiDi ~ 0
+IO9
+Text GLabel 2650 1950 2    50   BiDi ~ 0
+IO8
+Text GLabel 2650 1850 2    50   BiDi ~ 0
+IO7
+Text GLabel 2650 1750 2    50   BiDi ~ 0
+IO6
+Text GLabel 2650 1650 2    50   BiDi ~ 0
+IO5
+Text GLabel 2650 1550 2    50   BiDi ~ 0
+IO4
+Text GLabel 2650 1450 2    50   BiDi ~ 0
+IO3
+Text GLabel 2650 1350 2    50   BiDi ~ 0
+IO2
+Text GLabel 2650 1250 2    50   BiDi ~ 0
+IO1
+Text GLabel 5000 3000 0    50   Input ~ 0
+INT2
+Text GLabel 5000 2900 0    50   Input ~ 0
+INT1
+Text GLabel 5000 2800 0    50   Input ~ 0
+INT0
 $EndSCHEMATC
