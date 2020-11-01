@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 9055 7087
 encoding utf-8
-Sheet 3 7
+Sheet 7 7
 Title "Inputs and Outputs"
 Date "2020-10-24"
 Rev "A"
@@ -15,45 +15,13 @@ Comment4 ""
 $EndDescr
 Text Notes 6300 3700 0    50   Italic 0
 When there is a pending interrupt\nINT is set to 1 and INT[2:0] is the index in the IVT.\nWhen the reti is called, RST_INT is set to 1.
-Text GLabel 6750 1200 0    50   BiDi ~ 0
-IO1
-Text GLabel 6750 1300 0    50   BiDi ~ 0
-IO2
-Text GLabel 6750 1500 0    50   BiDi ~ 0
-IO3
-Text GLabel 6750 1600 0    50   BiDi ~ 0
-IO4
-Text GLabel 6750 1800 0    50   BiDi ~ 0
-IO5
-Text GLabel 6750 1900 0    50   BiDi ~ 0
-IO6
-Text GLabel 6750 2100 0    50   BiDi ~ 0
-IO7
-Text GLabel 6750 2200 0    50   BiDi ~ 0
-IO8
-Text GLabel 7550 2200 2    50   BiDi ~ 0
-IO9
-Text GLabel 7550 2100 2    50   BiDi ~ 0
-IO10
-Text GLabel 7550 1900 2    50   BiDi ~ 0
-IO11
-Text GLabel 7550 1800 2    50   BiDi ~ 0
-IO12
-Text GLabel 7550 1600 2    50   BiDi ~ 0
-IO13
-Text GLabel 7550 1500 2    50   BiDi ~ 0
-IO14
-Text GLabel 7550 1300 2    50   BiDi ~ 0
-IO15
-Text GLabel 7550 1200 2    50   BiDi ~ 0
-IO16
 Text Notes 6300 4050 0    50   Italic 0
 The clock is not sent through this connector.\nIt is passed by another connector to the clock module,\nin the external clock configuration
 $Comp
-L Connector_Generic:Conn_02x20_Counter_Clockwise J?
+L Connector_Generic:Conn_02x20_Counter_Clockwise J4
 U 1 1 5F93FA7B
 P 7100 2000
-F 0 "J?" H 7150 3117 50  0000 C CNN
+F 0 "J4" H 7150 3117 50  0000 C CNN
 F 1 "Conn_02x20_Counter_Clockwise" H 7150 3026 50  0000 C CNN
 F 2 "" H 7100 2000 50  0001 C CNN
 F 3 "~" H 7100 2000 50  0001 C CNN
@@ -189,10 +157,10 @@ IO connector
 Text HLabel 6750 2400 0    50   Output ~ 0
 INT
 $Comp
-L 74AVC4T245:SN74AVC4T245PWR U?
+L 74AVC4T245:SN74AVC4T245PWR U6
 U 1 1 5F99CCF0
 P 5350 2300
-F 0 "U?" H 5350 2365 50  0000 C CNN
+F 0 "U6" H 5350 2365 50  0000 C CNN
 F 1 "SN74AVC4T245PWR" H 5350 2274 50  0000 C CNN
 F 2 "" H 5350 2300 50  0001 C CNN
 F 3 "" H 5350 2300 50  0001 C CNN
@@ -231,10 +199,10 @@ Wire Wire Line
 	5700 3400 5700 3200
 Connection ~ 5350 3400
 $Comp
-L Device:C_Small C?
+L Device:C_Small C7
 U 1 1 5F9A92C1
 P 4350 2650
-F 0 "C?" H 4442 2696 50  0000 L CNN
+F 0 "C7" H 4442 2696 50  0000 L CNN
 F 1 "100n" H 4442 2605 50  0000 L CNN
 F 2 "" H 4350 2650 50  0001 C CNN
 F 3 "~" H 4350 2650 50  0001 C CNN
@@ -267,21 +235,9 @@ Wire Wire Line
 	5000 2600 5000 2700
 Wire Wire Line
 	5700 2600 5700 2700
-Text GLabel 6750 2500 0    50   Output ~ 0
-INT0
-Text GLabel 6750 2700 0    50   Output ~ 0
-INT1
-Text GLabel 6750 2800 0    50   Output ~ 0
-INT2
 Wire Wire Line
 	5000 3100 5000 3200
 Connection ~ 5000 3200
-Text HLabel 5700 2800 2    50   3State ~ 0
-BUS1
-Text HLabel 5700 2900 2    50   3State ~ 0
-BUS2
-Text HLabel 5700 3000 2    50   3State ~ 0
-BUS3
 NoConn ~ 5700 3100
 $Comp
 L power:+3.3V #PWR0155
@@ -329,8 +285,8 @@ L 74AVC16T245:SN74AVC16T245DGGR U?
 U 1 1 5F9B5D6E
 P 2000 3250
 AR Path="/5F95DC76/5F9B5D6E" Ref="U?"  Part="1" 
-AR Path="/5F8B5DB4/5F9B5D6E" Ref="U?"  Part="1" 
-F 0 "U?" H 1900 3350 50  0000 C CNN
+AR Path="/5F8B5DB4/5F9B5D6E" Ref="U5"  Part="1" 
+F 0 "U5" H 1900 3350 50  0000 C CNN
 F 1 "SN74AVC16T245DGGR" H 1900 3300 50  0000 C CNN
 F 2 "" H 2000 3250 50  0001 C CNN
 F 3 "" H 2000 3250 50  0001 C CNN
@@ -342,8 +298,8 @@ L 74AVC16T245:SN74AVC16T245DGGR U?
 U 2 1 5F9B5D74
 P 2300 4900
 AR Path="/5F95DC76/5F9B5D74" Ref="U?"  Part="2" 
-AR Path="/5F8B5DB4/5F9B5D74" Ref="U?"  Part="2" 
-F 0 "U?" H 2325 4915 50  0000 C CNN
+AR Path="/5F8B5DB4/5F9B5D74" Ref="U5"  Part="2" 
+F 0 "U5" H 2325 4915 50  0000 C CNN
 F 1 "SN74AVC16T245DGGR" H 2325 4824 50  0000 C CNN
 F 2 "" H 2300 4900 50  0001 C CNN
 F 3 "" H 2300 4900 50  0001 C CNN
@@ -353,14 +309,14 @@ $EndComp
 $Comp
 L 74AVC16T245:SN74AVC16T245DGGR U?
 U 3 1 5F9B5D7A
-P 2250 1000
+P 2350 1000
 AR Path="/5F95DC76/5F9B5D7A" Ref="U?"  Part="3" 
-AR Path="/5F8B5DB4/5F9B5D7A" Ref="U?"  Part="3" 
-F 0 "U?" H 2325 1015 50  0000 C CNN
-F 1 "SN74AVC16T245DGGR" H 2325 924 50  0000 C CNN
-F 2 "" H 2250 1000 50  0001 C CNN
-F 3 "" H 2250 1000 50  0001 C CNN
-	3    2250 1000
+AR Path="/5F8B5DB4/5F9B5D7A" Ref="U5"  Part="3" 
+F 0 "U5" H 2425 1015 50  0000 C CNN
+F 1 "SN74AVC16T245DGGR" H 2425 924 50  0000 C CNN
+F 2 "" H 2350 1000 50  0001 C CNN
+F 3 "" H 2350 1000 50  0001 C CNN
+	3    2350 1000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -424,8 +380,8 @@ L Device:C_Small C?
 U 1 1 5F9B5DA1
 P 2150 4650
 AR Path="/5F95DC76/5F9B5DA1" Ref="C?"  Part="1" 
-AR Path="/5F8B5DB4/5F9B5DA1" Ref="C?"  Part="1" 
-F 0 "C?" H 2242 4696 50  0000 L CNN
+AR Path="/5F8B5DB4/5F9B5DA1" Ref="C9"  Part="1" 
+F 0 "C9" H 2242 4696 50  0000 L CNN
 F 1 "100n" H 2242 4605 50  0000 L CNN
 F 2 "" H 2150 4650 50  0001 C CNN
 F 3 "~" H 2150 4650 50  0001 C CNN
@@ -437,8 +393,8 @@ L Device:C_Small C?
 U 1 1 5F9B5DA7
 P 2450 4650
 AR Path="/5F95DC76/5F9B5DA7" Ref="C?"  Part="1" 
-AR Path="/5F8B5DB4/5F9B5DA7" Ref="C?"  Part="1" 
-F 0 "C?" H 2542 4696 50  0000 L CNN
+AR Path="/5F8B5DB4/5F9B5DA7" Ref="C10"  Part="1" 
+F 0 "C10" H 2542 4696 50  0000 L CNN
 F 1 "100n" H 2542 4605 50  0000 L CNN
 F 2 "" H 2450 4650 50  0001 C CNN
 F 3 "~" H 2450 4650 50  0001 C CNN
@@ -450,8 +406,8 @@ L Device:C_Small C?
 U 1 1 5F9B5DAD
 P 2750 4650
 AR Path="/5F95DC76/5F9B5DAD" Ref="C?"  Part="1" 
-AR Path="/5F8B5DB4/5F9B5DAD" Ref="C?"  Part="1" 
-F 0 "C?" H 2842 4696 50  0000 L CNN
+AR Path="/5F8B5DB4/5F9B5DAD" Ref="C11"  Part="1" 
+F 0 "C11" H 2842 4696 50  0000 L CNN
 F 1 "100n" H 2842 4605 50  0000 L CNN
 F 2 "" H 2750 4650 50  0001 C CNN
 F 3 "~" H 2750 4650 50  0001 C CNN
@@ -463,8 +419,8 @@ L Device:C_Small C?
 U 1 1 5F9B5DB3
 P 1850 4650
 AR Path="/5F95DC76/5F9B5DB3" Ref="C?"  Part="1" 
-AR Path="/5F8B5DB4/5F9B5DB3" Ref="C?"  Part="1" 
-F 0 "C?" H 1942 4696 50  0000 L CNN
+AR Path="/5F8B5DB4/5F9B5DB3" Ref="C8"  Part="1" 
+F 0 "C8" H 1942 4696 50  0000 L CNN
 F 1 "100n" H 1942 4605 50  0000 L CNN
 F 2 "" H 1850 4650 50  0001 C CNN
 F 3 "~" H 1850 4650 50  0001 C CNN
@@ -560,8 +516,8 @@ L Device:D_Small D?
 U 1 1 5F9B5E06
 P 3300 3350
 AR Path="/5F95DC76/5F9B5E06" Ref="D?"  Part="1" 
-AR Path="/5F8B5DB4/5F9B5E06" Ref="D?"  Part="1" 
-F 0 "D?" H 3300 3557 50  0000 C CNN
+AR Path="/5F8B5DB4/5F9B5E06" Ref="D3"  Part="1" 
+F 0 "D3" H 3300 3557 50  0000 C CNN
 F 1 "D_Small" H 3500 3550 50  0000 C CNN
 F 2 "" V 3300 3350 50  0001 C CNN
 F 3 "~" V 3300 3350 50  0001 C CNN
@@ -573,8 +529,8 @@ L Device:D_Small D?
 U 1 1 5F9B5E0C
 P 3300 3450
 AR Path="/5F95DC76/5F9B5E0C" Ref="D?"  Part="1" 
-AR Path="/5F8B5DB4/5F9B5E0C" Ref="D?"  Part="1" 
-F 0 "D?" H 3300 3657 50  0000 C CNN
+AR Path="/5F8B5DB4/5F9B5E0C" Ref="D5"  Part="1" 
+F 0 "D5" H 3300 3657 50  0000 C CNN
 F 1 "D_Small" H 3500 3650 50  0000 C CNN
 F 2 "" V 3300 3450 50  0001 C CNN
 F 3 "~" V 3300 3450 50  0001 C CNN
@@ -586,8 +542,8 @@ L Device:D_Small D?
 U 1 1 5F9B5E12
 P 3300 3550
 AR Path="/5F95DC76/5F9B5E12" Ref="D?"  Part="1" 
-AR Path="/5F8B5DB4/5F9B5E12" Ref="D?"  Part="1" 
-F 0 "D?" H 3300 3050 50  0000 C CNN
+AR Path="/5F8B5DB4/5F9B5E12" Ref="D7"  Part="1" 
+F 0 "D7" H 3300 3050 50  0000 C CNN
 F 1 "D_Small" H 3500 3050 50  0000 C CNN
 F 2 "" V 3300 3550 50  0001 C CNN
 F 3 "~" V 3300 3550 50  0001 C CNN
@@ -599,8 +555,8 @@ L Device:D_Small D?
 U 1 1 5F9B5E18
 P 3300 3650
 AR Path="/5F95DC76/5F9B5E18" Ref="D?"  Part="1" 
-AR Path="/5F8B5DB4/5F9B5E18" Ref="D?"  Part="1" 
-F 0 "D?" H 3300 3450 50  0000 C CNN
+AR Path="/5F8B5DB4/5F9B5E18" Ref="D8"  Part="1" 
+F 0 "D8" H 3300 3450 50  0000 C CNN
 F 1 "D_Small" H 3500 3450 50  0000 C CNN
 F 2 "" V 3300 3650 50  0001 C CNN
 F 3 "~" V 3300 3650 50  0001 C CNN
@@ -616,8 +572,8 @@ L Device:D_Small D?
 U 1 1 5F9B5E22
 P 3300 3750
 AR Path="/5F95DC76/5F9B5E22" Ref="D?"  Part="1" 
-AR Path="/5F8B5DB4/5F9B5E22" Ref="D?"  Part="1" 
-F 0 "D?" H 3300 3550 50  0000 C CNN
+AR Path="/5F8B5DB4/5F9B5E22" Ref="D9"  Part="1" 
+F 0 "D9" H 3300 3550 50  0000 C CNN
 F 1 "D_Small" H 3500 3550 50  0000 C CNN
 F 2 "" V 3300 3750 50  0001 C CNN
 F 3 "~" V 3300 3750 50  0001 C CNN
@@ -638,8 +594,8 @@ L 74LVC1G14:74LVC1G14GV,125 U?
 U 1 1 5F9B5E2D
 P 2700 3200
 AR Path="/5F95DC76/5F9B5E2D" Ref="U?"  Part="1" 
-AR Path="/5F8B5DB4/5F9B5E2D" Ref="U?"  Part="1" 
-F 0 "U?" H 2700 3250 50  0000 C CNN
+AR Path="/5F8B5DB4/5F9B5E2D" Ref="U7"  Part="1" 
+F 0 "U7" H 2700 3250 50  0000 C CNN
 F 1 "74LVC1G14GV,125" H 2650 3200 50  0000 C CNN
 F 2 "" H 2700 3200 50  0001 C CNN
 F 3 "" H 2700 3200 50  0001 C CNN
@@ -693,8 +649,8 @@ L Device:C_Small C?
 U 1 1 5F9B5E4A
 P 3100 4650
 AR Path="/5F95DC76/5F9B5E4A" Ref="C?"  Part="1" 
-AR Path="/5F8B5DB4/5F9B5E4A" Ref="C?"  Part="1" 
-F 0 "C?" H 3192 4696 50  0000 L CNN
+AR Path="/5F8B5DB4/5F9B5E4A" Ref="C12"  Part="1" 
+F 0 "C12" H 3192 4696 50  0000 L CNN
 F 1 "100n" H 3192 4605 50  0000 L CNN
 F 2 "" H 3100 4650 50  0001 C CNN
 F 3 "~" H 3100 4650 50  0001 C CNN
@@ -751,38 +707,6 @@ Wire Notes Line
 	6300 750  8400 750 
 Wire Notes Line
 	6300 3400 8400 3400
-Text HLabel 2000 1250 0    50   3State ~ 0
-BUS1
-Text HLabel 2000 1350 0    50   3State ~ 0
-BUS2
-Text HLabel 2000 1450 0    50   3State ~ 0
-BUS3
-Text HLabel 2000 1550 0    50   3State ~ 0
-BUS4
-Text HLabel 2000 1650 0    50   3State ~ 0
-BUS5
-Text HLabel 2000 1750 0    50   3State ~ 0
-BUS6
-Text HLabel 2000 1850 0    50   3State ~ 0
-BUS7
-Text HLabel 2000 1950 0    50   3State ~ 0
-BUS8
-Text HLabel 2000 2050 0    50   3State ~ 0
-BUS9
-Text HLabel 2000 2150 0    50   3State ~ 0
-BUS10
-Text HLabel 2000 2250 0    50   3State ~ 0
-BUS11
-Text HLabel 2000 2350 0    50   3State ~ 0
-BUS12
-Text HLabel 2000 2450 0    50   3State ~ 0
-BUS13
-Text HLabel 2000 2550 0    50   3State ~ 0
-BUS14
-Text HLabel 2000 2650 0    50   3State ~ 0
-BUS15
-Text HLabel 2000 2750 0    50   3State ~ 0
-BUS16
 Text HLabel 7550 2400 2    50   Input ~ 0
 IO_ADDR_IN
 Text HLabel 7550 2500 2    50   Input ~ 0
@@ -804,8 +728,8 @@ L Device:D_Small D?
 U 1 1 5F9E6C34
 P 1350 3450
 AR Path="/5F95DC76/5F9E6C34" Ref="D?"  Part="1" 
-AR Path="/5F8B5DB4/5F9E6C34" Ref="D?"  Part="1" 
-F 0 "D?" H 1350 3657 50  0000 C CNN
+AR Path="/5F8B5DB4/5F9E6C34" Ref="D4"  Part="1" 
+F 0 "D4" H 1350 3657 50  0000 C CNN
 F 1 "D_Small" H 1550 3650 50  0000 C CNN
 F 2 "" V 1350 3450 50  0001 C CNN
 F 3 "~" V 1350 3450 50  0001 C CNN
@@ -817,8 +741,8 @@ L Device:D_Small D?
 U 1 1 5F9E6C3A
 P 1350 3550
 AR Path="/5F95DC76/5F9E6C3A" Ref="D?"  Part="1" 
-AR Path="/5F8B5DB4/5F9E6C3A" Ref="D?"  Part="1" 
-F 0 "D?" H 1350 3757 50  0000 C CNN
+AR Path="/5F8B5DB4/5F9E6C3A" Ref="D6"  Part="1" 
+F 0 "D6" H 1350 3757 50  0000 C CNN
 F 1 "D_Small" H 1550 3750 50  0000 C CNN
 F 2 "" V 1350 3550 50  0001 C CNN
 F 3 "~" V 1350 3550 50  0001 C CNN
@@ -859,42 +783,118 @@ Text Notes 6300 5000 0    50   Italic 0
 This connector is slightly too small for the purpose,\nbut the next step is 50 ways.
 Text Notes 6300 5250 0    50   Italic 0
 The interrupt controller should be reset when \nthe RESET pin is HIGH.
-Text GLabel 2650 2750 2    50   BiDi ~ 0
-IO16
-Text GLabel 2650 2650 2    50   BiDi ~ 0
-IO15
-Text GLabel 2650 2550 2    50   BiDi ~ 0
-IO14
-Text GLabel 2650 2450 2    50   BiDi ~ 0
-IO13
-Text GLabel 2650 2350 2    50   BiDi ~ 0
-IO12
-Text GLabel 2650 2250 2    50   BiDi ~ 0
-IO11
-Text GLabel 2650 2150 2    50   BiDi ~ 0
-IO10
-Text GLabel 2650 2050 2    50   BiDi ~ 0
-IO9
-Text GLabel 2650 1950 2    50   BiDi ~ 0
-IO8
-Text GLabel 2650 1850 2    50   BiDi ~ 0
-IO7
-Text GLabel 2650 1750 2    50   BiDi ~ 0
-IO6
-Text GLabel 2650 1650 2    50   BiDi ~ 0
-IO5
-Text GLabel 2650 1550 2    50   BiDi ~ 0
-IO4
-Text GLabel 2650 1450 2    50   BiDi ~ 0
-IO3
-Text GLabel 2650 1350 2    50   BiDi ~ 0
-IO2
-Text GLabel 2650 1250 2    50   BiDi ~ 0
+Text GLabel 2100 2750 0    50   3State ~ 0
+BUS16
+Text GLabel 2100 2650 0    50   3State ~ 0
+BUS15
+Text GLabel 2100 2550 0    50   3State ~ 0
+BUS14
+Text GLabel 2100 2450 0    50   3State ~ 0
+BUS13
+Text GLabel 2100 2350 0    50   3State ~ 0
+BUS12
+Text GLabel 2100 2250 0    50   3State ~ 0
+BUS11
+Text GLabel 2100 2150 0    50   3State ~ 0
+BUS10
+Text GLabel 2100 2050 0    50   3State ~ 0
+BUS9
+Text GLabel 2100 1950 0    50   3State ~ 0
+BUS8
+Text GLabel 2100 1850 0    50   3State ~ 0
+BUS7
+Text GLabel 2100 1750 0    50   3State ~ 0
+BUS6
+Text GLabel 2100 1650 0    50   3State ~ 0
+BUS5
+Text GLabel 2100 1550 0    50   3State ~ 0
+BUS4
+Text GLabel 2100 1450 0    50   3State ~ 0
+BUS3
+Text GLabel 2100 1350 0    50   3State ~ 0
+BUS2
+Text GLabel 2100 1250 0    50   3State ~ 0
+BUS1
+Text Label 2750 1250 0    50   ~ 0
 IO1
-Text GLabel 5000 3000 0    50   Input ~ 0
-INT2
-Text GLabel 5000 2900 0    50   Input ~ 0
-INT1
-Text GLabel 5000 2800 0    50   Input ~ 0
+Text Label 2750 1350 0    50   ~ 0
+IO2
+Text Label 2750 1450 0    50   ~ 0
+IO3
+Text Label 2750 1550 0    50   ~ 0
+IO4
+Text Label 2750 1650 0    50   ~ 0
+IO5
+Text Label 2750 1750 0    50   ~ 0
+IO6
+Text Label 2750 1850 0    50   ~ 0
+IO7
+Text Label 2750 1950 0    50   ~ 0
+IO8
+Text Label 2750 2050 0    50   ~ 0
+IO9
+Text Label 2750 2150 0    50   ~ 0
+IO10
+Text Label 2750 2250 0    50   ~ 0
+IO11
+Text Label 2750 2350 0    50   ~ 0
+IO12
+Text Label 2750 2450 0    50   ~ 0
+IO13
+Text Label 2750 2550 0    50   ~ 0
+IO14
+Text Label 2750 2650 0    50   ~ 0
+IO15
+Text Label 2750 2750 0    50   ~ 0
+IO16
+Text GLabel 5700 3000 2    50   3State ~ 0
+BUS3
+Text GLabel 5700 2900 2    50   3State ~ 0
+BUS2
+Text GLabel 5700 2800 2    50   3State ~ 0
+BUS1
+Text Label 6750 1200 2    50   ~ 0
+IO1
+Text Label 6750 1300 2    50   ~ 0
+IO2
+Text Label 6750 1500 2    50   ~ 0
+IO3
+Text Label 6750 1600 2    50   ~ 0
+IO4
+Text Label 6750 1800 2    50   ~ 0
+IO5
+Text Label 6750 1900 2    50   ~ 0
+IO6
+Text Label 6750 2100 2    50   ~ 0
+IO7
+Text Label 6750 2200 2    50   ~ 0
+IO8
+Text Label 7550 2100 0    50   ~ 0
+IO9
+Text Label 7550 2200 0    50   ~ 0
+IO10
+Text Label 7550 1800 0    50   ~ 0
+IO11
+Text Label 7550 1900 0    50   ~ 0
+IO12
+Text Label 7550 1500 0    50   ~ 0
+IO13
+Text Label 7550 1600 0    50   ~ 0
+IO14
+Text Label 7550 1200 0    50   ~ 0
+IO15
+Text Label 7550 1300 0    50   ~ 0
+IO16
+Text Label 6750 2500 2    50   ~ 0
 INT0
+Text Label 6750 2700 2    50   ~ 0
+INT1
+Text Label 6750 2800 2    50   ~ 0
+INT2
+Text Label 5000 2800 2    50   ~ 0
+INT0
+Text Label 5000 2900 2    50   ~ 0
+INT1
+Text Label 5000 3000 2    50   ~ 0
+INT2
 $EndSCHEMATC

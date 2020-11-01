@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 13386 9843
 encoding utf-8
-Sheet 5 7
+Sheet 2 7
 Title "Registers"
 Date "2020-10-24"
 Rev "A"
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 74LVC16374ADGG:74LVC16374ADGG,112 U?
+L 74LVC16374ADGG:74LVC16374ADGG,112 U9
 U 1 1 5F904E4A
 P 2150 1800
-F 0 "U?" H 2150 2200 50  0000 C CNN
+F 0 "U9" H 2150 2200 50  0000 C CNN
 F 1 "74LVC16374ADGG,112" H 2150 2100 50  0000 C CNN
 F 2 "" H 2150 1800 50  0001 C CNN
 F 3 "" H 2150 1800 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "" H 2150 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LVC16374ADGG:74LVC16374ADGG,112 U?
+L 74LVC16374ADGG:74LVC16374ADGG,112 U9
 U 2 1 5F9060F4
 P 2150 5300
-F 0 "U?" H 2175 5315 50  0000 C CNN
+F 0 "U9" H 2175 5315 50  0000 C CNN
 F 1 "74LVC16374ADGG,112" H 2175 5224 50  0000 C CNN
 F 2 "" H 2150 5300 50  0001 C CNN
 F 3 "" H 2150 5300 50  0001 C CNN
@@ -56,10 +56,10 @@ Connection ~ 1850 6150
 Wire Wire Line
 	1850 6150 1850 6250
 $Comp
-L Device:C_Small C?
+L Device:C_Small C19
 U 1 1 5F91AE0D
 P 2700 6600
-F 0 "C?" H 2792 6646 50  0000 L CNN
+F 0 "C19" H 2792 6646 50  0000 L CNN
 F 1 "100n" H 2792 6555 50  0000 L CNN
 F 2 "" H 2700 6600 50  0001 C CNN
 F 3 "~" H 2700 6600 50  0001 C CNN
@@ -67,10 +67,10 @@ F 3 "~" H 2700 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C16
 U 1 1 5F91B64C
 P 1650 6600
-F 0 "C?" H 1742 6646 50  0000 L CNN
+F 0 "C16" H 1742 6646 50  0000 L CNN
 F 1 "100n" H 1742 6555 50  0000 L CNN
 F 2 "" H 1650 6600 50  0001 C CNN
 F 3 "~" H 1650 6600 50  0001 C CNN
@@ -78,10 +78,10 @@ F 3 "~" H 1650 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C17
 U 1 1 5F91BFC1
 P 2000 6600
-F 0 "C?" H 2092 6646 50  0000 L CNN
+F 0 "C17" H 2092 6646 50  0000 L CNN
 F 1 "100n" H 2092 6555 50  0000 L CNN
 F 2 "" H 2000 6600 50  0001 C CNN
 F 3 "~" H 2000 6600 50  0001 C CNN
@@ -89,10 +89,10 @@ F 3 "~" H 2000 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C18
 U 1 1 5F91C66D
 P 2350 6600
-F 0 "C?" H 2442 6646 50  0000 L CNN
+F 0 "C18" H 2442 6646 50  0000 L CNN
 F 1 "100n" H 2442 6555 50  0000 L CNN
 F 2 "" H 2350 6600 50  0001 C CNN
 F 3 "~" H 2350 6600 50  0001 C CNN
@@ -186,10 +186,10 @@ Wire Notes Line
 Text Notes 1050 1100 0    50   ~ 0
 Register 1
 $Comp
-L 74LVC16374ADGG:74LVC16374ADGG,112 U?
+L 74LVC16374ADGG:74LVC16374ADGG,112 U10
 U 1 1 5F9353AC
 P 4550 1800
-F 0 "U?" H 4550 2200 50  0000 C CNN
+F 0 "U10" H 4550 2200 50  0000 C CNN
 F 1 "74LVC16374ADGG,112" H 4550 2100 50  0000 C CNN
 F 2 "" H 4550 1800 50  0001 C CNN
 F 3 "" H 4550 1800 50  0001 C CNN
@@ -197,10 +197,10 @@ F 3 "" H 4550 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LVC16374ADGG:74LVC16374ADGG,112 U?
+L 74LVC16374ADGG:74LVC16374ADGG,112 U10
 U 2 1 5F935420
 P 4550 5300
-F 0 "U?" H 4575 5315 50  0000 C CNN
+F 0 "U10" H 4575 5315 50  0000 C CNN
 F 1 "74LVC16374ADGG,112" H 4575 5224 50  0000 C CNN
 F 2 "" H 4550 5300 50  0001 C CNN
 F 3 "" H 4550 5300 50  0001 C CNN
@@ -228,10 +228,10 @@ Connection ~ 4250 6150
 Wire Wire Line
 	4250 6150 4250 6250
 $Comp
-L Device:C_Small C?
+L Device:C_Small C23
 U 1 1 5F9354A1
 P 5100 6600
-F 0 "C?" H 5192 6646 50  0000 L CNN
+F 0 "C23" H 5192 6646 50  0000 L CNN
 F 1 "100n" H 5192 6555 50  0000 L CNN
 F 2 "" H 5100 6600 50  0001 C CNN
 F 3 "~" H 5100 6600 50  0001 C CNN
@@ -239,10 +239,10 @@ F 3 "~" H 5100 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C20
 U 1 1 5F9354B9
 P 4050 6600
-F 0 "C?" H 4142 6646 50  0000 L CNN
+F 0 "C20" H 4142 6646 50  0000 L CNN
 F 1 "100n" H 4142 6555 50  0000 L CNN
 F 2 "" H 4050 6600 50  0001 C CNN
 F 3 "~" H 4050 6600 50  0001 C CNN
@@ -250,10 +250,10 @@ F 3 "~" H 4050 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C21
 U 1 1 5F9354D1
 P 4400 6600
-F 0 "C?" H 4492 6646 50  0000 L CNN
+F 0 "C21" H 4492 6646 50  0000 L CNN
 F 1 "100n" H 4492 6555 50  0000 L CNN
 F 2 "" H 4400 6600 50  0001 C CNN
 F 3 "~" H 4400 6600 50  0001 C CNN
@@ -261,10 +261,10 @@ F 3 "~" H 4400 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C22
 U 1 1 5F9354E9
 P 4750 6600
-F 0 "C?" H 4842 6646 50  0000 L CNN
+F 0 "C22" H 4842 6646 50  0000 L CNN
 F 1 "100n" H 4842 6555 50  0000 L CNN
 F 2 "" H 4750 6600 50  0001 C CNN
 F 3 "~" H 4750 6600 50  0001 C CNN
@@ -358,10 +358,10 @@ Wire Notes Line
 Text Notes 3450 1100 0    50   ~ 0
 Register 2
 $Comp
-L 74LVC16374ADGG:74LVC16374ADGG,112 U?
+L 74LVC16374ADGG:74LVC16374ADGG,112 U11
 U 1 1 5F93788B
 P 6950 1800
-F 0 "U?" H 6950 2200 50  0000 C CNN
+F 0 "U11" H 6950 2200 50  0000 C CNN
 F 1 "74LVC16374ADGG,112" H 6950 2100 50  0000 C CNN
 F 2 "" H 6950 1800 50  0001 C CNN
 F 3 "" H 6950 1800 50  0001 C CNN
@@ -369,10 +369,10 @@ F 3 "" H 6950 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LVC16374ADGG:74LVC16374ADGG,112 U?
+L 74LVC16374ADGG:74LVC16374ADGG,112 U11
 U 2 1 5F9378FF
 P 6950 5300
-F 0 "U?" H 6975 5315 50  0000 C CNN
+F 0 "U11" H 6975 5315 50  0000 C CNN
 F 1 "74LVC16374ADGG,112" H 6975 5224 50  0000 C CNN
 F 2 "" H 6950 5300 50  0001 C CNN
 F 3 "" H 6950 5300 50  0001 C CNN
@@ -400,10 +400,10 @@ Connection ~ 6650 6150
 Wire Wire Line
 	6650 6150 6650 6250
 $Comp
-L Device:C_Small C?
+L Device:C_Small C27
 U 1 1 5F937980
 P 7500 6600
-F 0 "C?" H 7592 6646 50  0000 L CNN
+F 0 "C27" H 7592 6646 50  0000 L CNN
 F 1 "100n" H 7592 6555 50  0000 L CNN
 F 2 "" H 7500 6600 50  0001 C CNN
 F 3 "~" H 7500 6600 50  0001 C CNN
@@ -411,10 +411,10 @@ F 3 "~" H 7500 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C24
 U 1 1 5F937998
 P 6450 6600
-F 0 "C?" H 6542 6646 50  0000 L CNN
+F 0 "C24" H 6542 6646 50  0000 L CNN
 F 1 "100n" H 6542 6555 50  0000 L CNN
 F 2 "" H 6450 6600 50  0001 C CNN
 F 3 "~" H 6450 6600 50  0001 C CNN
@@ -422,10 +422,10 @@ F 3 "~" H 6450 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C25
 U 1 1 5F9379B0
 P 6800 6600
-F 0 "C?" H 6892 6646 50  0000 L CNN
+F 0 "C25" H 6892 6646 50  0000 L CNN
 F 1 "100n" H 6892 6555 50  0000 L CNN
 F 2 "" H 6800 6600 50  0001 C CNN
 F 3 "~" H 6800 6600 50  0001 C CNN
@@ -433,10 +433,10 @@ F 3 "~" H 6800 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C26
 U 1 1 5F9379C8
 P 7150 6600
-F 0 "C?" H 7242 6646 50  0000 L CNN
+F 0 "C26" H 7242 6646 50  0000 L CNN
 F 1 "100n" H 7242 6555 50  0000 L CNN
 F 2 "" H 7150 6600 50  0001 C CNN
 F 3 "~" H 7150 6600 50  0001 C CNN
@@ -536,10 +536,10 @@ Wire Notes Line
 Text Notes 5850 1100 0    50   ~ 0
 Register 3
 $Comp
-L 74LVC16374ADGG:74LVC16374ADGG,112 U?
+L 74LVC16374ADGG:74LVC16374ADGG,112 U12
 U 1 1 5F94D106
 P 9350 1800
-F 0 "U?" H 9350 2200 50  0000 C CNN
+F 0 "U12" H 9350 2200 50  0000 C CNN
 F 1 "74LVC16374ADGG,112" H 9350 2100 50  0000 C CNN
 F 2 "" H 9350 1800 50  0001 C CNN
 F 3 "" H 9350 1800 50  0001 C CNN
@@ -547,10 +547,10 @@ F 3 "" H 9350 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LVC16374ADGG:74LVC16374ADGG,112 U?
+L 74LVC16374ADGG:74LVC16374ADGG,112 U12
 U 2 1 5F94D17A
 P 9350 5300
-F 0 "U?" H 9375 5315 50  0000 C CNN
+F 0 "U12" H 9375 5315 50  0000 C CNN
 F 1 "74LVC16374ADGG,112" H 9375 5224 50  0000 C CNN
 F 2 "" H 9350 5300 50  0001 C CNN
 F 3 "" H 9350 5300 50  0001 C CNN
@@ -578,10 +578,10 @@ Connection ~ 9050 6150
 Wire Wire Line
 	9050 6150 9050 6250
 $Comp
-L Device:C_Small C?
+L Device:C_Small C31
 U 1 1 5F94D1FB
 P 9900 6600
-F 0 "C?" H 9992 6646 50  0000 L CNN
+F 0 "C31" H 9992 6646 50  0000 L CNN
 F 1 "100n" H 9992 6555 50  0000 L CNN
 F 2 "" H 9900 6600 50  0001 C CNN
 F 3 "~" H 9900 6600 50  0001 C CNN
@@ -589,10 +589,10 @@ F 3 "~" H 9900 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C28
 U 1 1 5F94D213
 P 8850 6600
-F 0 "C?" H 8942 6646 50  0000 L CNN
+F 0 "C28" H 8942 6646 50  0000 L CNN
 F 1 "100n" H 8942 6555 50  0000 L CNN
 F 2 "" H 8850 6600 50  0001 C CNN
 F 3 "~" H 8850 6600 50  0001 C CNN
@@ -600,10 +600,10 @@ F 3 "~" H 8850 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C29
 U 1 1 5F94D22B
 P 9200 6600
-F 0 "C?" H 9292 6646 50  0000 L CNN
+F 0 "C29" H 9292 6646 50  0000 L CNN
 F 1 "100n" H 9292 6555 50  0000 L CNN
 F 2 "" H 9200 6600 50  0001 C CNN
 F 3 "~" H 9200 6600 50  0001 C CNN
@@ -611,10 +611,10 @@ F 3 "~" H 9200 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C30
 U 1 1 5F94D243
 P 9550 6600
-F 0 "C?" H 9642 6646 50  0000 L CNN
+F 0 "C30" H 9642 6646 50  0000 L CNN
 F 1 "100n" H 9642 6555 50  0000 L CNN
 F 2 "" H 9550 6600 50  0001 C CNN
 F 3 "~" H 9550 6600 50  0001 C CNN
@@ -717,267 +717,11 @@ Wire Wire Line
 	9300 4250 9400 4250
 Text HLabel 9350 4250 3    50   Input ~ 0
 SP_IN
-Text HLabel 1750 2450 0    50   Input ~ 0
-BUS1
-Text HLabel 1750 2550 0    50   Input ~ 0
-BUS2
-Text HLabel 1750 2650 0    50   Input ~ 0
-BUS3
-Text HLabel 1750 2750 0    50   Input ~ 0
-BUS4
-Text HLabel 1750 2850 0    50   Input ~ 0
-BUS5
-Text HLabel 1750 2950 0    50   Input ~ 0
-BUS6
-Text HLabel 1750 3050 0    50   Input ~ 0
-BUS7
-Text HLabel 1750 3150 0    50   Input ~ 0
-BUS8
-Text HLabel 1750 3250 0    50   Input ~ 0
-BUS9
-Text HLabel 1750 3350 0    50   Input ~ 0
-BUS10
-Text HLabel 1750 3450 0    50   Input ~ 0
-BUS11
-Text HLabel 1750 3550 0    50   Input ~ 0
-BUS12
-Text HLabel 1750 3650 0    50   Input ~ 0
-BUS13
-Text HLabel 1750 3750 0    50   Input ~ 0
-BUS14
-Text HLabel 1750 3850 0    50   Input ~ 0
-BUS15
-Text HLabel 1750 3950 0    50   Input ~ 0
-BUS16
-Text HLabel 4150 2450 0    50   Input ~ 0
-BUS1
-Text HLabel 4150 2550 0    50   Input ~ 0
-BUS2
-Text HLabel 4150 2650 0    50   Input ~ 0
-BUS3
-Text HLabel 4150 2750 0    50   Input ~ 0
-BUS4
-Text HLabel 4150 2850 0    50   Input ~ 0
-BUS5
-Text HLabel 4150 2950 0    50   Input ~ 0
-BUS6
-Text HLabel 4150 3050 0    50   Input ~ 0
-BUS7
-Text HLabel 4150 3150 0    50   Input ~ 0
-BUS8
-Text HLabel 4150 3250 0    50   Input ~ 0
-BUS9
-Text HLabel 4150 3350 0    50   Input ~ 0
-BUS10
-Text HLabel 4150 3450 0    50   Input ~ 0
-BUS11
-Text HLabel 4150 3550 0    50   Input ~ 0
-BUS12
-Text HLabel 4150 3650 0    50   Input ~ 0
-BUS13
-Text HLabel 4150 3750 0    50   Input ~ 0
-BUS14
-Text HLabel 4150 3850 0    50   Input ~ 0
-BUS15
-Text HLabel 4150 3950 0    50   Input ~ 0
-BUS16
-Text HLabel 6550 2450 0    50   Input ~ 0
-BUS1
-Text HLabel 6550 2550 0    50   Input ~ 0
-BUS2
-Text HLabel 6550 2650 0    50   Input ~ 0
-BUS3
-Text HLabel 6550 2750 0    50   Input ~ 0
-BUS4
-Text HLabel 6550 2850 0    50   Input ~ 0
-BUS5
-Text HLabel 6550 2950 0    50   Input ~ 0
-BUS6
-Text HLabel 6550 3050 0    50   Input ~ 0
-BUS7
-Text HLabel 6550 3150 0    50   Input ~ 0
-BUS8
-Text HLabel 6550 3250 0    50   Input ~ 0
-BUS9
-Text HLabel 6550 3350 0    50   Input ~ 0
-BUS10
-Text HLabel 6550 3450 0    50   Input ~ 0
-BUS11
-Text HLabel 6550 3550 0    50   Input ~ 0
-BUS12
-Text HLabel 6550 3650 0    50   Input ~ 0
-BUS13
-Text HLabel 6550 3750 0    50   Input ~ 0
-BUS14
-Text HLabel 6550 3850 0    50   Input ~ 0
-BUS15
-Text HLabel 6550 3950 0    50   Input ~ 0
-BUS16
-Text HLabel 8950 2450 0    50   Input ~ 0
-BUS1
-Text HLabel 8950 2550 0    50   Input ~ 0
-BUS2
-Text HLabel 8950 2650 0    50   Input ~ 0
-BUS3
-Text HLabel 8950 2750 0    50   Input ~ 0
-BUS4
-Text HLabel 8950 2850 0    50   Input ~ 0
-BUS5
-Text HLabel 8950 2950 0    50   Input ~ 0
-BUS6
-Text HLabel 8950 3050 0    50   Input ~ 0
-BUS7
-Text HLabel 8950 3150 0    50   Input ~ 0
-BUS8
-Text HLabel 8950 3250 0    50   Input ~ 0
-BUS9
-Text HLabel 8950 3350 0    50   Input ~ 0
-BUS10
-Text HLabel 8950 3450 0    50   Input ~ 0
-BUS11
-Text HLabel 8950 3550 0    50   Input ~ 0
-BUS12
-Text HLabel 8950 3650 0    50   Input ~ 0
-BUS13
-Text HLabel 8950 3750 0    50   Input ~ 0
-BUS14
-Text HLabel 8950 3850 0    50   Input ~ 0
-BUS15
-Text HLabel 8950 3950 0    50   Input ~ 0
-BUS16
-Text HLabel 2500 2450 2    50   3State ~ 0
-BUS1
-Text HLabel 2500 2550 2    50   3State ~ 0
-BUS2
-Text HLabel 2500 2650 2    50   3State ~ 0
-BUS3
-Text HLabel 2500 2750 2    50   3State ~ 0
-BUS4
-Text HLabel 2500 2850 2    50   3State ~ 0
-BUS5
-Text HLabel 2500 2950 2    50   3State ~ 0
-BUS6
-Text HLabel 2500 3050 2    50   3State ~ 0
-BUS7
-Text HLabel 2500 3150 2    50   3State ~ 0
-BUS8
-Text HLabel 2500 3250 2    50   3State ~ 0
-BUS9
-Text HLabel 2500 3350 2    50   3State ~ 0
-BUS10
-Text HLabel 2500 3450 2    50   3State ~ 0
-BUS11
-Text HLabel 2500 3550 2    50   3State ~ 0
-BUS12
-Text HLabel 2500 3650 2    50   3State ~ 0
-BUS13
-Text HLabel 2500 3750 2    50   3State ~ 0
-BUS14
-Text HLabel 2500 3850 2    50   3State ~ 0
-BUS15
-Text HLabel 2500 3950 2    50   3State ~ 0
-BUS16
-Text HLabel 4900 2450 2    50   3State ~ 0
-BUS1
-Text HLabel 4900 2550 2    50   3State ~ 0
-BUS2
-Text HLabel 4900 2650 2    50   3State ~ 0
-BUS3
-Text HLabel 4900 2750 2    50   3State ~ 0
-BUS4
-Text HLabel 4900 2850 2    50   3State ~ 0
-BUS5
-Text HLabel 4900 2950 2    50   3State ~ 0
-BUS6
-Text HLabel 4900 3050 2    50   3State ~ 0
-BUS7
-Text HLabel 4900 3150 2    50   3State ~ 0
-BUS8
-Text HLabel 4900 3250 2    50   3State ~ 0
-BUS9
-Text HLabel 4900 3350 2    50   3State ~ 0
-BUS10
-Text HLabel 4900 3450 2    50   3State ~ 0
-BUS11
-Text HLabel 4900 3550 2    50   3State ~ 0
-BUS12
-Text HLabel 4900 3650 2    50   3State ~ 0
-BUS13
-Text HLabel 4900 3750 2    50   3State ~ 0
-BUS14
-Text HLabel 4900 3850 2    50   3State ~ 0
-BUS15
-Text HLabel 4900 3950 2    50   3State ~ 0
-BUS16
-Text HLabel 9700 2450 2    50   3State ~ 0
-BUS1
-Text HLabel 9700 2550 2    50   3State ~ 0
-BUS2
-Text HLabel 9700 2650 2    50   3State ~ 0
-BUS3
-Text HLabel 9700 2750 2    50   3State ~ 0
-BUS4
-Text HLabel 9700 2850 2    50   3State ~ 0
-BUS5
-Text HLabel 9700 2950 2    50   3State ~ 0
-BUS6
-Text HLabel 9700 3050 2    50   3State ~ 0
-BUS7
-Text HLabel 9700 3150 2    50   3State ~ 0
-BUS8
-Text HLabel 9700 3250 2    50   3State ~ 0
-BUS9
-Text HLabel 9700 3350 2    50   3State ~ 0
-BUS10
-Text HLabel 9700 3450 2    50   3State ~ 0
-BUS11
-Text HLabel 9700 3550 2    50   3State ~ 0
-BUS12
-Text HLabel 9700 3650 2    50   3State ~ 0
-BUS13
-Text HLabel 9700 3750 2    50   3State ~ 0
-BUS14
-Text HLabel 9700 3850 2    50   3State ~ 0
-BUS15
-Text HLabel 9700 3950 2    50   3State ~ 0
-BUS16
-Text HLabel 7300 2450 2    50   3State ~ 0
-BUS1
-Text HLabel 7300 2550 2    50   3State ~ 0
-BUS2
-Text HLabel 7300 2650 2    50   3State ~ 0
-BUS3
-Text HLabel 7300 2750 2    50   3State ~ 0
-BUS4
-Text HLabel 7300 2850 2    50   3State ~ 0
-BUS5
-Text HLabel 7300 2950 2    50   3State ~ 0
-BUS6
-Text HLabel 7300 3050 2    50   3State ~ 0
-BUS7
-Text HLabel 7300 3150 2    50   3State ~ 0
-BUS8
-Text HLabel 7300 3250 2    50   3State ~ 0
-BUS9
-Text HLabel 7300 3350 2    50   3State ~ 0
-BUS10
-Text HLabel 7300 3450 2    50   3State ~ 0
-BUS11
-Text HLabel 7300 3550 2    50   3State ~ 0
-BUS12
-Text HLabel 7300 3650 2    50   3State ~ 0
-BUS13
-Text HLabel 7300 3750 2    50   3State ~ 0
-BUS14
-Text HLabel 7300 3850 2    50   3State ~ 0
-BUS15
-Text HLabel 7300 3950 2    50   3State ~ 0
-BUS16
 $Comp
-L 74LVC16374ADGG:74LVC16374ADGG,112 U?
+L 74LVC16374ADGG:74LVC16374ADGG,112 U13
 U 1 1 5F959227
 P 11700 1800
-F 0 "U?" H 11700 2200 50  0000 C CNN
+F 0 "U13" H 11700 2200 50  0000 C CNN
 F 1 "74LVC16374ADGG,112" H 11700 2100 50  0000 C CNN
 F 2 "" H 11700 1800 50  0001 C CNN
 F 3 "" H 11700 1800 50  0001 C CNN
@@ -985,10 +729,10 @@ F 3 "" H 11700 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LVC16374ADGG:74LVC16374ADGG,112 U?
+L 74LVC16374ADGG:74LVC16374ADGG,112 U13
 U 2 1 5F95922D
 P 11700 5300
-F 0 "U?" H 11725 5315 50  0000 C CNN
+F 0 "U13" H 11725 5315 50  0000 C CNN
 F 1 "74LVC16374ADGG,112" H 11725 5224 50  0000 C CNN
 F 2 "" H 11700 5300 50  0001 C CNN
 F 3 "" H 11700 5300 50  0001 C CNN
@@ -1016,10 +760,10 @@ Connection ~ 11400 6150
 Wire Wire Line
 	11400 6150 11400 6250
 $Comp
-L Device:C_Small C?
+L Device:C_Small C35
 U 1 1 5F959240
 P 12250 6600
-F 0 "C?" H 12342 6646 50  0000 L CNN
+F 0 "C35" H 12342 6646 50  0000 L CNN
 F 1 "100n" H 12342 6555 50  0000 L CNN
 F 2 "" H 12250 6600 50  0001 C CNN
 F 3 "~" H 12250 6600 50  0001 C CNN
@@ -1027,10 +771,10 @@ F 3 "~" H 12250 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C32
 U 1 1 5F959246
 P 11200 6600
-F 0 "C?" H 11292 6646 50  0000 L CNN
+F 0 "C32" H 11292 6646 50  0000 L CNN
 F 1 "100n" H 11292 6555 50  0000 L CNN
 F 2 "" H 11200 6600 50  0001 C CNN
 F 3 "~" H 11200 6600 50  0001 C CNN
@@ -1038,10 +782,10 @@ F 3 "~" H 11200 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C33
 U 1 1 5F95924C
 P 11550 6600
-F 0 "C?" H 11642 6646 50  0000 L CNN
+F 0 "C33" H 11642 6646 50  0000 L CNN
 F 1 "100n" H 11642 6555 50  0000 L CNN
 F 2 "" H 11550 6600 50  0001 C CNN
 F 3 "~" H 11550 6600 50  0001 C CNN
@@ -1049,10 +793,10 @@ F 3 "~" H 11550 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C34
 U 1 1 5F959252
 P 11900 6600
-F 0 "C?" H 11992 6646 50  0000 L CNN
+F 0 "C34" H 11992 6646 50  0000 L CNN
 F 1 "100n" H 11992 6555 50  0000 L CNN
 F 2 "" H 11900 6600 50  0001 C CNN
 F 3 "~" H 11900 6600 50  0001 C CNN
@@ -1155,70 +899,6 @@ Wire Wire Line
 	11650 4250 11750 4250
 Text HLabel 11700 4250 3    50   Input ~ 0
 BP_IN
-Text HLabel 11300 2450 0    50   Input ~ 0
-BUS1
-Text HLabel 11300 2550 0    50   Input ~ 0
-BUS2
-Text HLabel 11300 2650 0    50   Input ~ 0
-BUS3
-Text HLabel 11300 2750 0    50   Input ~ 0
-BUS4
-Text HLabel 11300 2850 0    50   Input ~ 0
-BUS5
-Text HLabel 11300 2950 0    50   Input ~ 0
-BUS6
-Text HLabel 11300 3050 0    50   Input ~ 0
-BUS7
-Text HLabel 11300 3150 0    50   Input ~ 0
-BUS8
-Text HLabel 11300 3250 0    50   Input ~ 0
-BUS9
-Text HLabel 11300 3350 0    50   Input ~ 0
-BUS10
-Text HLabel 11300 3450 0    50   Input ~ 0
-BUS11
-Text HLabel 11300 3550 0    50   Input ~ 0
-BUS12
-Text HLabel 11300 3650 0    50   Input ~ 0
-BUS13
-Text HLabel 11300 3750 0    50   Input ~ 0
-BUS14
-Text HLabel 11300 3850 0    50   Input ~ 0
-BUS15
-Text HLabel 11300 3950 0    50   Input ~ 0
-BUS16
-Text HLabel 12050 2450 2    50   3State ~ 0
-BUS1
-Text HLabel 12050 2550 2    50   3State ~ 0
-BUS2
-Text HLabel 12050 2650 2    50   3State ~ 0
-BUS3
-Text HLabel 12050 2750 2    50   3State ~ 0
-BUS4
-Text HLabel 12050 2850 2    50   3State ~ 0
-BUS5
-Text HLabel 12050 2950 2    50   3State ~ 0
-BUS6
-Text HLabel 12050 3050 2    50   3State ~ 0
-BUS7
-Text HLabel 12050 3150 2    50   3State ~ 0
-BUS8
-Text HLabel 12050 3250 2    50   3State ~ 0
-BUS9
-Text HLabel 12050 3350 2    50   3State ~ 0
-BUS10
-Text HLabel 12050 3450 2    50   3State ~ 0
-BUS11
-Text HLabel 12050 3550 2    50   3State ~ 0
-BUS12
-Text HLabel 12050 3650 2    50   3State ~ 0
-BUS13
-Text HLabel 12050 3750 2    50   3State ~ 0
-BUS14
-Text HLabel 12050 3850 2    50   3State ~ 0
-BUS15
-Text HLabel 12050 3950 2    50   3State ~ 0
-BUS16
 Text HLabel 7000 4250 3    50   Input ~ 0
 REG3_IN_H
 Text HLabel 6900 4250 3    50   Input ~ 0
@@ -1245,4 +925,324 @@ Text HLabel 4600 4250 3    50   Input ~ 0
 REG2_IN_H
 Text HLabel 4500 4250 3    50   Input ~ 0
 REG2_IN_L
+Text GLabel 1750 3950 0    50   3State ~ 0
+BUS16
+Text GLabel 1750 3850 0    50   3State ~ 0
+BUS15
+Text GLabel 1750 3750 0    50   3State ~ 0
+BUS14
+Text GLabel 1750 3650 0    50   3State ~ 0
+BUS13
+Text GLabel 1750 3550 0    50   3State ~ 0
+BUS12
+Text GLabel 1750 3450 0    50   3State ~ 0
+BUS11
+Text GLabel 1750 3350 0    50   3State ~ 0
+BUS10
+Text GLabel 1750 3250 0    50   3State ~ 0
+BUS9
+Text GLabel 1750 3150 0    50   3State ~ 0
+BUS8
+Text GLabel 1750 3050 0    50   3State ~ 0
+BUS7
+Text GLabel 1750 2950 0    50   3State ~ 0
+BUS6
+Text GLabel 1750 2850 0    50   3State ~ 0
+BUS5
+Text GLabel 1750 2750 0    50   3State ~ 0
+BUS4
+Text GLabel 1750 2650 0    50   3State ~ 0
+BUS3
+Text GLabel 1750 2550 0    50   3State ~ 0
+BUS2
+Text GLabel 1750 2450 0    50   3State ~ 0
+BUS1
+Text GLabel 2500 3950 2    50   3State ~ 0
+BUS16
+Text GLabel 2500 3850 2    50   3State ~ 0
+BUS15
+Text GLabel 2500 3750 2    50   3State ~ 0
+BUS14
+Text GLabel 2500 3650 2    50   3State ~ 0
+BUS13
+Text GLabel 2500 3550 2    50   3State ~ 0
+BUS12
+Text GLabel 2500 3450 2    50   3State ~ 0
+BUS11
+Text GLabel 2500 3350 2    50   3State ~ 0
+BUS10
+Text GLabel 2500 3250 2    50   3State ~ 0
+BUS9
+Text GLabel 2500 3150 2    50   3State ~ 0
+BUS8
+Text GLabel 2500 3050 2    50   3State ~ 0
+BUS7
+Text GLabel 2500 2950 2    50   3State ~ 0
+BUS6
+Text GLabel 2500 2850 2    50   3State ~ 0
+BUS5
+Text GLabel 2500 2750 2    50   3State ~ 0
+BUS4
+Text GLabel 2500 2650 2    50   3State ~ 0
+BUS3
+Text GLabel 2500 2550 2    50   3State ~ 0
+BUS2
+Text GLabel 2500 2450 2    50   3State ~ 0
+BUS1
+Text GLabel 4150 3950 0    50   3State ~ 0
+BUS16
+Text GLabel 4150 3850 0    50   3State ~ 0
+BUS15
+Text GLabel 4150 3750 0    50   3State ~ 0
+BUS14
+Text GLabel 4150 3650 0    50   3State ~ 0
+BUS13
+Text GLabel 4150 3550 0    50   3State ~ 0
+BUS12
+Text GLabel 4150 3450 0    50   3State ~ 0
+BUS11
+Text GLabel 4150 3350 0    50   3State ~ 0
+BUS10
+Text GLabel 4150 3250 0    50   3State ~ 0
+BUS9
+Text GLabel 4150 3150 0    50   3State ~ 0
+BUS8
+Text GLabel 4150 3050 0    50   3State ~ 0
+BUS7
+Text GLabel 4150 2950 0    50   3State ~ 0
+BUS6
+Text GLabel 4150 2850 0    50   3State ~ 0
+BUS5
+Text GLabel 4150 2750 0    50   3State ~ 0
+BUS4
+Text GLabel 4150 2650 0    50   3State ~ 0
+BUS3
+Text GLabel 4150 2550 0    50   3State ~ 0
+BUS2
+Text GLabel 4150 2450 0    50   3State ~ 0
+BUS1
+Text GLabel 4900 3950 2    50   3State ~ 0
+BUS16
+Text GLabel 4900 3850 2    50   3State ~ 0
+BUS15
+Text GLabel 4900 3750 2    50   3State ~ 0
+BUS14
+Text GLabel 4900 3650 2    50   3State ~ 0
+BUS13
+Text GLabel 4900 3550 2    50   3State ~ 0
+BUS12
+Text GLabel 4900 3450 2    50   3State ~ 0
+BUS11
+Text GLabel 4900 3350 2    50   3State ~ 0
+BUS10
+Text GLabel 4900 3250 2    50   3State ~ 0
+BUS9
+Text GLabel 4900 3150 2    50   3State ~ 0
+BUS8
+Text GLabel 4900 3050 2    50   3State ~ 0
+BUS7
+Text GLabel 4900 2950 2    50   3State ~ 0
+BUS6
+Text GLabel 4900 2850 2    50   3State ~ 0
+BUS5
+Text GLabel 4900 2750 2    50   3State ~ 0
+BUS4
+Text GLabel 4900 2650 2    50   3State ~ 0
+BUS3
+Text GLabel 4900 2550 2    50   3State ~ 0
+BUS2
+Text GLabel 4900 2450 2    50   3State ~ 0
+BUS1
+Text GLabel 6550 3950 0    50   3State ~ 0
+BUS16
+Text GLabel 6550 3850 0    50   3State ~ 0
+BUS15
+Text GLabel 6550 3750 0    50   3State ~ 0
+BUS14
+Text GLabel 6550 3650 0    50   3State ~ 0
+BUS13
+Text GLabel 6550 3550 0    50   3State ~ 0
+BUS12
+Text GLabel 6550 3450 0    50   3State ~ 0
+BUS11
+Text GLabel 6550 3350 0    50   3State ~ 0
+BUS10
+Text GLabel 6550 3250 0    50   3State ~ 0
+BUS9
+Text GLabel 6550 3150 0    50   3State ~ 0
+BUS8
+Text GLabel 6550 3050 0    50   3State ~ 0
+BUS7
+Text GLabel 6550 2950 0    50   3State ~ 0
+BUS6
+Text GLabel 6550 2850 0    50   3State ~ 0
+BUS5
+Text GLabel 6550 2750 0    50   3State ~ 0
+BUS4
+Text GLabel 6550 2650 0    50   3State ~ 0
+BUS3
+Text GLabel 6550 2550 0    50   3State ~ 0
+BUS2
+Text GLabel 6550 2450 0    50   3State ~ 0
+BUS1
+Text GLabel 7300 3950 2    50   3State ~ 0
+BUS16
+Text GLabel 7300 3850 2    50   3State ~ 0
+BUS15
+Text GLabel 7300 3750 2    50   3State ~ 0
+BUS14
+Text GLabel 7300 3650 2    50   3State ~ 0
+BUS13
+Text GLabel 7300 3550 2    50   3State ~ 0
+BUS12
+Text GLabel 7300 3450 2    50   3State ~ 0
+BUS11
+Text GLabel 7300 3350 2    50   3State ~ 0
+BUS10
+Text GLabel 7300 3250 2    50   3State ~ 0
+BUS9
+Text GLabel 7300 3150 2    50   3State ~ 0
+BUS8
+Text GLabel 7300 3050 2    50   3State ~ 0
+BUS7
+Text GLabel 7300 2950 2    50   3State ~ 0
+BUS6
+Text GLabel 7300 2850 2    50   3State ~ 0
+BUS5
+Text GLabel 7300 2750 2    50   3State ~ 0
+BUS4
+Text GLabel 7300 2650 2    50   3State ~ 0
+BUS3
+Text GLabel 7300 2550 2    50   3State ~ 0
+BUS2
+Text GLabel 7300 2450 2    50   3State ~ 0
+BUS1
+Text GLabel 8950 3950 0    50   3State ~ 0
+BUS16
+Text GLabel 8950 3850 0    50   3State ~ 0
+BUS15
+Text GLabel 8950 3750 0    50   3State ~ 0
+BUS14
+Text GLabel 8950 3650 0    50   3State ~ 0
+BUS13
+Text GLabel 8950 3550 0    50   3State ~ 0
+BUS12
+Text GLabel 8950 3450 0    50   3State ~ 0
+BUS11
+Text GLabel 8950 3350 0    50   3State ~ 0
+BUS10
+Text GLabel 8950 3250 0    50   3State ~ 0
+BUS9
+Text GLabel 8950 3150 0    50   3State ~ 0
+BUS8
+Text GLabel 8950 3050 0    50   3State ~ 0
+BUS7
+Text GLabel 8950 2950 0    50   3State ~ 0
+BUS6
+Text GLabel 8950 2850 0    50   3State ~ 0
+BUS5
+Text GLabel 8950 2750 0    50   3State ~ 0
+BUS4
+Text GLabel 8950 2650 0    50   3State ~ 0
+BUS3
+Text GLabel 8950 2550 0    50   3State ~ 0
+BUS2
+Text GLabel 8950 2450 0    50   3State ~ 0
+BUS1
+Text GLabel 9700 3950 2    50   3State ~ 0
+BUS16
+Text GLabel 9700 3850 2    50   3State ~ 0
+BUS15
+Text GLabel 9700 3750 2    50   3State ~ 0
+BUS14
+Text GLabel 9700 3650 2    50   3State ~ 0
+BUS13
+Text GLabel 9700 3550 2    50   3State ~ 0
+BUS12
+Text GLabel 9700 3450 2    50   3State ~ 0
+BUS11
+Text GLabel 9700 3350 2    50   3State ~ 0
+BUS10
+Text GLabel 9700 3250 2    50   3State ~ 0
+BUS9
+Text GLabel 9700 3150 2    50   3State ~ 0
+BUS8
+Text GLabel 9700 3050 2    50   3State ~ 0
+BUS7
+Text GLabel 9700 2950 2    50   3State ~ 0
+BUS6
+Text GLabel 9700 2850 2    50   3State ~ 0
+BUS5
+Text GLabel 9700 2750 2    50   3State ~ 0
+BUS4
+Text GLabel 9700 2650 2    50   3State ~ 0
+BUS3
+Text GLabel 9700 2550 2    50   3State ~ 0
+BUS2
+Text GLabel 9700 2450 2    50   3State ~ 0
+BUS1
+Text GLabel 11300 3950 0    50   3State ~ 0
+BUS16
+Text GLabel 11300 3850 0    50   3State ~ 0
+BUS15
+Text GLabel 11300 3750 0    50   3State ~ 0
+BUS14
+Text GLabel 11300 3650 0    50   3State ~ 0
+BUS13
+Text GLabel 11300 3550 0    50   3State ~ 0
+BUS12
+Text GLabel 11300 3450 0    50   3State ~ 0
+BUS11
+Text GLabel 11300 3350 0    50   3State ~ 0
+BUS10
+Text GLabel 11300 3250 0    50   3State ~ 0
+BUS9
+Text GLabel 11300 3150 0    50   3State ~ 0
+BUS8
+Text GLabel 11300 3050 0    50   3State ~ 0
+BUS7
+Text GLabel 11300 2950 0    50   3State ~ 0
+BUS6
+Text GLabel 11300 2850 0    50   3State ~ 0
+BUS5
+Text GLabel 11300 2750 0    50   3State ~ 0
+BUS4
+Text GLabel 11300 2650 0    50   3State ~ 0
+BUS3
+Text GLabel 11300 2550 0    50   3State ~ 0
+BUS2
+Text GLabel 11300 2450 0    50   3State ~ 0
+BUS1
+Text GLabel 12050 3950 2    50   3State ~ 0
+BUS16
+Text GLabel 12050 3850 2    50   3State ~ 0
+BUS15
+Text GLabel 12050 3750 2    50   3State ~ 0
+BUS14
+Text GLabel 12050 3650 2    50   3State ~ 0
+BUS13
+Text GLabel 12050 3550 2    50   3State ~ 0
+BUS12
+Text GLabel 12050 3450 2    50   3State ~ 0
+BUS11
+Text GLabel 12050 3350 2    50   3State ~ 0
+BUS10
+Text GLabel 12050 3250 2    50   3State ~ 0
+BUS9
+Text GLabel 12050 3150 2    50   3State ~ 0
+BUS8
+Text GLabel 12050 3050 2    50   3State ~ 0
+BUS7
+Text GLabel 12050 2950 2    50   3State ~ 0
+BUS6
+Text GLabel 12050 2850 2    50   3State ~ 0
+BUS5
+Text GLabel 12050 2750 2    50   3State ~ 0
+BUS4
+Text GLabel 12050 2650 2    50   3State ~ 0
+BUS3
+Text GLabel 12050 2550 2    50   3State ~ 0
+BUS2
+Text GLabel 12050 2450 2    50   3State ~ 0
+BUS1
 $EndSCHEMATC
