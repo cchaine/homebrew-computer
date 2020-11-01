@@ -169,41 +169,40 @@ Wire Notes Line
 	4500 3350 4500 900 
 Text Notes 4500 900  0    50   ~ 0
 Inputs/Outputs
-Text HLabel 5350 2350 0    50   Input ~ 0
-OE_I
+Text HLabel 6500 1550 2    50   Input ~ 0
+ALU_OUT_I
 Text HLabel 6500 1250 2    50   3State ~ 0
 BUS1
 Text HLabel 6500 1350 2    50   3State ~ 0
 BUS2
 Text HLabel 6500 1450 2    50   3State ~ 0
 BUS3
-Text HLabel 6500 1550 2    50   3State ~ 0
-BUS4
 Text HLabel 6500 1650 2    50   3State ~ 0
-BUS5
-Text HLabel 6500 1750 2    50   3State ~ 0
-BUS6
+BUS4
 Text HLabel 6500 1850 2    50   3State ~ 0
-BUS7
+BUS5
 Text HLabel 6500 1950 2    50   3State ~ 0
-BUS8
+BUS6
 Text HLabel 6500 2050 2    50   3State ~ 0
-BUS9
+BUS7
 Text HLabel 6500 2150 2    50   3State ~ 0
-BUS10
+BUS8
 Text HLabel 6500 2250 2    50   3State ~ 0
-BUS11
+BUS9
 Text HLabel 6500 2350 2    50   3State ~ 0
-BUS12
+BUS10
 Text HLabel 6500 2450 2    50   3State ~ 0
-BUS13
+BUS11
 Text HLabel 6500 2550 2    50   3State ~ 0
-BUS14
+BUS12
 Text HLabel 6500 2650 2    50   3State ~ 0
-BUS15
+BUS13
 Text HLabel 6500 2750 2    50   3State ~ 0
+BUS14
+Text HLabel 6500 2850 2    50   3State ~ 0
+BUS15
+Text HLabel 5350 1250 0    50   3State ~ 0
 BUS16
-NoConn ~ 6500 2850
 Text HLabel 5350 1550 0    50   Input ~ 0
 A_IN
 Text HLabel 5350 1650 0    50   Input ~ 0
@@ -270,6 +269,11 @@ F 3 "" H 6200 1050 50  0001 C CNN
 	5    6200 1050
 	1    0    0    -1  
 $EndComp
-Text HLabel 5350 1250 0    50   Input ~ 0
+Text HLabel 6500 1750 2    50   Input ~ 0
 RESET
+NoConn ~ 5350 2350
+Text Notes 4500 3550 0    50   Italic 0
+ALU_OUT_I is wired to the GTS1 to\nprovide minimum skew to most macrocells
+Text Notes 4500 3800 0    50   Italic 0
+RESET is wired to GSR to\nprovide minimum skew to most macrocells
 $EndSCHEMATC

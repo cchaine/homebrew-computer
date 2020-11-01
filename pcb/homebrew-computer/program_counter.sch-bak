@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 5906 8268
 encoding utf-8
-Sheet 8 7
+Sheet 6 7
 Title "Program Counter"
 Date "2020-10-26"
 Rev "A"
@@ -230,39 +230,36 @@ Text HLabel 3600 2700 2    50   3State ~ 0
 BUS2
 Text HLabel 3600 2800 2    50   3State ~ 0
 BUS3
-Text HLabel 3600 2900 2    50   3State ~ 0
-BUS4
 Text HLabel 3600 3000 2    50   3State ~ 0
-BUS5
-Text HLabel 3600 3100 2    50   3State ~ 0
-BUS6
+BUS4
 Text HLabel 3600 3200 2    50   3State ~ 0
-BUS7
+BUS5
 Text HLabel 3600 3300 2    50   3State ~ 0
-BUS8
+BUS6
 Text HLabel 3600 3400 2    50   3State ~ 0
-BUS9
+BUS7
 Text HLabel 3600 3500 2    50   3State ~ 0
-BUS10
+BUS8
 Text HLabel 3600 3600 2    50   3State ~ 0
-BUS11
+BUS9
 Text HLabel 3600 3700 2    50   3State ~ 0
-BUS12
+BUS10
 Text HLabel 3600 3800 2    50   3State ~ 0
-BUS13
+BUS11
 Text HLabel 3600 3900 2    50   3State ~ 0
-BUS14
+BUS12
 Text HLabel 3600 4000 2    50   3State ~ 0
-BUS15
+BUS13
 Text HLabel 3600 4100 2    50   3State ~ 0
+BUS14
+Text HLabel 3600 4200 2    50   3State ~ 0
+BUS15
+Text HLabel 2450 2600 0    50   3State ~ 0
 BUS16
 Text HLabel 2450 2900 0    50   Input ~ 0
 PC_COUNT
-Text HLabel 2450 3000 0    50   Input ~ 0
-PC_OE
-Text HLabel 2450 3200 0    50   Input ~ 0
+Text HLabel 3600 3100 2    50   Input ~ 0
 RESET
-NoConn ~ 2450 2600
 NoConn ~ 2450 2700
 NoConn ~ 2450 2800
 NoConn ~ 2450 3300
@@ -275,7 +272,6 @@ NoConn ~ 2450 3900
 NoConn ~ 2450 4000
 NoConn ~ 2450 4100
 NoConn ~ 2450 4200
-NoConn ~ 3600 4200
 $Comp
 L XC9500XL:XC9536XL-10VQG44C U?
 U 4 1 5FA96F85
@@ -287,6 +283,10 @@ F 3 "" H 2800 2400 50  0001 C CNN
 	4    2800 2400
 	1    0    0    -1  
 $EndComp
-Text HLabel 2450 3100 0    50   Input ~ 0
-PC_LOAD
+Text HLabel 2450 3000 0    50   Input ~ 0
+PC_IN
+Text HLabel 3600 2900 2    50   Input ~ 0
+PC_OUT_I
+NoConn ~ 2450 3100
+NoConn ~ 2450 3200
 $EndSCHEMATC

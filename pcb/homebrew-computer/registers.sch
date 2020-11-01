@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 13386 9843
 encoding utf-8
-Sheet 4 7
+Sheet 7 7
 Title "Registers"
 Date "2020-10-24"
 Rev "A"
@@ -168,9 +168,9 @@ Wire Notes Line
 Text Notes 1250 5150 0    50   ~ 0
 Power
 Text HLabel 2100 2100 1    50   Input ~ 0
-REG1_OUT_L
+REG1_OUT_L_I
 Text HLabel 2200 2100 1    50   Input ~ 0
-REG1_OUT_H
+REG1_OUT_H_I
 Wire Notes Line
 	1300 1300 2950 1300
 Text Notes 1300 1300 0    50   ~ 0
@@ -340,9 +340,9 @@ Wire Notes Line
 Text Notes 3650 5150 0    50   ~ 0
 Power
 Text HLabel 4500 2100 1    50   Input ~ 0
-REG2_OUT_L
+REG2_OUT_L_I
 Text HLabel 4600 2100 1    50   Input ~ 0
-REG2_OUT_H
+REG2_OUT_H_I
 Wire Notes Line
 	3700 1300 5350 1300
 Text Notes 3700 1300 0    50   ~ 0
@@ -512,9 +512,9 @@ Wire Notes Line
 Text Notes 6050 5150 0    50   ~ 0
 Power
 Text HLabel 6900 2100 1    50   Input ~ 0
-REG3_OUT_L
+REG3_OUT_L_I
 Text HLabel 7000 2100 1    50   Input ~ 0
-REG3_OUT_H
+REG3_OUT_H_I
 Wire Notes Line
 	6100 1300 7750 1300
 Wire Notes Line
@@ -712,7 +712,7 @@ Stack Pointer
 Wire Wire Line
 	9300 2100 9400 2100
 Text HLabel 9350 2100 1    50   Input ~ 0
-SP_OUT
+SP_OUT_I
 Wire Wire Line
 	9300 4250 9400 4250
 Text HLabel 9350 4250 3    50   Input ~ 0
@@ -1150,7 +1150,7 @@ Base Pointer
 Wire Wire Line
 	11650 2100 11750 2100
 Text HLabel 11700 2100 1    50   Input ~ 0
-BP_OUT
+BP_OUT_I
 Wire Wire Line
 	11650 4250 11750 4250
 Text HLabel 11700 4250 3    50   Input ~ 0
@@ -1229,10 +1229,6 @@ Wire Notes Line
 	3700 4750 3700 1300
 Wire Notes Line
 	5350 4750 3700 4750
-Text HLabel 4600 4250 3    50   Input ~ 0
-REG2_IN_H
-Text HLabel 4500 4250 3    50   Input ~ 0
-REG2_IN_L
 Wire Notes Line
 	2950 1300 2950 4750
 Wire Notes Line
@@ -1245,4 +1241,8 @@ Text HLabel 2100 4250 3    50   Input ~ 0
 REG1_IN_L
 Text Notes 1050 7750 0    50   Italic 0
 There is no reset logic here as\nreading from an unset register is\nan undefined behavior.
+Text HLabel 4600 4250 3    50   Input ~ 0
+REG2_IN_H
+Text HLabel 4500 4250 3    50   Input ~ 0
+REG2_IN_L
 $EndSCHEMATC
