@@ -21,7 +21,7 @@ AR Path="/5F97DCB2/5FBC1998" Ref="U?"  Part="1"
 AR Path="/5FBC1998" Ref="U3"  Part="1" 
 F 0 "U3" V 2850 5100 50  0000 L CNN
 F 1 "YC248" V 2750 5000 50  0000 L CNN
-F 2 "" H 3550 5600 50  0001 C CNN
+F 2 "Resistor_SMD:YC248" H 3550 5600 50  0001 C CNN
 F 3 "" H 3550 5600 50  0001 C CNN
 	1    3550 5600
 	0    -1   -1   0   
@@ -34,7 +34,7 @@ AR Path="/5F97DCB2/5FBC199E" Ref="U?"  Part="1"
 AR Path="/5FBC199E" Ref="U2"  Part="1" 
 F 0 "U2" V 4400 3950 50  0000 L CNN
 F 1 "YC248" V 4300 3800 50  0000 L CNN
-F 2 "" H 3550 4350 50  0001 C CNN
+F 2 "Resistor_SMD:YC248" H 3550 4350 50  0001 C CNN
 F 3 "" H 3550 4350 50  0001 C CNN
 	1    3550 4350
 	0    -1   -1   0   
@@ -117,7 +117,7 @@ U 1 1 5FAB6A72
 P 1450 3500
 F 0 "SW1" H 1450 3785 50  0000 C CNN
 F 1 "SW_Push" H 1450 3694 50  0000 C CNN
-F 2 "" H 1450 3700 50  0001 C CNN
+F 2 "Button_Switch_SMD:Panasonic_EVQPUL_EVQPUC" H 1450 3700 50  0001 C CNN
 F 3 "~" H 1450 3700 50  0001 C CNN
 	1    1450 3500
 	1    0    0    -1  
@@ -128,7 +128,7 @@ U 1 1 5FAB7748
 P 1650 3600
 F 0 "R1" H 1450 3600 50  0000 L CNN
 F 1 "10k" H 1400 3500 50  0000 L CNN
-F 2 "" H 1650 3600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1650 3600 50  0001 C CNN
 F 3 "~" H 1650 3600 50  0001 C CNN
 	1    1650 3600
 	1    0    0    -1  
@@ -248,25 +248,6 @@ F1 "clocks.sch" 50
 F2 "CLK" O L 10700 5900 50 
 F3 "CLK_I" O L 10700 6000 50 
 $EndSheet
-Text GLabel 10150 1050 2    50   Input ~ 0
-RESET
-Text GLabel 7850 4950 2    50   Input ~ 0
-RESET
-Text GLabel 6000 3250 2    50   Input ~ 0
-RESET
-Text GLabel 7900 1750 2    50   Input ~ 0
-RESET
-$Comp
-L Connector_Generic:Conn_02x03_Counter_Clockwise J3
-U 1 1 5FA0F62B
-P 1850 5350
-F 0 "J3" H 1950 5950 50  0000 C CNN
-F 1 "Conn_02x03_Counter_Clockwise" H 2050 5850 50  0000 C CNN
-F 2 "" H 1850 5350 50  0001 C CNN
-F 3 "~" H 1850 5350 50  0001 C CNN
-	1    1850 5350
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5FA107AD
@@ -286,7 +267,7 @@ U 1 1 5FA10E21
 P 1400 5050
 F 0 "R2" H 950 5100 50  0000 L CNN
 F 1 "10k" H 900 5000 50  0000 L CNN
-F 2 "" H 1400 5050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1400 5050 50  0001 C CNN
 F 3 "~" H 1400 5050 50  0001 C CNN
 	1    1400 5050
 	1    0    0    -1  
@@ -297,7 +278,7 @@ U 1 1 5FA1172B
 P 1500 5050
 F 0 "R3" H 1100 5100 50  0000 L CNN
 F 1 "10k" H 1050 5000 50  0000 L CNN
-F 2 "" H 1500 5050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1500 5050 50  0001 C CNN
 F 3 "~" H 1500 5050 50  0001 C CNN
 	1    1500 5050
 	1    0    0    -1  
@@ -308,7 +289,7 @@ U 1 1 5FA120DD
 P 1600 5050
 F 0 "R4" H 1250 5100 50  0000 L CNN
 F 1 "10k" H 1200 5000 50  0000 L CNN
-F 2 "" H 1600 5050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1600 5050 50  0001 C CNN
 F 3 "~" H 1600 5050 50  0001 C CNN
 	1    1600 5050
 	1    0    0    -1  
@@ -369,7 +350,7 @@ U 1 1 5FA17CD2
 P 2300 5450
 F 0 "R6" H 2400 5450 50  0000 L CNN
 F 1 "68" H 2400 5350 50  0000 L CNN
-F 2 "" H 2300 5450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2300 5450 50  0001 C CNN
 F 3 "~" H 2300 5450 50  0001 C CNN
 	1    2300 5450
 	1    0    0    -1  
@@ -383,7 +364,7 @@ U 1 1 5FA18D2E
 P 2300 5650
 F 0 "C3" H 2400 5600 50  0000 L CNN
 F 1 "100p" H 2400 5500 50  0000 L CNN
-F 2 "" H 2300 5650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2300 5650 50  0001 C CNN
 F 3 "~" H 2300 5650 50  0001 C CNN
 	1    2300 5650
 	1    0    0    -1  
@@ -407,7 +388,7 @@ U 1 1 5FA1A645
 P 1400 5350
 F 0 "R5" V 1200 5300 50  0000 L CNN
 F 1 "22" V 1100 5300 50  0000 L CNN
-F 2 "" H 1400 5350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1400 5350 50  0001 C CNN
 F 3 "~" H 1400 5350 50  0001 C CNN
 	1    1400 5350
 	0    -1   -1   0   
@@ -427,7 +408,7 @@ U 1 1 5FA4EADF
 P 2850 3650
 F 0 "J2" H 3000 3300 50  0000 R CNN
 F 1 "Conn_01x02_Male" H 3400 3400 50  0000 R CNN
-F 2 "" H 2850 3650 50  0001 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53048-0210_1x02_P1.25mm_Horizontal" H 2850 3650 50  0001 C CNN
 F 3 "~" H 2850 3650 50  0001 C CNN
 	1    2850 3650
 	-1   0    0    1   
@@ -438,7 +419,7 @@ U 1 1 5FA516D6
 P 1850 3500
 F 0 "D2" H 1850 3293 50  0000 C CNN
 F 1 "D_Small" H 1850 3384 50  0000 C CNN
-F 2 "" V 1850 3500 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 1850 3500 50  0001 C CNN
 F 3 "~" V 1850 3500 50  0001 C CNN
 	1    1850 3500
 	-1   0    0    1   
@@ -467,190 +448,6 @@ Wire Notes Line
 	850  4000 3000 4000
 Text Notes 850  4300 0    50   Italic 0
 The reset logic is pretty simple, \nso the or function is handled with\ndiode logic
-Text GLabel 6000 1400 2    50   Input ~ 0
-A_IN
-Text GLabel 6000 1500 2    50   Input ~ 0
-B_IN
-Text GLabel 6000 1650 2    50   Input ~ 0
-OP_IN
-Text GLabel 6000 1750 2    50   Input ~ 0
-OP1
-Text GLabel 6000 1850 2    50   Input ~ 0
-OP2
-Text GLabel 6000 1950 2    50   Input ~ 0
-OP3
-Text GLabel 6000 2050 2    50   Input ~ 0
-OP4
-Text GLabel 6000 2200 2    50   Input ~ 0
-ALU_OUT_I
-Text GLabel 6000 2350 2    50   Output ~ 0
-FLAG_NEG
-Text GLabel 6000 2450 2    50   Output ~ 0
-FLAG_ZERO
-Text GLabel 6000 2550 2    50   Output ~ 0
-FLAG_CARRY
-Text GLabel 6000 2650 2    50   Output ~ 0
-FLAG_OVERFLOW
-Text GLabel 6000 2800 2    50   Input ~ 0
-ALU_TDI
-Text GLabel 6000 2900 2    50   Input ~ 0
-TMS
-Text GLabel 6000 3000 2    50   Input ~ 0
-TCK
-Text GLabel 6000 3100 2    50   Output ~ 0
-ALU_TDO
-Text GLabel 10150 1200 2    50   Output ~ 0
-A_IN
-Text GLabel 10150 1300 2    50   Output ~ 0
-B_IN
-Text GLabel 10150 1450 2    50   Output ~ 0
-OP_IN
-Text GLabel 10150 1550 2    50   Output ~ 0
-OP1
-Text GLabel 10150 1650 2    50   Output ~ 0
-OP2
-Text GLabel 10150 1750 2    50   Output ~ 0
-OP3
-Text GLabel 10150 1850 2    50   Output ~ 0
-OP4
-Text GLabel 10150 2000 2    50   Output ~ 0
-ALU_OUT_I
-Text GLabel 10150 2150 2    50   Input ~ 0
-FLAG_NEG
-Text GLabel 10150 2250 2    50   Input ~ 0
-FLAG_ZERO
-Text GLabel 10150 2350 2    50   Input ~ 0
-FLAG_CARRY
-Text GLabel 10150 2450 2    50   Input ~ 0
-FLAG_OVERFLOW
-Text GLabel 6000 3800 2    50   Input ~ 0
-REG1_OUT_L_I
-Text GLabel 6000 3900 2    50   Input ~ 0
-REG1_OUT_H_I
-Text GLabel 6000 4000 2    50   Input ~ 0
-REG1_IN_H
-Text GLabel 6000 4100 2    50   Input ~ 0
-REG1_IN_L
-Text GLabel 6000 4250 2    50   Input ~ 0
-REG2_OUT_L_I
-Text GLabel 6000 4350 2    50   Input ~ 0
-REG2_OUT_H_I
-Text GLabel 6000 4450 2    50   Input ~ 0
-REG2_IN_H
-Text GLabel 6000 4550 2    50   Input ~ 0
-REG2_IN_L
-Text GLabel 6000 4700 2    50   Input ~ 0
-REG3_OUT_L_I
-Text GLabel 6000 4800 2    50   Input ~ 0
-REG3_OUT_H_I
-Text GLabel 6000 4900 2    50   Input ~ 0
-REG3_IN_H
-Text GLabel 6000 5000 2    50   Input ~ 0
-REG3_IN_L
-Text GLabel 6000 5150 2    50   Input ~ 0
-SP_OUT_I
-Text GLabel 6000 5250 2    50   Input ~ 0
-SP_IN
-Text GLabel 6000 5400 2    50   Input ~ 0
-BP_OUT_I
-Text GLabel 6000 5500 2    50   Input ~ 0
-BP_IN
-Text GLabel 10150 2600 2    50   Output ~ 0
-REG1_OUT_L_I
-Text GLabel 10150 2700 2    50   Output ~ 0
-REG1_OUT_H_I
-Text GLabel 10150 2800 2    50   Output ~ 0
-REG1_IN_H
-Text GLabel 10150 2900 2    50   Output ~ 0
-REG1_IN_L
-Text GLabel 10150 3050 2    50   Output ~ 0
-REG2_OUT_L_I
-Text GLabel 10150 3150 2    50   Output ~ 0
-REG2_OUT_H_I
-Text GLabel 10150 3250 2    50   Output ~ 0
-REG2_IN_H
-Text GLabel 10150 3350 2    50   Output ~ 0
-REG2_IN_L
-Text GLabel 10150 3500 2    50   Output ~ 0
-REG3_OUT_L_I
-Text GLabel 10150 3600 2    50   Output ~ 0
-REG3_OUT_H_I
-Text GLabel 10150 3700 2    50   Output ~ 0
-REG3_IN_H
-Text GLabel 10150 3800 2    50   Output ~ 0
-REG3_IN_L
-Text GLabel 10150 3950 2    50   Output ~ 0
-SP_OUT_I
-Text GLabel 10150 4050 2    50   Output ~ 0
-SP_IN
-Text GLabel 10150 4200 2    50   Output ~ 0
-BP_OUT_I
-Text GLabel 10150 4300 2    50   Output ~ 0
-BP_IN
-Text GLabel 7900 1400 2    50   Input ~ 0
-PC_COUNT
-Text GLabel 7900 1500 2    50   Input ~ 0
-PC_IN
-Text GLabel 7900 1600 2    50   Input ~ 0
-PC_OUT_I
-Text GLabel 10150 5550 2    50   Input ~ 0
-PC_COUNT
-Text GLabel 10150 5650 2    50   Input ~ 0
-PC_IN
-Text GLabel 10150 5750 2    50   Input ~ 0
-PC_OUT_I
-Text GLabel 7900 1900 2    50   Input ~ 0
-TMS
-Text GLabel 7900 2000 2    50   Input ~ 0
-PC_TDI
-Text GLabel 7900 2100 2    50   Input ~ 0
-TCK
-Text GLabel 7900 2200 2    50   Output ~ 0
-PC_TDO
-Text GLabel 7850 3800 2    50   Output ~ 0
-INT
-Text GLabel 7850 3900 2    50   Input ~ 0
-INT_OUT_I
-Text GLabel 7850 4000 2    50   Input ~ 0
-RST_INT
-Text GLabel 7850 4150 2    50   Input ~ 0
-IO_OUT
-Text GLabel 7850 4250 2    50   Input ~ 0
-IO_IN
-Text GLabel 7850 4400 2    50   Input ~ 0
-IO_OUTB
-Text GLabel 7850 4500 2    50   Input ~ 0
-IO_INB
-Text GLabel 7850 4650 2    50   Input ~ 0
-IO_ADDR_IN
-Text GLabel 7850 4800 2    50   Input ~ 0
-PERIPH_MEM_SPACE
-Text GLabel 10150 4450 2    50   Input ~ 0
-INT
-Text GLabel 10150 4550 2    50   Output ~ 0
-INT_OUT_I
-Text GLabel 10150 4650 2    50   Output ~ 0
-RST_INT
-Text GLabel 10150 4800 2    50   Output ~ 0
-IO_OUT
-Text GLabel 10150 4900 2    50   Output ~ 0
-IO_IN
-Text GLabel 10150 5050 2    50   Output ~ 0
-IO_OUTB
-Text GLabel 10150 5150 2    50   Output ~ 0
-IO_INB
-Text GLabel 10150 5300 2    50   Output ~ 0
-IO_ADDR_IN
-Text GLabel 10150 5400 2    50   Output ~ 0
-PERIPH_MEM_SPACE
-Text GLabel 9000 5700 0    50   Input ~ 0
-TMS
-Text GLabel 9000 6000 0    50   Input ~ 0
-CTRL_TDI
-Text GLabel 9000 5800 0    50   Input ~ 0
-TCK
-Text GLabel 9000 5900 0    50   Output ~ 0
-CTRL_TDO
 Wire Notes Line
 	1250 6050 2300 6050
 Wire Notes Line
@@ -684,7 +481,7 @@ U 1 1 5FADE57E
 P 2500 1800
 F 0 "F1" V 2250 1800 50  0000 C CNN
 F 1 "250mA" V 2350 1800 50  0000 C CNN
-F 2 "" H 2550 1600 50  0001 L CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2550 1600 50  0001 L CNN
 F 3 "~" H 2500 1800 50  0001 C CNN
 	1    2500 1800
 	0    1    1    0   
@@ -695,7 +492,7 @@ U 1 1 5FAE039E
 P 2000 1800
 F 0 "D1" H 2000 1550 50  0000 C CNN
 F 1 "D_Schottky_Small" H 2000 1650 50  0000 C CNN
-F 2 "" V 2000 1800 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 2000 1800 50  0001 C CNN
 F 3 "~" V 2000 1800 50  0001 C CNN
 	1    2000 1800
 	-1   0    0    1   
@@ -706,24 +503,11 @@ U 1 1 5FAE1FFC
 P 3000 1800
 F 0 "FB1" V 2750 1800 50  0000 C CNN
 F 1 "100 @ 100MHz" V 2850 1800 50  0000 C CNN
-F 2 "" V 2930 1800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2930 1800 50  0001 C CNN
 F 3 "~" H 3000 1800 50  0001 C CNN
 	1    3000 1800
 	0    1    1    0   
 $EndComp
-$Comp
-L Regulator_Linear:AMS1117-3.3 U1
-U 1 1 5FAE756B
-P 3750 1800
-F 0 "U1" H 3750 2042 50  0000 C CNN
-F 1 "AMS1117-3.3" H 3750 1951 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 3750 2000 50  0001 C CNN
-F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 3850 1550 50  0001 C CNN
-	1    3750 1800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3450 1800 3300 1800
 Wire Wire Line
 	2900 1800 2600 1800
 Wire Wire Line
@@ -738,7 +522,7 @@ U 1 1 5FAEDD4D
 P 3300 2050
 F 0 "C1" H 3392 2096 50  0000 L CNN
 F 1 "10u" H 3392 2005 50  0000 L CNN
-F 2 "" H 3300 2050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3300 2050 50  0001 C CNN
 F 3 "~" H 3300 2050 50  0001 C CNN
 	1    3300 2050
 	1    0    0    -1  
@@ -749,7 +533,7 @@ U 1 1 5FAEE27E
 P 4200 2050
 F 0 "C2" H 4292 2096 50  0000 L CNN
 F 1 "10u" H 4292 2005 50  0000 L CNN
-F 2 "" H 4200 2050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4200 2050 50  0001 C CNN
 F 3 "~" H 4200 2050 50  0001 C CNN
 	1    4200 2050
 	1    0    0    -1  
@@ -760,7 +544,6 @@ Wire Wire Line
 	4200 1800 4200 1950
 Wire Wire Line
 	3300 1950 3300 1800
-Connection ~ 3300 1800
 Wire Wire Line
 	3300 1800 3100 1800
 $Comp
@@ -797,41 +580,6 @@ F 3 "" H 4200 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 4200 1800
-$Comp
-L Connector:Conn_01x02_Male J1
-U 1 1 5FAF8387
-P 1050 1850
-F 0 "J1" H 1350 1450 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 1650 1350 50  0000 C CNN
-F 2 "" H 1050 1850 50  0001 C CNN
-F 3 "~" H 1050 1850 50  0001 C CNN
-	1    1050 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR03
-U 1 1 5FAF8E68
-P 1250 1850
-F 0 "#PWR03" H 1250 1700 50  0001 C CNN
-F 1 "VCC" H 1265 2023 50  0000 C CNN
-F 2 "" H 1250 1850 50  0001 C CNN
-F 3 "" H 1250 1850 50  0001 C CNN
-	1    1250 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5FAF95BA
-P 1250 1950
-AR Path="/5F97DCB2/5FAF95BA" Ref="#PWR?"  Part="1" 
-AR Path="/5FAF95BA" Ref="#PWR04"  Part="1" 
-F 0 "#PWR04" H 1250 1700 50  0001 C CNN
-F 1 "GND" H 1255 1777 50  0000 C CNN
-F 2 "" H 1250 1950 50  0001 C CNN
-F 3 "" H 1250 1950 50  0001 C CNN
-	1    1250 1950
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	850  1250 4550 1250
 Wire Notes Line
@@ -842,14 +590,6 @@ Wire Notes Line
 	850  2550 850  1250
 Wire Wire Line
 	1300 5350 1250 5350
-Wire Wire Line
-	1750 6250 1800 6250
-Wire Wire Line
-	1750 6350 1800 6350
-Wire Wire Line
-	1750 6450 1800 6450
-Wire Wire Line
-	1750 6550 1800 6550
 Text Label 1950 3500 0    50   ~ 0
 RESET
 Text Label 2650 3550 2    50   ~ 0
@@ -864,20 +604,28 @@ Text Label 2400 5350 0    50   ~ 0
 TCK
 Text Label 1750 6250 2    50   ~ 0
 TDI
-Text Label 1800 6250 0    50   ~ 0
-ALU_TDI
 Text Label 1750 6350 2    50   ~ 0
 ALU_TDO
-Text Label 1800 6350 0    50   ~ 0
-PC_TDI
 Text Label 1750 6450 2    50   ~ 0
 PC_TDO
-Text Label 1800 6450 0    50   ~ 0
-CTRL_TDI
 Text Label 1750 6550 2    50   ~ 0
 CTRL_TDO
-Text Label 1800 6550 0    50   ~ 0
-TDO
+$Sheet
+S 6950 3700 900  1350
+U 5F8B5DB4
+F0 "IO" 50
+F1 "io.sch" 50
+F2 "INT_OUT_I" I R 7850 3900 50 
+F3 "RST_INT" I R 7850 4000 50 
+F4 "INT" O R 7850 3800 50 
+F5 "PERIPH_MEM_SPACE" I R 7850 4800 50 
+F6 "IO_OUT" I R 7850 4150 50 
+F7 "IO_OUTB" I R 7850 4400 50 
+F8 "IO_IN" I R 7850 4250 50 
+F9 "IO_INB" I R 7850 4500 50 
+F10 "IO_ADDR_IN" I R 7850 4650 50 
+F11 "RESET" I R 7850 4950 50 
+$EndSheet
 $Sheet
 S 5200 1300 800  2050
 U 5F8B5CB7
@@ -901,34 +649,360 @@ F16 "B_IN" I R 6000 1500 50
 F17 "OP_IN" I R 6000 1650 50 
 F18 "RESET" I R 6000 3250 50 
 $EndSheet
+Text Label 6000 1400 0    50   ~ 0
+A_IN
+Text Label 6000 1500 0    50   ~ 0
+B_IN
+Text Label 6000 1650 0    50   ~ 0
+OP_IN
+Text Label 6000 1750 0    50   ~ 0
+OP1
+Text Label 6000 1850 0    50   ~ 0
+OP2
+Text Label 6000 1950 0    50   ~ 0
+OP3
+Text Label 6000 2050 0    50   ~ 0
+OP4
+Text Label 6000 2200 0    50   ~ 0
+ALU_OUT_I
+Text Label 6000 2350 0    50   ~ 0
+FLAG_NEG
+Text Label 6000 2450 0    50   ~ 0
+FLAG_ZERO
+Text Label 6000 2550 0    50   ~ 0
+FLAG_CARRY
+Text Label 6000 2650 0    50   ~ 0
+FLAG_OVERFLOW
+Text Label 6000 2800 0    50   ~ 0
+ALU_TDI
+Text Label 6000 2900 0    50   ~ 0
+TMS
+Text Label 6000 3000 0    50   ~ 0
+TCK
+Text Label 6000 3250 0    50   ~ 0
+RESET
+Text Label 6000 3800 0    50   ~ 0
+REG1_OUT_L_I
+Text Label 6000 3900 0    50   ~ 0
+REG1_OUT_H_I
+Text Label 6000 4000 0    50   ~ 0
+REG1_IN_H
+Text Label 6000 4100 0    50   ~ 0
+REG1_IN_L
+Text Label 6000 4250 0    50   ~ 0
+REG2_OUT_L_I
+Text Label 6000 4350 0    50   ~ 0
+REG2_OUT_H_I
+Text Label 6000 4450 0    50   ~ 0
+REG2_IN_H
+Text Label 6000 4550 0    50   ~ 0
+REG2_IN_L
+Text Label 6000 4700 0    50   ~ 0
+REG3_OUT_L_I
+Text Label 6000 4800 0    50   ~ 0
+REG3_OUT_H_I
+Text Label 6000 4900 0    50   ~ 0
+REG3_IN_H
+Text Label 6000 5000 0    50   ~ 0
+REG3_IN_L
+Text Label 6000 5150 0    50   ~ 0
+SP_OUT_I
+Text Label 6000 5250 0    50   ~ 0
+SP_IN
+Text Label 6000 5400 0    50   ~ 0
+BP_OUT_I
+Text Label 6000 5500 0    50   ~ 0
+BP_IN
+Text Label 7850 3800 0    50   ~ 0
+INT
+Text Label 7850 3900 0    50   ~ 0
+INT_OUT_I
+Text Label 7850 4000 0    50   ~ 0
+RST_INT
+Text Label 7850 4150 0    50   ~ 0
+IO_OUT
+Text Label 7850 4250 0    50   ~ 0
+IO_IN
+Text Label 7850 4400 0    50   ~ 0
+IO_OUTB
+Text Label 7850 4500 0    50   ~ 0
+IO_INB
+Text Label 7850 4650 0    50   ~ 0
+IO_ADDR_IN
+Text Label 7850 4800 0    50   ~ 0
+PERIPH_MEM_SPACE
+Text Label 7850 4950 0    50   ~ 0
+RESET
+Text Label 10150 1200 0    50   ~ 0
+A_IN
+Text Label 10150 1300 0    50   ~ 0
+B_IN
+Text Label 10150 1450 0    50   ~ 0
+OP_IN
+Text Label 10150 1550 0    50   ~ 0
+OP1
+Text Label 10150 1650 0    50   ~ 0
+OP2
+Text Label 10150 1750 0    50   ~ 0
+OP3
+Text Label 10150 1850 0    50   ~ 0
+OP4
+Text Label 10150 2000 0    50   ~ 0
+ALU_OUT_I
+Text Label 10150 2150 0    50   ~ 0
+FLAG_NEG
+Text Label 10150 2250 0    50   ~ 0
+FLAG_ZERO
+Text Label 10150 2350 0    50   ~ 0
+FLAG_CARRY
+Text Label 10150 2450 0    50   ~ 0
+FLAG_OVERFLOW
+Text Label 10150 2600 0    50   ~ 0
+REG1_OUT_L_I
+Text Label 10150 2700 0    50   ~ 0
+REG1_OUT_H_I
+Text Label 10150 2800 0    50   ~ 0
+REG1_IN_H
+Text Label 10150 2900 0    50   ~ 0
+REG1_IN_L
+Text Label 10150 3050 0    50   ~ 0
+REG2_OUT_L_I
+Text Label 10150 3150 0    50   ~ 0
+REG2_OUT_H_I
+Text Label 10150 3250 0    50   ~ 0
+REG2_IN_H
+Text Label 10150 3350 0    50   ~ 0
+REG2_IN_L
+Text Label 10150 3500 0    50   ~ 0
+REG3_OUT_L_I
+Text Label 10150 3600 0    50   ~ 0
+REG3_OUT_H_I
+Text Label 10150 3700 0    50   ~ 0
+REG3_IN_H
+Text Label 10150 3800 0    50   ~ 0
+REG3_IN_L
+Text Label 10150 3950 0    50   ~ 0
+SP_OUT_I
+Text Label 10150 4050 0    50   ~ 0
+SP_IN
+Text Label 10150 4200 0    50   ~ 0
+BP_OUT_I
+Text Label 10150 4300 0    50   ~ 0
+BP_IN
+Text Label 10150 4450 0    50   ~ 0
+INT
+Text Label 10150 4550 0    50   ~ 0
+INT_OUT_I
+Text Label 10150 4650 0    50   ~ 0
+RST_INT
+Text Label 10150 4800 0    50   ~ 0
+IO_OUT
+Text Label 10150 4900 0    50   ~ 0
+IO_IN
+Text Label 10150 5050 0    50   ~ 0
+IO_OUTB
+Text Label 10150 5150 0    50   ~ 0
+IO_INB
+Text Label 10150 5300 0    50   ~ 0
+IO_ADDR_IN
+Text Label 10150 5400 0    50   ~ 0
+PERIPH_MEM_SPACE
+Text Label 10150 5550 0    50   ~ 0
+PC_COUNT
+Text Label 10150 5750 0    50   ~ 0
+PC_OUT_I
+Text Label 10150 5650 0    50   ~ 0
+PC_IN
+Text Label 10150 1050 0    50   ~ 0
+RESET
+Text GLabel 3850 6100 0    50   3State ~ 0
+BUS16
+Text GLabel 3850 5950 0    50   3State ~ 0
+BUS15
+Text GLabel 3850 5800 0    50   3State ~ 0
+BUS14
+Text GLabel 3850 5650 0    50   3State ~ 0
+BUS13
+Text GLabel 3850 5500 0    50   3State ~ 0
+BUS12
+Text GLabel 3850 5350 0    50   3State ~ 0
+BUS11
+Text GLabel 3850 5200 0    50   3State ~ 0
+BUS10
+Text GLabel 3850 5050 0    50   3State ~ 0
+BUS9
+Text GLabel 3850 4850 0    50   3State ~ 0
+BUS8
+Text GLabel 3850 4700 0    50   3State ~ 0
+BUS7
+Text GLabel 3850 4550 0    50   3State ~ 0
+BUS6
+Text GLabel 3850 4400 0    50   3State ~ 0
+BUS5
+Text GLabel 3850 4250 0    50   3State ~ 0
+BUS4
+Text GLabel 3850 4100 0    50   3State ~ 0
+BUS3
+Text GLabel 3850 3950 0    50   3State ~ 0
+BUS2
+Text GLabel 3850 3800 0    50   3State ~ 0
+BUS1
+Text Label 9000 5700 2    50   ~ 0
+TMS
+Text Label 9000 5800 2    50   ~ 0
+TCK
+Text Label 9000 5900 2    50   ~ 0
+CTRL_TDO
+Text Label 9000 6000 2    50   ~ 0
+CTRL_TDI
+$Comp
+L Regulator_Linear:AMS1117-3.3 U1
+U 1 1 5FAE756B
+P 3750 1800
+F 0 "U1" H 3750 2042 50  0000 C CNN
+F 1 "AMS1117-3.3" H 3750 1951 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 3750 2000 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 3850 1550 50  0001 C CNN
+	1    3750 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 3300 1800
+Text Label 6000 3100 0    50   ~ 0
+ALU_TDO
+Text Label 7850 1400 0    50   ~ 0
+PC_COUNT
+Text Label 7850 1500 0    50   ~ 0
+PC_IN
+Text Label 7850 1600 0    50   ~ 0
+PC_OUT_I
+Text Label 7850 1750 0    50   ~ 0
+RESET
+Text Label 7850 2000 0    50   ~ 0
+PC_TDI
+Text Label 7850 2200 0    50   ~ 0
+PC_TDO
+Text Label 7850 2100 0    50   ~ 0
+TCK
+Text Label 7850 1900 0    50   ~ 0
+TMS
 $Sheet
-S 7000 1300 900  1000
+S 6950 1300 900  1000
 U 5FA796BE
 F0 "Program Counter" 50
 F1 "program_counter.sch" 50
-F2 "TMS" I R 7900 1900 50 
-F3 "TDI" I R 7900 2000 50 
-F4 "TCK" I R 7900 2100 50 
-F5 "PC_COUNT" I R 7900 1400 50 
-F6 "RESET" I R 7900 1750 50 
-F7 "TDO" O R 7900 2200 50 
-F8 "PC_IN" I R 7900 1500 50 
-F9 "PC_OUT_I" I R 7900 1600 50 
+F2 "TMS" I R 7850 1900 50 
+F3 "TDI" I R 7850 2000 50 
+F4 "TCK" I R 7850 2100 50 
+F5 "PC_COUNT" I R 7850 1400 50 
+F6 "RESET" I R 7850 1750 50 
+F7 "TDO" O R 7850 2200 50 
+F8 "PC_IN" I R 7850 1500 50 
+F9 "PC_OUT_I" I R 7850 1600 50 
 $EndSheet
-$Sheet
-S 6950 3700 900  1350
-U 5F8B5DB4
-F0 "IO" 50
-F1 "io.sch" 50
-F2 "INT_OUT_I" I R 7850 3900 50 
-F3 "RST_INT" I R 7850 4000 50 
-F4 "INT" O R 7850 3800 50 
-F5 "PERIPH_MEM_SPACE" I R 7850 4800 50 
-F6 "IO_OUT" I R 7850 4150 50 
-F7 "IO_OUTB" I R 7850 4400 50 
-F8 "IO_IN" I R 7850 4250 50 
-F9 "IO_INB" I R 7850 4500 50 
-F10 "IO_ADDR_IN" I R 7850 4650 50 
-F11 "RESET" I R 7850 4950 50 
-$EndSheet
+Wire Wire Line
+	3400 1800 3450 1800
+Wire Wire Line
+	3300 1800 3400 1800
+Connection ~ 3400 1800
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5FA9A5AF
+P 3400 1800
+F 0 "#FLG0101" H 3400 1875 50  0001 C CNN
+F 1 "PWR_FLAG" H 3400 2050 50  0000 C CNN
+F 2 "" H 3400 1800 50  0001 C CNN
+F 3 "~" H 3400 1800 50  0001 C CNN
+	1    3400 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 5FAF8387
+P 950 1850
+F 0 "J1" H 1250 1450 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 1550 1350 50  0000 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53048-0210_1x02_P1.25mm_Horizontal" H 950 1850 50  0001 C CNN
+F 3 "~" H 950 1850 50  0001 C CNN
+	1    950  1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR03
+U 1 1 5FAF8E68
+P 1150 1850
+F 0 "#PWR03" H 1150 1700 50  0001 C CNN
+F 1 "VCC" H 1165 2023 50  0000 C CNN
+F 2 "" H 1150 1850 50  0001 C CNN
+F 3 "" H 1150 1850 50  0001 C CNN
+	1    1150 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FAF95BA
+P 1150 1950
+AR Path="/5F97DCB2/5FAF95BA" Ref="#PWR?"  Part="1" 
+AR Path="/5FAF95BA" Ref="#PWR04"  Part="1" 
+F 0 "#PWR04" H 1150 1700 50  0001 C CNN
+F 1 "GND" H 1155 1777 50  0000 C CNN
+F 2 "" H 1150 1950 50  0001 C CNN
+F 3 "" H 1150 1950 50  0001 C CNN
+	1    1150 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5FA9B38C
+P 1250 1850
+F 0 "#FLG0102" H 1250 1925 50  0001 C CNN
+F 1 "PWR_FLAG" H 1250 2100 50  0000 C CNN
+F 2 "" H 1250 1850 50  0001 C CNN
+F 3 "~" H 1250 1850 50  0001 C CNN
+	1    1250 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 1850 1250 1850
+Connection ~ 1150 1850
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5FA9C83A
+P 1250 1950
+F 0 "#FLG0103" H 1250 2025 50  0001 C CNN
+F 1 "PWR_FLAG" H 1250 2200 50  0000 C CNN
+F 2 "" H 1250 1950 50  0001 C CNN
+F 3 "~" H 1250 1950 50  0001 C CNN
+	1    1250 1950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1150 1950 1250 1950
+Connection ~ 1150 1950
+Wire Wire Line
+	1750 6550 1800 6550
+Wire Wire Line
+	1750 6450 1800 6450
+Wire Wire Line
+	1750 6350 1800 6350
+Wire Wire Line
+	1750 6250 1800 6250
+Text Label 1800 6550 0    50   ~ 0
+TDO
+Text Label 1800 6450 0    50   ~ 0
+CTRL_TDI
+Text Label 1800 6350 0    50   ~ 0
+PC_TDI
+Text Label 1800 6250 0    50   ~ 0
+ALU_TDI
+$Comp
+L Connector_Generic:Conn_02x03_Counter_Clockwise J3
+U 1 1 5FA0F62B
+P 1850 5350
+F 0 "J3" H 1950 5950 50  0000 C CNN
+F 1 "Conn_02x03_Counter_Clockwise" H 2050 5850 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 1850 5350 50  0001 C CNN
+F 3 "~" H 1850 5350 50  0001 C CNN
+	1    1850 5350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

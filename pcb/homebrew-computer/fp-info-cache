@@ -1,4 +1,4 @@
-19125058425268994
+19128267120828994
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -67774,6 +67774,13 @@ TQFP QFP
 176
 176
 Package_QFP
+VQFP-44
+Based on the Xilinx XC9572XL-10VQ
+
+0
+44
+44
+Package_QFP
 VQFP-80_14x14mm_P0.65mm
 VQFP, 80 Pin (http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095), generated with kicad-footprint-generator ipc_gullwing_generator.py
 VQFP QFP
@@ -69481,6 +69488,13 @@ TSSOP SO
 0
 4
 4
+Package_SO
+TSSOP-5
+
+
+0
+5
+5
 Package_SO
 TSSOP-8_3x3mm_P0.65mm
 TSSOP8: plastic thin shrink small outline package; 8 leads; body width 3 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot505-1_po.pdf)
