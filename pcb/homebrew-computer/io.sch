@@ -24,45 +24,23 @@ These connections can change\nto make routing easier
 Wire Wire Line
 	6900 1200 6750 1200
 Wire Wire Line
-	6750 1300 6900 1300
-Wire Wire Line
 	6900 1500 6750 1500
-Wire Wire Line
-	6750 1600 6900 1600
 Wire Wire Line
 	6900 1800 6750 1800
 Wire Wire Line
-	6750 1900 6900 1900
-Wire Wire Line
 	6900 2100 6750 2100
-Wire Wire Line
-	6750 2200 6900 2200
 Wire Wire Line
 	6900 2400 6750 2400
 Wire Wire Line
-	6750 2500 6900 2500
-Wire Wire Line
 	6900 2700 6750 2700
-Wire Wire Line
-	6750 2800 6900 2800
 Wire Wire Line
 	6900 3000 6750 3000
 Wire Wire Line
-	7550 2500 7400 2500
-Wire Wire Line
-	7400 2200 7550 2200
-Wire Wire Line
 	7550 2100 7400 2100
-Wire Wire Line
-	7400 1900 7550 1900
 Wire Wire Line
 	7550 1800 7400 1800
 Wire Wire Line
-	7400 1600 7550 1600
-Wire Wire Line
 	7550 1500 7400 1500
-Wire Wire Line
-	7400 1300 7550 1300
 Wire Wire Line
 	7400 1200 7550 1200
 $Comp
@@ -87,63 +65,11 @@ F 3 "" H 7450 3100 50  0001 C CNN
 	1    7450 3100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6850 3100 6850 2900
-Wire Wire Line
-	6850 1100 6900 1100
-Wire Wire Line
-	6900 1400 6850 1400
-Connection ~ 6850 1400
-Wire Wire Line
-	6850 1400 6850 1100
-Wire Wire Line
-	6900 1700 6850 1700
-Connection ~ 6850 1700
-Wire Wire Line
-	6850 1700 6850 1400
-Wire Wire Line
-	6900 2000 6850 2000
-Connection ~ 6850 2000
-Wire Wire Line
-	6850 2000 6850 1700
-Wire Wire Line
-	6900 2600 6850 2600
-Connection ~ 6850 2600
-Wire Wire Line
-	6900 2900 6850 2900
-Connection ~ 6850 2900
-Wire Wire Line
-	6850 2900 6850 2600
-Wire Wire Line
-	7450 1100 7400 1100
-Wire Wire Line
-	7400 1400 7450 1400
-Connection ~ 7450 1400
-Wire Wire Line
-	7450 1400 7450 1100
-Wire Wire Line
-	7400 1700 7450 1700
-Connection ~ 7450 1700
-Wire Wire Line
-	7450 1700 7450 1400
-Wire Wire Line
-	7400 2000 7450 2000
-Connection ~ 7450 2000
-Wire Wire Line
-	7450 2000 7450 1700
-Wire Wire Line
-	7400 2300 7450 2300
-Connection ~ 7450 2300
-Wire Wire Line
-	7450 2300 7450 2000
-Wire Wire Line
-	7400 2600 7450 2600
-Connection ~ 7450 2600
 Wire Notes Line
 	6300 3400 6300 750 
 Text Notes 6300 750  0    50   ~ 0
 IO connector
-Text HLabel 6750 2400 0    50   Output ~ 0
+Text HLabel 7550 1100 2    50   Output ~ 0
 INT
 $Comp
 L 74AVC4T245:SN74AVC4T245PWR U6
@@ -254,31 +180,14 @@ Wire Notes Line
 	4150 2150 6150 2150
 Wire Notes Line
 	4150 3650 6150 3650
-Text HLabel 6750 3000 0    50   Input Italic 0
+Text HLabel 7550 1700 2    50   Input Italic 0
 RST_INT
 Wire Wire Line
 	7400 2400 7550 2400
 Wire Wire Line
-	7450 2300 7450 2600
-Wire Wire Line
 	7400 2700 7550 2700
 Wire Wire Line
-	7400 2800 7550 2800
-Wire Wire Line
 	7400 3000 7550 3000
-$Comp
-L 74AVC16T245:SN74AVC16T245DGGR U?
-U 1 1 5F9B5D6E
-P 2000 3250
-AR Path="/5F95DC76/5F9B5D6E" Ref="U?"  Part="1" 
-AR Path="/5F8B5DB4/5F9B5D6E" Ref="U5"  Part="1" 
-F 0 "U5" H 1900 3350 50  0000 C CNN
-F 1 "SN74AVC16T245DGGR" H 1900 3300 50  0000 C CNN
-F 2 "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm" H 2000 3250 50  0001 C CNN
-F 3 "" H 2000 3250 50  0001 C CNN
-	1    2000 3250
-	1    0    0    -1  
-$EndComp
 $Comp
 L 74AVC16T245:SN74AVC16T245DGGR U?
 U 2 1 5F9B5D74
@@ -475,20 +384,6 @@ Text Notes 1550 900  0    50   ~ 0
 Transceiver
 Text Notes 1300 750  0    50   ~ 0
 Bus transceiver
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5F9B5DDA
-P 1600 3450
-AR Path="/5F95DC76/5F9B5DDA" Ref="#PWR?"  Part="1" 
-AR Path="/5F8B5DB4/5F9B5DDA" Ref="#PWR0133"  Part="1" 
-F 0 "#PWR0133" H 1600 3300 50  0001 C CNN
-F 1 "+3.3V" H 1550 3600 50  0000 C CNN
-F 2 "" H 1600 3450 50  0001 C CNN
-F 3 "" H 1600 3450 50  0001 C CNN
-	1    1600 3450
-	1    0    0    -1  
-$EndComp
-Connection ~ 1600 3450
 Text HLabel 3400 3350 2    50   Input ~ 0
 IO_OUT
 Text HLabel 3400 3450 2    50   Input ~ 0
@@ -505,7 +400,7 @@ AR Path="/5F95DC76/5F9B5E06" Ref="D?"  Part="1"
 AR Path="/5F8B5DB4/5F9B5E06" Ref="D3"  Part="1" 
 F 0 "D3" H 3300 3557 50  0000 C CNN
 F 1 "D_Small" H 3500 3550 50  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric" V 3300 3350 50  0001 C CNN
+F 2 "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder" V 3300 3350 50  0001 C CNN
 F 3 "~" V 3300 3350 50  0001 C CNN
 	1    3300 3350
 	1    0    0    -1  
@@ -518,7 +413,7 @@ AR Path="/5F95DC76/5F9B5E0C" Ref="D?"  Part="1"
 AR Path="/5F8B5DB4/5F9B5E0C" Ref="D5"  Part="1" 
 F 0 "D5" H 3300 3657 50  0000 C CNN
 F 1 "D_Small" H 3500 3650 50  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric" V 3300 3450 50  0001 C CNN
+F 2 "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder" V 3300 3450 50  0001 C CNN
 F 3 "~" V 3300 3450 50  0001 C CNN
 	1    3300 3450
 	1    0    0    -1  
@@ -531,7 +426,7 @@ AR Path="/5F95DC76/5F9B5E12" Ref="D?"  Part="1"
 AR Path="/5F8B5DB4/5F9B5E12" Ref="D7"  Part="1" 
 F 0 "D7" H 3300 3050 50  0000 C CNN
 F 1 "D_Small" H 3500 3050 50  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric" V 3300 3550 50  0001 C CNN
+F 2 "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder" V 3300 3550 50  0001 C CNN
 F 3 "~" V 3300 3550 50  0001 C CNN
 	1    3300 3550
 	1    0    0    -1  
@@ -544,7 +439,7 @@ AR Path="/5F95DC76/5F9B5E18" Ref="D?"  Part="1"
 AR Path="/5F8B5DB4/5F9B5E18" Ref="D8"  Part="1" 
 F 0 "D8" H 3300 3450 50  0000 C CNN
 F 1 "D_Small" H 3500 3450 50  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric" V 3300 3650 50  0001 C CNN
+F 2 "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder" V 3300 3650 50  0001 C CNN
 F 3 "~" V 3300 3650 50  0001 C CNN
 	1    3300 3650
 	1    0    0    -1  
@@ -561,7 +456,7 @@ AR Path="/5F95DC76/5F9B5E22" Ref="D?"  Part="1"
 AR Path="/5F8B5DB4/5F9B5E22" Ref="D9"  Part="1" 
 F 0 "D9" H 3300 3550 50  0000 C CNN
 F 1 "D_Small" H 3500 3550 50  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric" V 3300 3750 50  0001 C CNN
+F 2 "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder" V 3300 3750 50  0001 C CNN
 F 3 "~" V 3300 3750 50  0001 C CNN
 	1    3300 3750
 	1    0    0    -1  
@@ -666,12 +561,10 @@ Text Notes 1450 6350 0    50   Italic 0
 There is an extra bypass capacitor\nfor the NOT gate
 Wire Notes Line
 	4050 6450 4050 750 
-Text HLabel 7550 3000 2    50   Input ~ 0
+Text HLabel 7550 2700 2    50   Input ~ 0
 PERIPH_MEM_SPACE
 Wire Wire Line
 	7400 2900 7550 2900
-Wire Wire Line
-	7450 2600 7450 3100
 Text Notes 6300 4750 0    50   Italic 0
 PERIPH_MEM_SPACE is the 17th bit of the address
 Wire Notes Line
@@ -680,15 +573,15 @@ Wire Notes Line
 	6300 750  8400 750 
 Wire Notes Line
 	6300 3400 8400 3400
-Text HLabel 7550 2400 2    50   Input ~ 0
+Text HLabel 7550 2000 2    50   Input ~ 0
 IO_ADDR_IN
-Text HLabel 7550 2500 2    50   Input ~ 0
+Text HLabel 7550 2100 2    50   Input ~ 0
 IO_OUT
-Text HLabel 7550 2700 2    50   Input ~ 0
+Text HLabel 7550 2300 2    50   Input ~ 0
 IO_IN
-Text HLabel 7550 2800 2    50   Input ~ 0
+Text HLabel 7550 2400 2    50   Input ~ 0
 IO_OUTB
-Text HLabel 7550 2900 2    50   Input ~ 0
+Text HLabel 7550 2600 2    50   Input ~ 0
 IO_INB
 Text Notes 850  4150 0    50   Italic 0
 We use diodes to implement the OR\nfunction as there will only be one \nactive at the same time
@@ -704,7 +597,7 @@ AR Path="/5F95DC76/5F9E6C34" Ref="D?"  Part="1"
 AR Path="/5F8B5DB4/5F9E6C34" Ref="D4"  Part="1" 
 F 0 "D4" H 1350 3657 50  0000 C CNN
 F 1 "D_Small" H 1550 3650 50  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric" V 1350 3450 50  0001 C CNN
+F 2 "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder" V 1350 3450 50  0001 C CNN
 F 3 "~" V 1350 3450 50  0001 C CNN
 	1    1350 3450
 	-1   0    0    -1  
@@ -717,7 +610,7 @@ AR Path="/5F95DC76/5F9E6C3A" Ref="D?"  Part="1"
 AR Path="/5F8B5DB4/5F9E6C3A" Ref="D6"  Part="1" 
 F 0 "D6" H 1350 3757 50  0000 C CNN
 F 1 "D_Small" H 1550 3750 50  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric" V 1350 3550 50  0001 C CNN
+F 2 "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder" V 1350 3550 50  0001 C CNN
 F 3 "~" V 1350 3550 50  0001 C CNN
 	1    1350 3550
 	-1   0    0    -1  
@@ -746,12 +639,10 @@ Wire Notes Line
 	750  6450 4050 6450
 Wire Notes Line
 	750  750  4050 750 
-Text HLabel 6750 2300 0    50   Input Italic 0
+Text HLabel 7550 1800 2    50   Input Italic 0
 RESET
 Wire Wire Line
 	6750 2300 6900 2300
-Wire Wire Line
-	6850 2000 6850 2600
 Text Notes 6300 5000 0    50   Italic 0
 This connector is slightly too small for the purpose,\nbut the next step is 50 ways.
 Text Notes 6300 5250 0    50   Italic 0
@@ -826,43 +717,43 @@ Text GLabel 5700 2900 2    50   3State ~ 0
 BUS2
 Text GLabel 5700 2800 2    50   3State ~ 0
 BUS1
-Text Label 6750 1200 2    50   ~ 0
+Text Label 6750 1100 2    50   ~ 0
 IO1
-Text Label 6750 1300 2    50   ~ 0
+Text Label 6750 1200 2    50   ~ 0
 IO2
-Text Label 6750 1500 2    50   ~ 0
+Text Label 6750 1400 2    50   ~ 0
 IO3
-Text Label 6750 1600 2    50   ~ 0
+Text Label 6750 1500 2    50   ~ 0
 IO4
-Text Label 6750 1800 2    50   ~ 0
+Text Label 6750 1700 2    50   ~ 0
 IO5
-Text Label 6750 1900 2    50   ~ 0
+Text Label 6750 1800 2    50   ~ 0
 IO6
-Text Label 6750 2100 2    50   ~ 0
+Text Label 6750 2000 2    50   ~ 0
 IO7
-Text Label 6750 2200 2    50   ~ 0
+Text Label 6750 2100 2    50   ~ 0
 IO8
-Text Label 7550 2100 0    50   ~ 0
+Text Label 6750 2300 2    50   ~ 0
 IO9
-Text Label 7550 2200 0    50   ~ 0
+Text Label 6750 2400 2    50   ~ 0
 IO10
-Text Label 7550 1800 0    50   ~ 0
+Text Label 6750 2600 2    50   ~ 0
 IO11
-Text Label 7550 1900 0    50   ~ 0
-IO12
-Text Label 7550 1500 0    50   ~ 0
-IO13
-Text Label 7550 1600 0    50   ~ 0
-IO14
-Text Label 7550 1200 0    50   ~ 0
-IO15
-Text Label 7550 1300 0    50   ~ 0
-IO16
-Text Label 6750 2500 2    50   ~ 0
-INT0
 Text Label 6750 2700 2    50   ~ 0
+IO12
+Text Label 6750 2900 2    50   ~ 0
+IO13
+Text Label 6750 3000 2    50   ~ 0
+IO14
+Text Label 7550 2900 0    50   ~ 0
+IO15
+Text Label 7550 3000 0    50   ~ 0
+IO16
+Text Label 7550 1200 0    50   ~ 0
+INT0
+Text Label 7550 1400 0    50   ~ 0
 INT1
-Text Label 6750 2800 2    50   ~ 0
+Text Label 7550 1500 0    50   ~ 0
 INT2
 Text Label 5000 2800 2    50   ~ 0
 INT0
@@ -877,10 +768,23 @@ U 1 1 5FADD492
 P 2700 3200
 F 0 "U7" H 2675 3265 50  0000 C CNN
 F 1 "74LVC1G14GW,125" H 2675 3174 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering" H 2700 3200 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 2700 3200 50  0001 C CNN
 F 3 "" H 2700 3200 50  0001 C CNN
 	1    2700 3200
 	-1   0    0    -1  
+$EndComp
+$Comp
+L 74AVC16T245:SN74AVC16T245DGGR U?
+U 1 1 5F9B5D6E
+P 2000 3250
+AR Path="/5F95DC76/5F9B5D6E" Ref="U?"  Part="1" 
+AR Path="/5F8B5DB4/5F9B5D6E" Ref="U5"  Part="1" 
+F 0 "U5" H 1900 3350 50  0000 C CNN
+F 1 "SN74AVC16T245DGGR" H 1900 3300 50  0000 C CNN
+F 2 "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm" H 2000 3250 50  0001 C CNN
+F 3 "" H 2000 3250 50  0001 C CNN
+	1    2000 3250
+	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x20_Odd_Even J4
@@ -893,4 +797,86 @@ F 3 "~" H 7100 2000 50  0001 C CNN
 	1    7100 2000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7400 2800 7450 2800
+Connection ~ 7450 2800
+Wire Wire Line
+	7450 2800 7450 3100
+Wire Wire Line
+	6900 2800 6850 2800
+Connection ~ 6850 2800
+Wire Wire Line
+	6900 2500 6850 2500
+Connection ~ 6850 2500
+Wire Wire Line
+	6750 2600 6900 2600
+Wire Wire Line
+	6850 2500 6850 2800
+Wire Wire Line
+	6750 2900 6900 2900
+Wire Wire Line
+	6850 2800 6850 3100
+Wire Wire Line
+	6850 1300 6900 1300
+Wire Wire Line
+	6900 1100 6750 1100
+Wire Wire Line
+	6900 1600 6850 1600
+Connection ~ 6850 1600
+Wire Wire Line
+	6900 1900 6850 1900
+Connection ~ 6850 1900
+Wire Wire Line
+	6900 2200 6850 2200
+Connection ~ 6850 2200
+Wire Wire Line
+	6850 2200 6850 2500
+Wire Wire Line
+	6750 1400 6900 1400
+Wire Wire Line
+	6850 1300 6850 1600
+Wire Wire Line
+	6750 1700 6900 1700
+Wire Wire Line
+	6850 1600 6850 1900
+Wire Wire Line
+	6750 2000 6900 2000
+Wire Wire Line
+	6850 1900 6850 2200
+Wire Wire Line
+	7400 1100 7550 1100
+Wire Wire Line
+	7450 1300 7400 1300
+Wire Wire Line
+	7400 1600 7450 1600
+Connection ~ 7450 1600
+Wire Wire Line
+	7400 1900 7450 1900
+Connection ~ 7450 1900
+Wire Wire Line
+	7400 2200 7450 2200
+Connection ~ 7450 2200
+Wire Wire Line
+	7400 2500 7450 2500
+Connection ~ 7450 2500
+Wire Wire Line
+	7400 1400 7550 1400
+Wire Wire Line
+	7450 1300 7450 1600
+Wire Wire Line
+	7400 1700 7550 1700
+Wire Wire Line
+	7450 1600 7450 1900
+Wire Wire Line
+	7400 2000 7550 2000
+Wire Wire Line
+	7450 1900 7450 2200
+Wire Wire Line
+	7400 2300 7550 2300
+Wire Wire Line
+	7450 2200 7450 2500
+Wire Wire Line
+	7400 2600 7550 2600
+Wire Wire Line
+	7450 2500 7450 2800
 $EndSCHEMATC

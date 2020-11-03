@@ -228,22 +228,48 @@ F 3 "" H 3300 2400 50  0001 C CNN
 $EndComp
 Text Notes 1700 6200 0    50   Italic 0
 The program counter has to be a CPLD as there\nis no 16-bit presettable synchronous tri-state binary counter\nwith asynchronous reset available on the market
-Text HLabel 2450 2900 0    50   Input ~ 0
+Text HLabel 3600 3600 2    50   Input ~ 0
 PC_COUNT
 Text HLabel 3600 3100 2    50   Input ~ 0
 RESET
-NoConn ~ 2450 2700
-NoConn ~ 2450 2800
-NoConn ~ 2450 3300
-NoConn ~ 2450 3400
-NoConn ~ 2450 3500
-NoConn ~ 2450 3600
-NoConn ~ 2450 3700
-NoConn ~ 2450 3800
-NoConn ~ 2450 3900
-NoConn ~ 2450 4000
-NoConn ~ 2450 4100
-NoConn ~ 2450 4200
+Text HLabel 3600 3700 2    50   Input ~ 0
+PC_IN
+Text HLabel 3600 3000 2    50   Input ~ 0
+PC_OUT_I
+Text GLabel 2450 3600 0    50   3State ~ 0
+BUS15
+Text GLabel 2450 3500 0    50   3State ~ 0
+BUS14
+Text GLabel 2450 3400 0    50   3State ~ 0
+BUS13
+Text GLabel 2450 3300 0    50   3State ~ 0
+BUS12
+Text GLabel 2450 3200 0    50   3State ~ 0
+BUS11
+Text GLabel 2450 3100 0    50   3State ~ 0
+BUS10
+Text GLabel 2450 3000 0    50   3State ~ 0
+BUS9
+Text GLabel 2450 2900 0    50   3State ~ 0
+BUS8
+Text GLabel 2450 2800 0    50   3State ~ 0
+BUS7
+Text GLabel 2450 2700 0    50   3State ~ 0
+BUS6
+Text GLabel 2450 2600 0    50   3State ~ 0
+BUS5
+Text GLabel 3600 2600 2    50   3State ~ 0
+BUS4
+Text GLabel 3600 2700 2    50   3State ~ 0
+BUS3
+Text GLabel 3600 2800 2    50   3State ~ 0
+BUS2
+Text GLabel 3600 2900 2    50   3State ~ 0
+BUS1
+Text HLabel 2850 5450 0    50   Input ~ 0
+TDI
+Text HLabel 2850 5350 0    50   Output ~ 0
+TDO
 $Comp
 L homebrew-computer-rescue:XC9536XL-10VQG44C-XC9500XL U8
 U 4 1 5FA96F85
@@ -257,46 +283,20 @@ F 3 "" H 2800 2400 50  0001 C CNN
 	4    2800 2400
 	1    0    0    -1  
 $EndComp
-Text HLabel 2450 3000 0    50   Input ~ 0
-PC_IN
-Text HLabel 3600 2900 2    50   Input ~ 0
-PC_OUT_I
-NoConn ~ 2450 3100
-NoConn ~ 2450 3200
-Text GLabel 2450 2600 0    50   3State ~ 0
+Text GLabel 2450 3700 0    50   3State ~ 0
 BUS16
-Text GLabel 3600 4200 2    50   3State ~ 0
-BUS15
-Text GLabel 3600 4100 2    50   3State ~ 0
-BUS14
-Text GLabel 3600 4000 2    50   3State ~ 0
-BUS13
-Text GLabel 3600 3900 2    50   3State ~ 0
-BUS12
-Text GLabel 3600 3800 2    50   3State ~ 0
-BUS11
-Text GLabel 3600 3700 2    50   3State ~ 0
-BUS10
-Text GLabel 3600 3600 2    50   3State ~ 0
-BUS9
-Text GLabel 3600 3500 2    50   3State ~ 0
-BUS8
-Text GLabel 3600 3400 2    50   3State ~ 0
-BUS7
-Text GLabel 3600 3300 2    50   3State ~ 0
-BUS6
-Text GLabel 3600 3200 2    50   3State ~ 0
-BUS5
-Text GLabel 3600 3000 2    50   3State ~ 0
-BUS4
-Text GLabel 3600 2800 2    50   3State ~ 0
-BUS3
-Text GLabel 3600 2700 2    50   3State ~ 0
-BUS2
-Text GLabel 3600 2600 2    50   3State ~ 0
-BUS1
-Text HLabel 2850 5450 0    50   Input ~ 0
-TDI
-Text HLabel 2850 5350 0    50   Output ~ 0
-TDO
+NoConn ~ 2450 3800
+NoConn ~ 2450 3900
+NoConn ~ 2450 4100
+NoConn ~ 2450 4000
+NoConn ~ 2450 4200
+NoConn ~ 3600 4200
+NoConn ~ 3600 4100
+NoConn ~ 3600 4000
+NoConn ~ 3600 3900
+NoConn ~ 3600 3800
+NoConn ~ 3600 3500
+NoConn ~ 3600 3400
+NoConn ~ 3600 3300
+NoConn ~ 3600 3200
 $EndSCHEMATC
