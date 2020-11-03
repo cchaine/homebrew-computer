@@ -408,7 +408,7 @@ U 1 1 5FA4EADF
 P 2850 3650
 F 0 "J2" H 3000 3300 50  0000 R CNN
 F 1 "Conn_01x02_Male" H 3400 3400 50  0000 R CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 2850 3650 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Pico-Clasp_202396-0207_1x02-1MP_P1.00mm_Horizontal" H 2850 3650 50  0001 C CNN
 F 3 "~" H 2850 3650 50  0001 C CNN
 	1    2850 3650
 	-1   0    0    1   
@@ -921,7 +921,7 @@ U 1 1 5FAF8387
 P 950 1850
 F 0 "J1" H 1250 1450 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 1550 1350 50  0000 C CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 950 1850 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Pico-Clasp_202396-0207_1x02-1MP_P1.00mm_Horizontal" H 950 1850 50  0001 C CNN
 F 3 "~" H 950 1850 50  0001 C CNN
 	1    950  1850
 	1    0    0    -1  
@@ -1005,4 +1005,58 @@ F 3 "~" H 1850 5350 50  0001 C CNN
 	1    1850 5350
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5FA3BEDC
+P 3450 7200
+F 0 "H?" H 3550 7246 50  0000 L CNN
+F 1 "M3" H 3550 7155 50  0000 L CNN
+F 2 "" H 3450 7200 50  0001 C CNN
+F 3 "~" H 3450 7200 50  0001 C CNN
+	1    3450 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5FA3C065
+P 3800 7200
+F 0 "H?" H 3900 7246 50  0000 L CNN
+F 1 "M3" H 3900 7155 50  0000 L CNN
+F 2 "" H 3800 7200 50  0001 C CNN
+F 3 "~" H 3800 7200 50  0001 C CNN
+	1    3800 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5FA3C31E
+P 4100 7200
+F 0 "H?" H 4200 7246 50  0000 L CNN
+F 1 "M3" H 4200 7155 50  0000 L CNN
+F 2 "" H 4100 7200 50  0001 C CNN
+F 3 "~" H 4100 7200 50  0001 C CNN
+	1    4100 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5FA3C4FA
+P 4400 7200
+F 0 "H?" H 4500 7246 50  0000 L CNN
+F 1 "M3" H 4500 7155 50  0000 L CNN
+F 2 "" H 4400 7200 50  0001 C CNN
+F 3 "~" H 4400 7200 50  0001 C CNN
+	1    4400 7200
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	3300 7050 4650 7050
+Wire Notes Line
+	4650 7050 4650 7350
+Wire Notes Line
+	4650 7350 3300 7350
+Wire Notes Line
+	3300 7350 3300 7050
+Text Notes 3300 7050 0    50   ~ 0
+Mounting Holes
 $EndSCHEMATC

@@ -1005,4 +1005,58 @@ F 3 "~" H 1850 5350 50  0001 C CNN
 	1    1850 5350
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5FA3BEDC
+P 3450 7200
+F 0 "H1" H 3550 7246 50  0000 L CNN
+F 1 "M3" H 3550 7155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 3450 7200 50  0001 C CNN
+F 3 "~" H 3450 7200 50  0001 C CNN
+	1    3450 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5FA3C065
+P 3800 7200
+F 0 "H2" H 3900 7246 50  0000 L CNN
+F 1 "M3" H 3900 7155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 3800 7200 50  0001 C CNN
+F 3 "~" H 3800 7200 50  0001 C CNN
+	1    3800 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5FA3C31E
+P 4100 7200
+F 0 "H3" H 4200 7246 50  0000 L CNN
+F 1 "M3" H 4200 7155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 4100 7200 50  0001 C CNN
+F 3 "~" H 4100 7200 50  0001 C CNN
+	1    4100 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5FA3C4FA
+P 4400 7200
+F 0 "H4" H 4500 7246 50  0000 L CNN
+F 1 "M3" H 4500 7155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 4400 7200 50  0001 C CNN
+F 3 "~" H 4400 7200 50  0001 C CNN
+	1    4400 7200
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	3300 7050 4650 7050
+Wire Notes Line
+	4650 7050 4650 7350
+Wire Notes Line
+	4650 7350 3300 7350
+Wire Notes Line
+	3300 7350 3300 7050
+Text Notes 3300 7050 0    50   ~ 0
+Mounting Holes
 $EndSCHEMATC
