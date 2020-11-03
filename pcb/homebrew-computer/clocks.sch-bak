@@ -121,7 +121,7 @@ U 1 1 5F90DBBD
 P 3300 1400
 F 0 "J5" H 3272 1282 50  0000 R CNN
 F 1 "Conn_01x04_Male" H 3650 1050 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 3300 1400 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Pico-Clasp_202396-0607_1x06-1MP_P1.00mm_Horizontal" H 3300 1400 50  0001 C CNN
 F 3 "~" H 3300 1400 50  0001 C CNN
 	1    3300 1400
 	-1   0    0    1   
@@ -272,7 +272,7 @@ U 1 1 5FB8BDB1
 P 1150 3350
 F 0 "R7" H 1209 3396 50  0000 L CNN
 F 1 "10k" H 1209 3305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 1150 3350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 1150 3350 50  0001 C CNN
 F 3 "~" H 1150 3350 50  0001 C CNN
 	1    1150 3350
 	1    0    0    -1  
@@ -389,7 +389,7 @@ U 1 1 5FAD3D98
 P 3450 3150
 F 0 "J6" H 3250 3400 50  0000 L CNN
 F 1 "Conn_01x02" H 3000 3300 50  0000 L CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53048-0210_1x02_P1.25mm_Horizontal" H 3450 3150 50  0001 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 3450 3150 50  0001 C CNN
 F 3 "~" H 3450 3150 50  0001 C CNN
 	1    3450 3150
 	1    0    0    -1  

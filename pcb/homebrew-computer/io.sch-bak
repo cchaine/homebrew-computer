@@ -17,17 +17,6 @@ Text Notes 6300 3700 0    50   Italic 0
 When there is a pending interrupt\nINT is set to 1 and INT[2:0] is the index in the IVT.\nWhen the reti is called, RST_INT is set to 1.
 Text Notes 6300 4050 0    50   Italic 0
 The clock is not sent through this connector.\nIt is passed by another connector to the clock module,\nin the external clock configuration
-$Comp
-L Connector_Generic:Conn_02x20_Counter_Clockwise J4
-U 1 1 5F93FA7B
-P 7100 2000
-F 0 "J4" H 7150 3117 50  0000 C CNN
-F 1 "Conn_02x20_Counter_Clockwise" H 7150 3026 50  0000 C CNN
-F 2 "" H 7100 2000 50  0001 C CNN
-F 3 "~" H 7100 2000 50  0001 C CNN
-	1    7100 2000
-	1    0    0    -1  
-$EndComp
 Text Notes 6300 4400 0    50   Italic 0
 We need to care about ground return path.\nIt doesn’t have to be perfect, but we should\ninclude at least a few ground connections
 Text Notes 6300 4600 0    50   Italic 0
@@ -892,5 +881,16 @@ F 2 "Package_SO:TSSOP-5" H 2700 3200 50  0001 C CNN
 F 3 "" H 2700 3200 50  0001 C CNN
 	1    2700 3200
 	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J4
+U 1 1 5FAD2DAF
+P 7100 2000
+F 0 "J4" H 7150 3117 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 7150 3026 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Pico-Clasp_203566-4007_2x20_P1.00mm_Horizontal" H 7100 2000 50  0001 C CNN
+F 3 "~" H 7100 2000 50  0001 C CNN
+	1    7100 2000
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

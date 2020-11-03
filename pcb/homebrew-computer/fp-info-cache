@@ -1,4 +1,4 @@
-19128267120828994
+19131475954485994
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -19761,6 +19761,13 @@ connector Molex Panelmate top entry
 32
 31
 Connector_Molex
+Molex_Pico-Clasp_2x10_1.00mm_Horizontal
+
+
+0
+22
+22
+Connector_Molex
 Molex_Pico-Clasp_202396-0207_1x02-1MP_P1.00mm_Horizontal
 Molex Pico-Clasp series connector, 202396-0207 (http://www.molex.com/pdm_docs/sd/2023960207_sd.pdf), generated with kicad-footprint-generator
 connector Molex Pico-Clasp top entry
@@ -19858,6 +19865,13 @@ connector Molex Pico-Clasp top entry
 0
 17
 16
+Connector_Molex
+Molex_Pico-Clasp_203566-4007_2x20_P1.00mm_Horizontal
+
+
+0
+42
+41
 Connector_Molex
 Molex_Pico-Clasp_501331-0207_1x02-1MP_P1.00mm_Vertical
 Molex Pico-Clasp series connector, 501331-0207 (http://www.molex.com/pdm_docs/sd/5013310207_sd.pdf), generated with kicad-footprint-generator
