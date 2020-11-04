@@ -749,11 +749,11 @@ Text Label 7550 2900 0    50   ~ 0
 IO15
 Text Label 7550 3000 0    50   ~ 0
 IO16
-Text Label 7550 1200 0    50   ~ 0
+Text Label 7550 1500 0    50   ~ 0
 INT0
 Text Label 7550 1400 0    50   ~ 0
 INT1
-Text Label 7550 1500 0    50   ~ 0
+Text Label 7550 1200 0    50   ~ 0
 INT2
 Text Label 5000 2800 2    50   ~ 0
 INT0

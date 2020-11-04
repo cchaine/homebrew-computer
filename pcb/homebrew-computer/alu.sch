@@ -158,13 +158,13 @@ Wire Notes Line
 	1450 4200 1450 3200
 Text Notes 1450 3200 0    50   ~ 0
 JTAG
-Text HLabel 6500 2150 2    50   Input ~ 0
+Text HLabel 6500 2550 2    50   Input ~ 0
 OP1
-Text HLabel 6500 2250 2    50   3State ~ 0
+Text HLabel 6500 2650 2    50   3State ~ 0
 OP2
-Text HLabel 6500 2350 2    50   3State ~ 0
+Text HLabel 6500 2750 2    50   3State ~ 0
 OP3
-Text HLabel 6500 2450 2    50   3State ~ 0
+Text HLabel 6500 2850 2    50   3State ~ 0
 OP4
 Wire Notes Line
 	4500 900  7100 900 
@@ -178,11 +178,11 @@ Text Notes 4500 900  0    50   ~ 0
 Inputs/Outputs
 Text HLabel 6500 1650 2    50   Input ~ 0
 ALU_OUT_I
-Text HLabel 6500 1850 2    50   Input ~ 0
+Text HLabel 6500 2350 2    50   Input ~ 0
 A_IN
-Text HLabel 6500 1950 2    50   Input ~ 0
+Text HLabel 6500 2450 2    50   Input ~ 0
 B_IN
-Text HLabel 6500 2050 2    50   Input ~ 0
+Text HLabel 5350 2850 0    50   Input ~ 0
 OP_IN
 $Comp
 L homebrew-computer-rescue:XC9572XL-10VQG44C-XC9500XL U4
@@ -309,17 +309,17 @@ Wire Wire Line
 Connection ~ 2050 1800
 Wire Wire Line
 	2050 1800 2400 1800
-NoConn ~ 6500 2850
-NoConn ~ 6500 2750
-NoConn ~ 6500 2650
-NoConn ~ 6500 2550
-NoConn ~ 5350 2450
-Text HLabel 5350 2850 0    50   3State ~ 0
-FLAG_OVERFLOW
 Text HLabel 5350 2750 0    50   3State ~ 0
-FLAG_CARRY
+FLAG_OVERFLOW
 Text HLabel 5350 2650 0    50   3State ~ 0
-FLAG_NEG
+FLAG_CARRY
 Text HLabel 5350 2550 0    50   3State ~ 0
+FLAG_NEG
+Text HLabel 5350 2450 0    50   3State ~ 0
 FLAG_ZERO
+NoConn ~ 6500 2250
+NoConn ~ 6500 2150
+NoConn ~ 6500 2050
+NoConn ~ 6500 1950
+NoConn ~ 6500 1850
 $EndSCHEMATC
