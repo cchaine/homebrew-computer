@@ -318,67 +318,67 @@ Wire Wire Line
 	2050 2050 2150 2050
 Wire Wire Line
 	2050 4200 2150 4200
-Text HLabel 6900 3350 0    50   Output ~ 0
+Text HLabel 5800 3900 2    50   Output ~ 0
 A_IN
-Text HLabel 6900 3450 0    50   Output ~ 0
+Text HLabel 5800 3800 2    50   Output ~ 0
 B_IN
-Text HLabel 6900 3550 0    50   Output ~ 0
+Text HLabel 8350 3250 2    50   Output ~ 0
 OP_IN
-Text HLabel 6900 3650 0    50   Output ~ 0
+Text HLabel 8350 3650 2    50   Output ~ 0
 OP1
-Text HLabel 4350 2650 0    50   Output ~ 0
+Text HLabel 8350 3550 2    50   Output ~ 0
 OP2
-Text HLabel 4350 2750 0    50   Output ~ 0
+Text HLabel 8350 3450 2    50   Output ~ 0
 OP3
-Text HLabel 4350 2850 0    50   Output ~ 0
+Text HLabel 8350 3350 2    50   Output ~ 0
 OP4
 Text HLabel 4350 2950 0    50   Output ~ 0
 ALU_OUT_I
-Text HLabel 4350 3050 0    50   Input ~ 0
+Text HLabel 8350 2950 2    50   Input ~ 0
 FLAG_NEG
-Text HLabel 4350 3150 0    50   Input ~ 0
+Text HLabel 8350 2850 2    50   Input ~ 0
 FLAG_ZERO
-Text HLabel 4350 3250 0    50   Input ~ 0
+Text HLabel 8350 3050 2    50   Input ~ 0
 FLAG_CARRY
-Text HLabel 4350 3350 0    50   Input ~ 0
+Text HLabel 8350 3150 2    50   Input ~ 0
 FLAG_OVERFLOW
-Text HLabel 4350 3450 0    50   Input ~ 0
+Text HLabel 4100 3500 0    50   Input ~ 0
 REG1_OUT_L_I
-Text HLabel 4350 3550 0    50   Input ~ 0
+Text HLabel 4100 3200 0    50   Input ~ 0
 REG1_OUT_H_I
-Text HLabel 4350 3800 0    50   Output ~ 0
+Text HLabel 4350 4300 0    50   Output ~ 0
 REG1_IN_H
-Text HLabel 4350 3900 0    50   Output ~ 0
+Text HLabel 4100 3300 0    50   Output ~ 0
 REG1_IN_L
-Text HLabel 4350 4000 0    50   Output ~ 0
+Text HLabel 4100 3400 0    50   Output ~ 0
 REG2_OUT_L_I
 Text HLabel 4350 4200 0    50   Output ~ 0
 REG2_OUT_H_I
-Text HLabel 4350 4300 0    50   Output ~ 0
+Text HLabel 4100 3700 0    50   Output ~ 0
 REG2_IN_H
-Text HLabel 4350 4400 0    50   Output ~ 0
+Text HLabel 4100 3800 0    50   Output ~ 0
 REG2_IN_L
-Text HLabel 4350 4500 0    50   Output ~ 0
+Text HLabel 4100 3900 0    50   Output ~ 0
 REG3_OUT_L_I
-Text HLabel 4350 4600 0    50   Output ~ 0
+Text HLabel 4100 4000 0    50   Output ~ 0
 REG3_OUT_H_I
-Text HLabel 5800 3650 2    50   Output ~ 0
+Text HLabel 6900 3250 0    50   Output ~ 0
 REG3_IN_H
-Text HLabel 5800 2850 2    50   Output ~ 0
+Text HLabel 4350 2650 0    50   Output ~ 0
 REG3_IN_L
-Text HLabel 5800 2950 2    50   Output ~ 0
+Text HLabel 4350 4600 0    50   Output ~ 0
 SP_OUT_I
-Text HLabel 5800 3050 2    50   Output ~ 0
+Text HLabel 4350 4700 0    50   Output ~ 0
 SP_IN
-Text HLabel 5800 3150 2    50   Output ~ 0
+Text HLabel 4350 4400 0    50   Output ~ 0
 BP_OUT_I
-Text HLabel 5800 3250 2    50   Output ~ 0
+Text HLabel 4350 4500 0    50   Output ~ 0
 BP_IN
-Text HLabel 5800 3350 2    50   Output ~ 0
+Text HLabel 8350 4700 2    50   Output ~ 0
 PC_COUNT
-Text HLabel 5800 3450 2    50   Output ~ 0
+Text HLabel 8350 2750 2    50   Output ~ 0
 PC_OUT_I
-Text HLabel 5800 3550 2    50   Output ~ 0
+Text HLabel 8350 4600 2    50   Output ~ 0
 PC_IN
 $Comp
 L XC9500XL:XC95144XL-10TQ100C U14
@@ -789,53 +789,42 @@ Text Label 2450 3800 0    50   ~ 0
 IR15
 Text Label 2450 3900 0    50   ~ 0
 IR16
-Text Label 5800 3800 0    50   ~ 0
-IR1
-Text Label 5800 3900 0    50   ~ 0
-IR2
 Text Label 5800 4000 0    50   ~ 0
-IR3
+IR1
 Text Label 5800 4100 0    50   ~ 0
-IR4
+IR2
 Text Label 5800 4200 0    50   ~ 0
-IR5
+IR3
 Text Label 5800 4300 0    50   ~ 0
-IR6
+IR4
 Text Label 5800 4400 0    50   ~ 0
-IR7
+IR5
 Text Label 5800 4500 0    50   ~ 0
-IR8
+IR6
 Text Label 5800 4600 0    50   ~ 0
+IR7
+Text Label 5800 2850 0    50   ~ 0
+IR8
+Text Label 5800 2950 0    50   ~ 0
 IR9
-Text Label 5800 4700 0    50   ~ 0
+Text Label 5800 3050 0    50   ~ 0
 IR10
-Text Label 6900 2750 2    50   ~ 0
+Text Label 5800 3150 0    50   ~ 0
 IR11
-Text Label 6900 2850 2    50   ~ 0
+Text Label 5800 3250 0    50   ~ 0
 IR12
-Text Label 6900 2950 2    50   ~ 0
+Text Label 5800 3350 0    50   ~ 0
 IR13
-Text Label 6900 3050 2    50   ~ 0
+Text Label 5800 3450 0    50   ~ 0
 IR14
-Text Label 6900 3150 2    50   ~ 0
+Text Label 5800 3550 0    50   ~ 0
 IR15
-Text Label 6900 3250 2    50   ~ 0
+Text Label 5800 3650 0    50   ~ 0
 IR16
-Text Label 6900 4700 2    50   ~ 0
+Text Label 5800 4700 0    50   ~ 0
 INSTR_IN
 Text Label 2100 4200 3    50   ~ 0
 INSTR_IN
-NoConn ~ 4350 4700
-NoConn ~ 8350 2750
-NoConn ~ 8350 2850
-NoConn ~ 8350 2950
-NoConn ~ 8350 3050
-NoConn ~ 8350 3150
-NoConn ~ 8350 3250
-NoConn ~ 8350 3350
-NoConn ~ 8350 3450
-NoConn ~ 8350 3550
-NoConn ~ 8350 3650
 NoConn ~ 8350 3800
 NoConn ~ 8350 3900
 NoConn ~ 8350 4000
@@ -844,8 +833,6 @@ NoConn ~ 8350 4200
 NoConn ~ 8350 4300
 NoConn ~ 8350 4400
 NoConn ~ 8350 4500
-NoConn ~ 8350 4600
-NoConn ~ 8350 4700
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5FA740EC

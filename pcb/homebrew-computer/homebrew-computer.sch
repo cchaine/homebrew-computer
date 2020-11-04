@@ -796,9 +796,9 @@ Text Label 10150 5400 0    50   ~ 0
 PERIPH_MEM_SPACE
 Text Label 10150 5550 0    50   ~ 0
 PC_COUNT
-Text Label 10150 5750 0    50   ~ 0
-PC_OUT_I
 Text Label 10150 5650 0    50   ~ 0
+PC_OUT_I
+Text Label 10150 5750 0    50   ~ 0
 PC_IN
 Text Label 10150 1050 0    50   ~ 0
 RESET
