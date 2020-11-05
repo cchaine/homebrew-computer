@@ -69,8 +69,6 @@ Wire Notes Line
 	6300 3400 6300 750 
 Text Notes 6300 750  0    50   ~ 0
 IO connector
-Text HLabel 7550 1100 2    50   Output ~ 0
-INT
 $Comp
 L 74AVC4T245:SN74AVC4T245PWR U6
 U 1 1 5F99CCF0
@@ -180,8 +178,6 @@ Wire Notes Line
 	4150 2150 6150 2150
 Wire Notes Line
 	4150 3650 6150 3650
-Text HLabel 7550 1700 2    50   Input Italic 0
-RST_INT
 Wire Wire Line
 	7400 2400 7550 2400
 Wire Wire Line
@@ -561,8 +557,6 @@ Text Notes 1450 6350 0    50   Italic 0
 There is an extra bypass capacitor\nfor the NOT gate
 Wire Notes Line
 	4050 6450 4050 750 
-Text HLabel 7550 2700 2    50   Input ~ 0
-PERIPH_MEM_SPACE
 Wire Wire Line
 	7400 2900 7550 2900
 Text Notes 6300 4750 0    50   Italic 0
@@ -573,16 +567,6 @@ Wire Notes Line
 	6300 750  8400 750 
 Wire Notes Line
 	6300 3400 8400 3400
-Text HLabel 7550 2000 2    50   Input ~ 0
-IO_ADDR_IN
-Text HLabel 7550 2100 2    50   Input ~ 0
-IO_OUT
-Text HLabel 7550 2300 2    50   Input ~ 0
-IO_IN
-Text HLabel 7550 2400 2    50   Input ~ 0
-IO_OUTB
-Text HLabel 7550 2600 2    50   Input ~ 0
-IO_INB
 Text Notes 850  4150 0    50   Italic 0
 We use diodes to implement the OR\nfunction as there will only be one \nactive at the same time
 Text HLabel 1250 3450 0    50   Input ~ 0
@@ -639,8 +623,6 @@ Wire Notes Line
 	750  6450 4050 6450
 Wire Notes Line
 	750  750  4050 750 
-Text HLabel 7550 1800 2    50   Input Italic 0
-RESET
 Wire Wire Line
 	6750 2300 6900 2300
 Text Notes 6300 5000 0    50   Italic 0
@@ -749,12 +731,6 @@ Text Label 7550 2900 0    50   ~ 0
 IO15
 Text Label 7550 3000 0    50   ~ 0
 IO16
-Text Label 7550 1500 0    50   ~ 0
-INT0
-Text Label 7550 1400 0    50   ~ 0
-INT1
-Text Label 7550 1200 0    50   ~ 0
-INT2
 Text Label 5000 2800 2    50   ~ 0
 INT0
 Text Label 5000 2900 2    50   ~ 0
@@ -879,4 +855,28 @@ Wire Wire Line
 	7400 2600 7550 2600
 Wire Wire Line
 	7450 2500 7450 2800
+Text HLabel 7550 2600 2    50   Input ~ 0
+PERIPH_MEM_SPACE
+Text HLabel 7550 2100 2    50   Input ~ 0
+IO_INB
+Text HLabel 7550 2000 2    50   Input ~ 0
+IO_OUTB
+Text HLabel 7550 1800 2    50   Input ~ 0
+IO_IN
+Text HLabel 7550 1700 2    50   Input ~ 0
+IO_OUT
+Text HLabel 7550 1500 2    50   Input ~ 0
+IO_ADDR_IN
+Text Label 7550 1100 0    50   ~ 0
+INT2
+Text Label 7550 1200 0    50   ~ 0
+INT1
+Text Label 7550 1400 0    50   ~ 0
+INT0
+Text HLabel 7550 2700 2    50   Input Italic 0
+RESET
+Text HLabel 7550 2400 2    50   Input Italic 0
+RST_INT
+Text HLabel 7550 2300 2    50   Output ~ 0
+INT
 $EndSCHEMATC

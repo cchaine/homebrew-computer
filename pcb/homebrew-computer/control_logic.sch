@@ -342,30 +342,28 @@ Text HLabel 8350 3050 2    50   Input ~ 0
 FLAG_CARRY
 Text HLabel 8350 3150 2    50   Input ~ 0
 FLAG_OVERFLOW
-Text HLabel 4100 3500 0    50   Input ~ 0
+Text HLabel 4350 3150 0    50   Input ~ 0
 REG1_OUT_L_I
-Text HLabel 4100 3200 0    50   Input ~ 0
+Text HLabel 4350 3350 0    50   Input ~ 0
 REG1_OUT_H_I
 Text HLabel 4350 4300 0    50   Output ~ 0
 REG1_IN_H
-Text HLabel 4100 3300 0    50   Output ~ 0
+Text HLabel 4350 3250 0    50   Output ~ 0
 REG1_IN_L
-Text HLabel 4100 3400 0    50   Output ~ 0
+Text HLabel 6900 3350 0    50   Output ~ 0
 REG2_OUT_L_I
 Text HLabel 4350 4200 0    50   Output ~ 0
 REG2_OUT_H_I
-Text HLabel 4100 3700 0    50   Output ~ 0
+Text HLabel 6900 2750 0    50   Output ~ 0
 REG2_IN_H
-Text HLabel 4100 3800 0    50   Output ~ 0
+Text HLabel 6900 3450 0    50   Output ~ 0
 REG2_IN_L
-Text HLabel 4100 3900 0    50   Output ~ 0
+Text HLabel 6900 4000 0    50   Output ~ 0
 REG3_OUT_L_I
-Text HLabel 4100 4000 0    50   Output ~ 0
+Text HLabel 8350 4400 2    50   Output ~ 0
 REG3_OUT_H_I
-Text HLabel 6900 3250 0    50   Output ~ 0
+Text HLabel 8350 4500 2    50   Output ~ 0
 REG3_IN_H
-Text HLabel 4050 2850 0    50   Output ~ 0
-REG3_IN_L
 Text HLabel 4350 4600 0    50   Output ~ 0
 SP_OUT_I
 Text HLabel 4350 4700 0    50   Output ~ 0
@@ -599,17 +597,6 @@ F 3 "" H 4450 2400 50  0001 C CNN
 $EndComp
 $Comp
 L XC9500XL:XC95144XL-10TQ100C U14
-U 6 1 5FA858A3
-P 4650 3600
-F 0 "U14" H 4650 2350 50  0000 R CNN
-F 1 "XC95144XL-10TQ100C" H 5200 2250 50  0000 R CNN
-F 2 "Package_QFP:TQFP-100_14x14mm_P0.5mm" H 4650 3600 50  0001 C CNN
-F 3 "" H 4650 3600 50  0001 C CNN
-	6    4650 3600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L XC9500XL:XC95144XL-10TQ100C U14
 U 8 1 5FA90592
 P 7250 2550
 F 0 "U14" H 7200 250 50  0000 C CNN
@@ -701,23 +688,21 @@ Wire Wire Line
 Connection ~ 2150 2050
 Text Notes 1250 4900 0    50   Italic 0
 The instruction register is always\noutputing its content to the control logic
-Text HLabel 6900 3800 0    50   Input ~ 0
+Text HLabel 8350 4100 2    50   Input ~ 0
 INT
-Text HLabel 6900 3900 0    50   Output ~ 0
-INT_OUT_I
-Text HLabel 6900 4000 0    50   Output ~ 0
+Text HLabel 8350 4200 2    50   Output ~ 0
 RST_INT
-Text HLabel 6900 4100 0    50   Output ~ 0
+Text HLabel 6900 4700 0    50   Output ~ 0
 IO_OUT
-Text HLabel 6900 4200 0    50   Output ~ 0
+Text HLabel 8350 3800 2    50   Output ~ 0
 IO_IN
-Text HLabel 6900 4300 0    50   Output ~ 0
+Text HLabel 8350 3900 2    50   Output ~ 0
 IO_OUTB
-Text HLabel 6900 4400 0    50   Output ~ 0
+Text HLabel 8350 4000 2    50   Output ~ 0
 IO_INB
-Text HLabel 6900 4500 0    50   Output ~ 0
-IO_ADDR_IN
 Text HLabel 6900 4600 0    50   Output ~ 0
+IO_ADDR_IN
+Text HLabel 8350 4300 2    50   Output ~ 0
 PERIPH_MEM_SPACE
 Wire Notes Line
 	8650 2350 8650 5050
@@ -825,14 +810,6 @@ Text Label 5800 4700 0    50   ~ 0
 INSTR_IN
 Text Label 2100 4200 3    50   ~ 0
 INSTR_IN
-NoConn ~ 8350 3800
-NoConn ~ 8350 3900
-NoConn ~ 8350 4000
-NoConn ~ 8350 4100
-NoConn ~ 8350 4200
-NoConn ~ 8350 4300
-NoConn ~ 8350 4400
-NoConn ~ 8350 4500
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5FA740EC
@@ -848,4 +825,40 @@ F 3 "" H 2450 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 2450 5650
+$Comp
+L XC9500XL:XC95144XL-10TQ100C U14
+U 6 1 5FA858A3
+P 4650 3600
+F 0 "U14" H 4650 2350 50  0000 R CNN
+F 1 "XC95144XL-10TQ100C" H 5200 2250 50  0000 R CNN
+F 2 "Package_QFP:TQFP-100_14x14mm_P0.5mm" H 4650 3600 50  0001 C CNN
+F 3 "" H 4650 3600 50  0001 C CNN
+	6    4650 3600
+	-1   0    0    -1  
+$EndComp
+Text HLabel 6900 3900 0    50   Output ~ 0
+INT_OUT_I
+Text HLabel 6900 4100 0    50   Output ~ 0
+REG3_IN_L
+NoConn ~ 4350 2750
+NoConn ~ 4350 2850
+NoConn ~ 4350 2950
+NoConn ~ 4350 3050
+NoConn ~ 4350 3450
+NoConn ~ 4350 3550
+NoConn ~ 4350 3800
+NoConn ~ 4350 3900
+NoConn ~ 4350 4000
+NoConn ~ 6900 2850
+NoConn ~ 6900 2950
+NoConn ~ 6900 3050
+NoConn ~ 6900 3150
+NoConn ~ 6900 3250
+NoConn ~ 6900 3550
+NoConn ~ 6900 3650
+NoConn ~ 6900 3800
+NoConn ~ 6900 4200
+NoConn ~ 6900 4300
+NoConn ~ 6900 4400
+NoConn ~ 6900 4500
 $EndSCHEMATC
