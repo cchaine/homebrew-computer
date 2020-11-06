@@ -768,7 +768,7 @@ U 1 1 5FAD2DAF
 P 7100 2000
 F 0 "J4" H 7150 3117 50  0000 C CNN
 F 1 "Conn_02x20_Odd_Even" H 7150 3026 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Pico-Clasp_203566-4007_2x20_P1.00mm_Horizontal" H 7100 2000 50  0001 C CNN
+F 2 "Connector_Molex:Micro-Lock-Plus-02x20" H 7100 2000 50  0001 C CNN
 F 3 "~" H 7100 2000 50  0001 C CNN
 	1    7100 2000
 	1    0    0    -1  

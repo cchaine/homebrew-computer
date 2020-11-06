@@ -8,5 +8,5 @@ Liste des composants :
  - Clock generator			-> DS1077L
  - ALU					-> XC9572XL
  - Control Unit				-> XC9672XL
- - Connectors				-> Molex Pico-Clasp
+ - Connectors				-> Molex Micro Lock
  - Reset button				-> KMR231G LFS

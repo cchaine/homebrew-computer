@@ -840,4 +840,25 @@ Text HLabel 6900 3900 0    50   Output ~ 0
 INT_OUT_I
 Text HLabel 6900 4100 0    50   Output ~ 0
 REG3_IN_L
+NoConn ~ 4350 2750
+NoConn ~ 4350 2850
+NoConn ~ 4350 2950
+NoConn ~ 4350 3050
+NoConn ~ 4350 3450
+NoConn ~ 4350 3550
+NoConn ~ 4350 3800
+NoConn ~ 4350 3900
+NoConn ~ 4350 4000
+NoConn ~ 6900 2850
+NoConn ~ 6900 2950
+NoConn ~ 6900 3050
+NoConn ~ 6900 3150
+NoConn ~ 6900 3250
+NoConn ~ 6900 3550
+NoConn ~ 6900 3650
+NoConn ~ 6900 3800
+NoConn ~ 6900 4200
+NoConn ~ 6900 4300
+NoConn ~ 6900 4400
+NoConn ~ 6900 4500
 $EndSCHEMATC
