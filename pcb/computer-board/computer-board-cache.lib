@@ -794,11 +794,11 @@ X ~ 9 550 -300 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# homebrew-computer-rescue_XC9536XL-10VQG44C-XC9500XL
+# computer-board-rescue_XC9536XL-10VQG44C-XC9500XL-homebrew-computer-rescue
 #
-DEF homebrew-computer-rescue_XC9536XL-10VQG44C-XC9500XL U 0 40 Y Y 5 L N
+DEF computer-board-rescue_XC9536XL-10VQG44C-XC9500XL-homebrew-computer-rescue U 0 40 Y Y 5 L N
 F0 "U" 0 100 50 H V C CNN
-F1 "homebrew-computer-rescue_XC9536XL-10VQG44C-XC9500XL" 0 0 50 H V C CNN
+F1 "computer-board-rescue_XC9536XL-10VQG44C-XC9500XL-homebrew-computer-rescue" 0 0 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -856,11 +856,11 @@ X IO 39 300 -200 100 L 50 50 5 1 B
 ENDDRAW
 ENDDEF
 #
-# homebrew-computer-rescue_XC9572XL-10VQG44C-XC9500XL
+# computer-board-rescue_XC9572XL-10VQG44C-XC9500XL-homebrew-computer-rescue
 #
-DEF homebrew-computer-rescue_XC9572XL-10VQG44C-XC9500XL U 0 40 Y Y 5 L N
+DEF computer-board-rescue_XC9572XL-10VQG44C-XC9500XL-homebrew-computer-rescue U 0 40 Y Y 5 L N
 F0 "U" 0 100 50 H V C CNN
-F1 "homebrew-computer-rescue_XC9572XL-10VQG44C-XC9500XL" 0 0 50 H V C CNN
+F1 "computer-board-rescue_XC9572XL-10VQG44C-XC9500XL-homebrew-computer-rescue" 0 0 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

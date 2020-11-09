@@ -170,7 +170,7 @@ Wire Notes Line
 Text Notes 1600 2250 0    50   ~ 0
 Inputs/Outputs
 $Comp
-L homebrew-computer-rescue:XC9536XL-10VQG44C-XC9500XL U8
+L computer-board-rescue:XC9536XL-10VQG44C-XC9500XL-homebrew-computer-rescue U8
 U 1 1 5FA8CEAA
 P 3050 5750
 AR Path="/5FA8CEAA" Ref="U8"  Part="1" 
@@ -183,7 +183,7 @@ F 3 "" H 3050 5750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L homebrew-computer-rescue:XC9536XL-10VQG44C-XC9500XL U8
+L computer-board-rescue:XC9536XL-10VQG44C-XC9500XL-homebrew-computer-rescue U8
 U 2 1 5FA9060B
 P 2700 1050
 AR Path="/5FA9060B" Ref="U8"  Part="2" 
@@ -201,7 +201,7 @@ Wire Wire Line
 	3400 1350 3400 1250
 Connection ~ 3400 1350
 $Comp
-L homebrew-computer-rescue:XC9536XL-10VQG44C-XC9500XL U8
+L computer-board-rescue:XC9536XL-10VQG44C-XC9500XL-homebrew-computer-rescue U8
 U 3 1 5FA92D8C
 P 3450 1300
 AR Path="/5FA92D8C" Ref="U8"  Part="3" 
@@ -214,7 +214,7 @@ F 3 "" H 3450 1300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L homebrew-computer-rescue:XC9536XL-10VQG44C-XC9500XL U8
+L computer-board-rescue:XC9536XL-10VQG44C-XC9500XL-homebrew-computer-rescue U8
 U 5 1 5FA98EFF
 P 3300 2400
 AR Path="/5FA98EFF" Ref="U8"  Part="5" 
@@ -271,7 +271,7 @@ TDI
 Text HLabel 2850 5350 0    50   Output ~ 0
 TDO
 $Comp
-L homebrew-computer-rescue:XC9536XL-10VQG44C-XC9500XL U8
+L computer-board-rescue:XC9536XL-10VQG44C-XC9500XL-homebrew-computer-rescue U8
 U 4 1 5FA96F85
 P 2800 2400
 AR Path="/5FA96F85" Ref="U8"  Part="4" 

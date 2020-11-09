@@ -396,7 +396,7 @@ AR Path="/5F95DC76/5F9B5E06" Ref="D?"  Part="1"
 AR Path="/5F8B5DB4/5F9B5E06" Ref="D3"  Part="1" 
 F 0 "D3" H 3300 3557 50  0000 C CNN
 F 1 "D_Small" H 3500 3550 50  0000 C CNN
-F 2 "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder" V 3300 3350 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3300 3350 50  0001 C CNN
 F 3 "~" V 3300 3350 50  0001 C CNN
 	1    3300 3350
 	1    0    0    -1  
@@ -409,7 +409,7 @@ AR Path="/5F95DC76/5F9B5E0C" Ref="D?"  Part="1"
 AR Path="/5F8B5DB4/5F9B5E0C" Ref="D5"  Part="1" 
 F 0 "D5" H 3300 3657 50  0000 C CNN
 F 1 "D_Small" H 3500 3650 50  0000 C CNN
-F 2 "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder" V 3300 3450 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3300 3450 50  0001 C CNN
 F 3 "~" V 3300 3450 50  0001 C CNN
 	1    3300 3450
 	1    0    0    -1  
@@ -422,7 +422,7 @@ AR Path="/5F95DC76/5F9B5E12" Ref="D?"  Part="1"
 AR Path="/5F8B5DB4/5F9B5E12" Ref="D7"  Part="1" 
 F 0 "D7" H 3300 3050 50  0000 C CNN
 F 1 "D_Small" H 3500 3050 50  0000 C CNN
-F 2 "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder" V 3300 3550 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3300 3550 50  0001 C CNN
 F 3 "~" V 3300 3550 50  0001 C CNN
 	1    3300 3550
 	1    0    0    -1  
@@ -435,7 +435,7 @@ AR Path="/5F95DC76/5F9B5E18" Ref="D?"  Part="1"
 AR Path="/5F8B5DB4/5F9B5E18" Ref="D8"  Part="1" 
 F 0 "D8" H 3300 3450 50  0000 C CNN
 F 1 "D_Small" H 3500 3450 50  0000 C CNN
-F 2 "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder" V 3300 3650 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3300 3650 50  0001 C CNN
 F 3 "~" V 3300 3650 50  0001 C CNN
 	1    3300 3650
 	1    0    0    -1  
@@ -452,7 +452,7 @@ AR Path="/5F95DC76/5F9B5E22" Ref="D?"  Part="1"
 AR Path="/5F8B5DB4/5F9B5E22" Ref="D9"  Part="1" 
 F 0 "D9" H 3300 3550 50  0000 C CNN
 F 1 "D_Small" H 3500 3550 50  0000 C CNN
-F 2 "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder" V 3300 3750 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3300 3750 50  0001 C CNN
 F 3 "~" V 3300 3750 50  0001 C CNN
 	1    3300 3750
 	1    0    0    -1  
@@ -581,7 +581,7 @@ AR Path="/5F95DC76/5F9E6C34" Ref="D?"  Part="1"
 AR Path="/5F8B5DB4/5F9E6C34" Ref="D4"  Part="1" 
 F 0 "D4" H 1350 3657 50  0000 C CNN
 F 1 "D_Small" H 1550 3650 50  0000 C CNN
-F 2 "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder" V 1350 3450 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1350 3450 50  0001 C CNN
 F 3 "~" V 1350 3450 50  0001 C CNN
 	1    1350 3450
 	-1   0    0    -1  
@@ -594,7 +594,7 @@ AR Path="/5F95DC76/5F9E6C3A" Ref="D?"  Part="1"
 AR Path="/5F8B5DB4/5F9E6C3A" Ref="D6"  Part="1" 
 F 0 "D6" H 1350 3757 50  0000 C CNN
 F 1 "D_Small" H 1550 3750 50  0000 C CNN
-F 2 "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder" V 1350 3550 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1350 3550 50  0001 C CNN
 F 3 "~" V 1350 3550 50  0001 C CNN
 	1    1350 3550
 	-1   0    0    -1  

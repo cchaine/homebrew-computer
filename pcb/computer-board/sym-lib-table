@@ -14,4 +14,5 @@
   (lib (name 74LV8154)(type Legacy)(uri ${KIPRJMOD}/libs/74LV8154.lib)(options "")(descr ""))
   (lib (name 74LVC1G157)(type Legacy)(uri ${KIPRJMOD}/libs/74LVC1G157.lib)(options "")(descr ""))
   (lib (name homebrew-computer-rescue)(type Legacy)(uri ${KIPRJMOD}/homebrew-computer-rescue.lib)(options "")(descr ""))
+  (lib (name computer-board-rescue)(type Legacy)(uri ${KIPRJMOD}/computer-board-rescue.lib)(options "")(descr ""))
 )
