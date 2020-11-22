@@ -4,7 +4,7 @@ EELAYER END
 $Descr User 12598 8268
 encoding utf-8
 Sheet 1 7
-Title "Homebrew Computer"
+Title "Computer Board"
 Date "2020-10-17"
 Rev "Rev 1"
 Comp "cchaine"

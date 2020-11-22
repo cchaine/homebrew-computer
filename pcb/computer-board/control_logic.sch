@@ -4,10 +4,10 @@ EELAYER END
 $Descr User 9449 8268
 encoding utf-8
 Sheet 3 7
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Control logic"
+Date "2020-11-10"
+Rev "Rev A"
+Comp "cchaine"
 Comment1 ""
 Comment2 ""
 Comment3 ""

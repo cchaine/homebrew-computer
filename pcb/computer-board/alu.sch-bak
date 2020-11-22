@@ -185,7 +185,7 @@ B_IN
 Text HLabel 5350 2850 0    50   Input ~ 0
 OP_IN
 $Comp
-L homebrew-computer-rescue:XC9572XL-10VQG44C-XC9500XL U4
+L computer-board-rescue:XC9572XL-10VQG44C-XC9500XL-homebrew-computer-rescue U4
 U 1 1 5F975DA0
 P 2100 4100
 AR Path="/5F8B5CB7/5F975DA0" Ref="U4"  Part="1" 
@@ -200,7 +200,7 @@ F 3 "" H 2100 4100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L homebrew-computer-rescue:XC9572XL-10VQG44C-XC9500XL U4
+L computer-board-rescue:XC9572XL-10VQG44C-XC9500XL-homebrew-computer-rescue U4
 U 2 1 5F97A638
 P 2100 1100
 AR Path="/5F8B5CB7/5F97A638" Ref="U4"  Part="2" 
@@ -220,7 +220,7 @@ Wire Wire Line
 	2800 1400 2800 1300
 Connection ~ 2800 1400
 $Comp
-L homebrew-computer-rescue:XC9572XL-10VQG44C-XC9500XL U4
+L computer-board-rescue:XC9572XL-10VQG44C-XC9500XL-homebrew-computer-rescue U4
 U 3 1 5F97D3D1
 P 2850 1350
 AR Path="/5F8B5CB7/5F97D3D1" Ref="U4"  Part="3" 
@@ -235,7 +235,7 @@ F 3 "" H 2850 1350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L homebrew-computer-rescue:XC9572XL-10VQG44C-XC9500XL U4
+L computer-board-rescue:XC9572XL-10VQG44C-XC9500XL-homebrew-computer-rescue U4
 U 4 1 5F982A18
 P 5700 1050
 AR Path="/5F8B5CB7/5F982A18" Ref="U4"  Part="4" 
@@ -250,7 +250,7 @@ F 3 "" H 5700 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L homebrew-computer-rescue:XC9572XL-10VQG44C-XC9500XL U4
+L computer-board-rescue:XC9572XL-10VQG44C-XC9500XL-homebrew-computer-rescue U4
 U 5 1 5F987E07
 P 6200 1050
 AR Path="/5F8B5CB7/5F987E07" Ref="U4"  Part="5" 
