@@ -237,17 +237,14 @@ F47 "IO_ADDR_IN" O R 10150 5300 50
 F48 "PERIPH_MEM_SPACE" O R 10150 5400 50 
 F49 "MEM_READY" I R 10150 5500 50 
 $EndSheet
-Wire Wire Line
-	10700 6100 10150 6100
-Wire Wire Line
-	10150 6000 10700 6000
 $Sheet
-S 10700 5900 550  300 
+S 5200 6400 550  400 
 U 5F97DC64
 F0 "Clocks" 50
 F1 "clocks.sch" 50
-F2 "CLK" O L 10700 6000 50 
-F3 "CLK_I" O L 10700 6100 50 
+F2 "CLK" O R 5750 6600 50 
+F3 "CLK_I" O R 5750 6500 50 
+F4 "EXT_CLK" I R 5750 6700 50 
 $EndSheet
 $Comp
 L power:GND #PWR?
@@ -516,7 +513,7 @@ PC_TDO
 Text Label 2200 6500 2    50   ~ 0
 CTRL_TDO
 $Sheet
-S 6950 3700 900  1500
+S 6950 3700 900  1850
 U 5F8B5DB4
 F0 "IO" 50
 F1 "io.sch" 50
@@ -529,8 +526,11 @@ F7 "IO_OUTB" I R 7850 4400 50
 F8 "IO_IN" I R 7850 4250 50 
 F9 "IO_INB" I R 7850 4500 50 
 F10 "IO_ADDR_IN" I R 7850 4650 50 
-F11 "RESET" I R 7850 5100 50 
+F11 "RESET" I R 7850 5450 50 
 F12 "MEM_READY" O R 7850 4950 50 
+F13 "CLK" I R 7850 5100 50 
+F14 "EXT_CLK" O R 7850 5300 50 
+F15 "CLK_I" I R 7850 5200 50 
 $EndSheet
 $Sheet
 S 5200 1300 800  2050
@@ -637,7 +637,7 @@ Text Label 7850 4650 0    50   ~ 0
 IO_ADDR_IN
 Text Label 7850 4800 0    50   ~ 0
 PERIPH_MEM_SPACE
-Text Label 7850 5100 0    50   ~ 0
+Text Label 7850 5450 0    50   ~ 0
 RESET
 Text Label 10150 1200 0    50   ~ 0
 A_IN
@@ -765,13 +765,13 @@ $EndSheet
 $Comp
 L Connector:Conn_01x02_Male J1
 U 1 1 5FAF8387
-P 950 1850
-F 0 "J1" H 1250 1450 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 1550 1350 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 950 1850 50  0001 C CNN
-F 3 "~" H 950 1850 50  0001 C CNN
-	1    950  1850
-	1    0    0    -1  
+P 950 1950
+F 0 "J1" H 1250 1550 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 1550 1450 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 950 1950 50  0001 C CNN
+F 3 "~" H 950 1950 50  0001 C CNN
+	1    950  1950
+	1    0    0    1   
 $EndComp
 $Comp
 L power:VCC #PWR03
@@ -810,7 +810,6 @@ F 3 "~" H 1250 1850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1150 1850 1250 1850
-Connection ~ 1150 1850
 $Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 5FA9C83A
@@ -824,7 +823,6 @@ F 3 "~" H 1250 1950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1150 1950 1250 1950
-Connection ~ 1150 1950
 Wire Wire Line
 	2200 6500 2250 6500
 Wire Wire Line
@@ -1052,7 +1050,7 @@ U 1 1 605EC99A
 P 2650 5150
 F 0 "TP2" H 2698 5150 50  0000 L CNN
 F 1 "TestPoint_Small" H 2698 5105 50  0001 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 2850 5150 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 2850 5150 50  0001 C CNN
 F 3 "~" H 2850 5150 50  0001 C CNN
 	1    2650 5150
 	1    0    0    -1  
@@ -1063,7 +1061,7 @@ U 1 1 605ED182
 P 2650 5250
 F 0 "TP3" H 2698 5250 50  0000 L CNN
 F 1 "TestPoint_Small" H 2698 5205 50  0001 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 2850 5250 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 2850 5250 50  0001 C CNN
 F 3 "~" H 2850 5250 50  0001 C CNN
 	1    2650 5250
 	1    0    0    -1  
@@ -1074,7 +1072,7 @@ U 1 1 605ED35F
 P 2650 5350
 F 0 "TP4" H 2698 5350 50  0000 L CNN
 F 1 "TestPoint_Small" H 2698 5305 50  0001 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 2850 5350 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 2850 5350 50  0001 C CNN
 F 3 "~" H 2850 5350 50  0001 C CNN
 	1    2650 5350
 	1    0    0    -1  
@@ -1085,7 +1083,7 @@ U 1 1 605ED491
 P 2650 5450
 F 0 "TP5" H 2698 5450 50  0000 L CNN
 F 1 "TestPoint_Small" H 2698 5405 50  0001 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 2850 5450 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 2850 5450 50  0001 C CNN
 F 3 "~" H 2850 5450 50  0001 C CNN
 	1    2650 5450
 	1    0    0    -1  
@@ -1096,7 +1094,7 @@ U 1 1 605ED6E0
 P 2650 5550
 F 0 "TP6" H 2698 5550 50  0000 L CNN
 F 1 "TestPoint_Small" H 2698 5505 50  0001 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 2850 5550 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 2850 5550 50  0001 C CNN
 F 3 "~" H 2850 5550 50  0001 C CNN
 	1    2650 5550
 	1    0    0    -1  
@@ -1117,11 +1115,29 @@ U 1 1 605F2D42
 P 2650 5650
 F 0 "TP7" H 2698 5650 50  0000 L CNN
 F 1 "TestPoint_Small" H 2698 5605 50  0001 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 2850 5650 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 2850 5650 50  0001 C CNN
 F 3 "~" H 2850 5650 50  0001 C CNN
 	1    2650 5650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2550 5650 2650 5650
+Connection ~ 1150 1850
+Connection ~ 1150 1950
+Text Label 5750 6600 0    50   ~ 0
+CLK
+Text Label 5750 6500 0    50   ~ 0
+CLK_I
+Text Label 7850 5200 0    50   ~ 0
+CLK_I
+Text Label 7850 5100 0    50   ~ 0
+CLK
+Text Label 7850 5300 0    50   ~ 0
+EXT_CLK
+Text Label 5750 6700 0    50   ~ 0
+EXT_CLK
+Text Label 10150 6100 0    50   ~ 0
+CLK_I
+Text Label 10150 6000 0    50   ~ 0
+CLK
 $EndSCHEMATC

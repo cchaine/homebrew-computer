@@ -255,8 +255,6 @@ F 3 "" H 5150 2000 50  0001 C CNN
 	1    5150 2000
 	1    0    0    -1  
 $EndComp
-Text GLabel 4800 2150 0    50   Input ~ 0
-EXT_CLK
 Text GLabel 4700 2350 0    50   Input ~ 0
 INT_CLK
 Text GLabel 5600 2150 2    50   Input ~ 0
@@ -378,7 +376,7 @@ U 1 1 605E9ACF
 P 3300 1500
 F 0 "TP8" H 3348 1500 50  0000 L CNN
 F 1 "TestPoint_Small" H 3348 1455 50  0001 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 3500 1500 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 3500 1500 50  0001 C CNN
 F 3 "~" H 3500 1500 50  0001 C CNN
 	1    3300 1500
 	1    0    0    -1  
@@ -389,16 +387,16 @@ U 1 1 605EA570
 P 3300 1600
 F 0 "TP10" H 3348 1600 50  0000 L CNN
 F 1 "TestPoint_Small" H 3348 1555 50  0001 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 3500 1600 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 3500 1600 50  0001 C CNN
 F 3 "~" H 3500 1600 50  0001 C CNN
 	1    3300 1600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R9
 U 1 1 60611F1F
 P 3100 1300
-F 0 "R?" H 2750 1350 50  0000 L CNN
+F 0 "R9" H 2750 1350 50  0000 L CNN
 F 1 "10k" H 2750 1250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 3100 1300 50  0001 C CNN
 F 3 "~" H 3100 1300 50  0001 C CNN
@@ -406,10 +404,10 @@ F 3 "~" H 3100 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R10
 U 1 1 6061315C
 P 3200 1300
-F 0 "R?" H 2850 1350 50  0000 L CNN
+F 0 "R10" H 2850 1350 50  0000 L CNN
 F 1 "10k" H 2900 1250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 3200 1300 50  0001 C CNN
 F 3 "~" H 3200 1300 50  0001 C CNN
@@ -431,10 +429,10 @@ Connection ~ 3200 1600
 Wire Wire Line
 	3200 1600 3300 1600
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0115
 U 1 1 6061491D
 P 3100 1200
-F 0 "#PWR?" H 3100 1050 50  0001 C CNN
+F 0 "#PWR0115" H 3100 1050 50  0001 C CNN
 F 1 "+3.3V" H 2950 1350 50  0000 C CNN
 F 2 "" H 3100 1200 50  0001 C CNN
 F 3 "" H 3100 1200 50  0001 C CNN
@@ -442,14 +440,16 @@ F 3 "" H 3100 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0116
 U 1 1 60614E25
 P 3200 1200
-F 0 "#PWR?" H 3200 1050 50  0001 C CNN
+F 0 "#PWR0116" H 3200 1050 50  0001 C CNN
 F 1 "+3.3V" H 3350 1350 50  0000 C CNN
 F 2 "" H 3200 1200 50  0001 C CNN
 F 3 "" H 3200 1200 50  0001 C CNN
 	1    3200 1200
 	1    0    0    -1  
 $EndComp
+Text HLabel 4800 2150 0    50   Input ~ 0
+EXT_CLK
 $EndSCHEMATC
