@@ -115,49 +115,10 @@ Text Notes 650  700  0    50   ~ 0
 Clock generation
 Text Notes 650  2200 0    50   Italic 0
 CTRL0 and CTRL1 are tied\nto GND because we don’t \ncare about the power-down feature
-$Comp
-L Connector:Conn_01x04_Male J5
-U 1 1 5F90DBBD
-P 3300 1400
-F 0 "J5" H 3272 1282 50  0000 R CNN
-F 1 "Conn_01x04_Male" H 3650 1050 50  0000 R CNN
-F 2 "Connector_Molex:Molex_Pico-Clasp_202396-0407_1x04-1MP_P1.00mm_Horizontal" H 3300 1400 50  0001 C CNN
-F 3 "~" H 3300 1400 50  0001 C CNN
-	1    3300 1400
-	-1   0    0    1   
-$EndComp
-Text GLabel 3100 1200 0    50   Output ~ 0
+Text GLabel 3050 1500 0    50   Output ~ 0
 SCL
-Text GLabel 3100 1400 0    50   BiDi ~ 0
+Text GLabel 3050 1600 0    50   BiDi ~ 0
 SDA
-$Comp
-L power:+3.3V #PWR0115
-U 1 1 5F90E1E6
-P 2800 1150
-F 0 "#PWR0115" H 2800 1000 50  0001 C CNN
-F 1 "+3.3V" H 2815 1323 50  0000 C CNN
-F 2 "" H 2800 1150 50  0001 C CNN
-F 3 "" H 2800 1150 50  0001 C CNN
-	1    2800 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0116
-U 1 1 5F90E750
-P 2800 1500
-F 0 "#PWR0116" H 2800 1250 50  0001 C CNN
-F 1 "GND" H 2805 1327 50  0000 C CNN
-F 2 "" H 2800 1500 50  0001 C CNN
-F 3 "" H 2800 1500 50  0001 C CNN
-	1    2800 1500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3100 1500 2800 1500
-Wire Wire Line
-	3100 1300 2800 1300
-Wire Wire Line
-	2800 1300 2800 1150
 Wire Notes Line
 	2650 850  3650 850 
 Wire Notes Line
@@ -283,25 +244,6 @@ Wire Notes Line
 	650  3750 650  2650
 Text Notes 650  2650 0    50   ~ 0
 External clock selection
-Text GLabel 3150 3150 0    50   Output ~ 0
-EXT_CLK
-$Comp
-L power:GND #PWR0156
-U 1 1 5FAC1E07
-P 3200 3300
-F 0 "#PWR0156" H 3200 3050 50  0001 C CNN
-F 1 "GND" H 3205 3127 50  0000 C CNN
-F 2 "" H 3200 3300 50  0001 C CNN
-F 3 "" H 3200 3300 50  0001 C CNN
-	1    3200 3300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3150 3150 3250 3150
-Wire Notes Line
-	2650 2750 3600 2750
-Text Notes 2650 2750 0    50   ~ 0
-External clock connector
 $Comp
 L 74LVC1G157:74LVC1G157GC-Q100H U17
 U 1 1 5FACB866
@@ -359,27 +301,6 @@ Wire Wire Line
 	5550 2250 5500 2250
 Text Notes 3850 1850 0    50   ~ 0
 Clock selection
-$Comp
-L Connector_Generic:Conn_01x02 J6
-U 1 1 5FAD3D98
-P 3450 3150
-F 0 "J6" H 3250 3400 50  0000 L CNN
-F 1 "Conn_01x02" H 3000 3300 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Pico-Clasp_202396-0207_1x02-1MP_P1.00mm_Horizontal" H 3450 3150 50  0001 C CNN
-F 3 "~" H 3450 3150 50  0001 C CNN
-	1    3450 3150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3200 3250 3250 3250
-Wire Wire Line
-	3200 3300 3200 3250
-Wire Notes Line
-	2650 2750 2650 3550
-Wire Notes Line
-	2650 3550 3600 3550
-Wire Notes Line
-	3600 3550 3600 2750
 Text Notes 3850 2850 0    50   Italic 0
 The clock inversion happens locally
 $Comp
@@ -451,4 +372,84 @@ F 3 "~" H 850 3100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	850  3200 1150 3200
+$Comp
+L Connector:TestPoint_Small TP8
+U 1 1 605E9ACF
+P 3300 1500
+F 0 "TP8" H 3348 1500 50  0000 L CNN
+F 1 "TestPoint_Small" H 3348 1455 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 3500 1500 50  0001 C CNN
+F 3 "~" H 3500 1500 50  0001 C CNN
+	1    3300 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Small TP10
+U 1 1 605EA570
+P 3300 1600
+F 0 "TP10" H 3348 1600 50  0000 L CNN
+F 1 "TestPoint_Small" H 3348 1555 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 3500 1600 50  0001 C CNN
+F 3 "~" H 3500 1600 50  0001 C CNN
+	1    3300 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 60611F1F
+P 3100 1300
+F 0 "R?" H 2750 1350 50  0000 L CNN
+F 1 "10k" H 2750 1250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 3100 1300 50  0001 C CNN
+F 3 "~" H 3100 1300 50  0001 C CNN
+	1    3100 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6061315C
+P 3200 1300
+F 0 "R?" H 2850 1350 50  0000 L CNN
+F 1 "10k" H 2900 1250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 3200 1300 50  0001 C CNN
+F 3 "~" H 3200 1300 50  0001 C CNN
+	1    3200 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 1500 3100 1500
+Wire Wire Line
+	3050 1600 3200 1600
+Wire Wire Line
+	3100 1400 3100 1500
+Connection ~ 3100 1500
+Wire Wire Line
+	3100 1500 3300 1500
+Wire Wire Line
+	3200 1400 3200 1600
+Connection ~ 3200 1600
+Wire Wire Line
+	3200 1600 3300 1600
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6061491D
+P 3100 1200
+F 0 "#PWR?" H 3100 1050 50  0001 C CNN
+F 1 "+3.3V" H 2950 1350 50  0000 C CNN
+F 2 "" H 3100 1200 50  0001 C CNN
+F 3 "" H 3100 1200 50  0001 C CNN
+	1    3100 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60614E25
+P 3200 1200
+F 0 "#PWR?" H 3200 1050 50  0001 C CNN
+F 1 "+3.3V" H 3350 1350 50  0000 C CNN
+F 2 "" H 3200 1200 50  0001 C CNN
+F 3 "" H 3200 1200 50  0001 C CNN
+	1    3200 1200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
