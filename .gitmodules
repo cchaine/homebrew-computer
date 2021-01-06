@@ -1,3 +1,0 @@
-[submodule "firmware/compute-board-firmware"]
-	path = firmware/compute-board-firmware
-	url = https://github.com/cchaine/compute-board-firmware
