@@ -494,7 +494,7 @@ Wire Notes Line
 	850  2550 850  1250
 Wire Wire Line
 	1300 5350 1250 5350
-Text Label 1950 3500 0    50   ~ 0
+Text Label 2050 3500 0    50   ~ 0
 RESET
 Text Label 1250 5250 2    50   ~ 0
 TDI
@@ -1140,4 +1140,30 @@ Text Label 10150 6100 0    50   ~ 0
 CLK_I
 Text Label 10150 6000 0    50   ~ 0
 CLK
+$Comp
+L Device:R_Small R?
+U 1 1 60017274
+P 2050 3600
+F 0 "R?" H 1850 3600 50  0000 L CNN
+F 1 "10k" H 1800 3500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 2050 3600 50  0001 C CNN
+F 3 "~" H 2050 3600 50  0001 C CNN
+	1    2050 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 3500 2050 3500
+$Comp
+L power:GND #PWR?
+U 1 1 60018B39
+P 2050 3700
+AR Path="/5F97DCB2/60018B39" Ref="#PWR?"  Part="1" 
+AR Path="/60018B39" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2050 3450 50  0001 C CNN
+F 1 "GND" H 2055 3527 50  0000 C CNN
+F 2 "" H 2050 3700 50  0001 C CNN
+F 3 "" H 2050 3700 50  0001 C CNN
+	1    2050 3700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

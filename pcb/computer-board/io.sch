@@ -320,99 +320,99 @@ Text Notes 1550 900  0    50   ~ 0
 Transceiver
 Text Notes 1300 750  0    50   ~ 0
 Bus transceiver
-Text HLabel 3400 3350 2    50   Input ~ 0
+Text HLabel 3450 3350 2    50   Input ~ 0
 IO_OUT
-Text HLabel 3400 3450 2    50   Input ~ 0
+Text HLabel 3450 3450 2    50   Input ~ 0
 IO_OUTB
-Text HLabel 3400 3550 2    50   Input ~ 0
+Text HLabel 3450 3550 2    50   Input ~ 0
 IO_IN
-Text HLabel 3400 3650 2    50   Input ~ 0
+Text HLabel 3450 3650 2    50   Input ~ 0
 IO_INB
 $Comp
 L Device:D_Small D?
 U 1 1 5F9B5E06
-P 3300 3350
+P 3350 3350
 AR Path="/5F95DC76/5F9B5E06" Ref="D?"  Part="1" 
 AR Path="/5F8B5DB4/5F9B5E06" Ref="D3"  Part="1" 
-F 0 "D3" H 3300 3557 50  0000 C CNN
-F 1 "D_Small" H 3500 3550 50  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3300 3350 50  0001 C CNN
-F 3 "~" V 3300 3350 50  0001 C CNN
-	1    3300 3350
+F 0 "D3" H 3350 3557 50  0000 C CNN
+F 1 "D_Small" H 3550 3550 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3350 3350 50  0001 C CNN
+F 3 "~" V 3350 3350 50  0001 C CNN
+	1    3350 3350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D_Small D?
 U 1 1 5F9B5E0C
-P 3300 3450
+P 3350 3450
 AR Path="/5F95DC76/5F9B5E0C" Ref="D?"  Part="1" 
 AR Path="/5F8B5DB4/5F9B5E0C" Ref="D5"  Part="1" 
-F 0 "D5" H 3300 3657 50  0000 C CNN
-F 1 "D_Small" H 3500 3650 50  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3300 3450 50  0001 C CNN
-F 3 "~" V 3300 3450 50  0001 C CNN
-	1    3300 3450
+F 0 "D5" H 3350 3657 50  0000 C CNN
+F 1 "D_Small" H 3550 3650 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3350 3450 50  0001 C CNN
+F 3 "~" V 3350 3450 50  0001 C CNN
+	1    3350 3450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D_Small D?
 U 1 1 5F9B5E12
-P 3300 3550
+P 3350 3550
 AR Path="/5F95DC76/5F9B5E12" Ref="D?"  Part="1" 
 AR Path="/5F8B5DB4/5F9B5E12" Ref="D7"  Part="1" 
-F 0 "D7" H 3300 3050 50  0000 C CNN
-F 1 "D_Small" H 3500 3050 50  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3300 3550 50  0001 C CNN
-F 3 "~" V 3300 3550 50  0001 C CNN
-	1    3300 3550
+F 0 "D7" H 3350 3050 50  0000 C CNN
+F 1 "D_Small" H 3550 3050 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3350 3550 50  0001 C CNN
+F 3 "~" V 3350 3550 50  0001 C CNN
+	1    3350 3550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D_Small D?
 U 1 1 5F9B5E18
-P 3300 3650
+P 3350 3650
 AR Path="/5F95DC76/5F9B5E18" Ref="D?"  Part="1" 
 AR Path="/5F8B5DB4/5F9B5E18" Ref="D8"  Part="1" 
-F 0 "D8" H 3300 3450 50  0000 C CNN
-F 1 "D_Small" H 3500 3450 50  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3300 3650 50  0001 C CNN
-F 3 "~" V 3300 3650 50  0001 C CNN
-	1    3300 3650
+F 0 "D8" H 3350 3450 50  0000 C CNN
+F 1 "D_Small" H 3550 3450 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3350 3650 50  0001 C CNN
+F 3 "~" V 3350 3650 50  0001 C CNN
+	1    3350 3650
 	1    0    0    -1  
 $EndComp
-Connection ~ 3200 3450
-Connection ~ 3200 3550
+Connection ~ 3250 3450
+Connection ~ 3250 3550
 Wire Wire Line
-	3200 3550 3200 3650
+	3250 3550 3250 3650
 $Comp
 L Device:D_Small D?
 U 1 1 5F9B5E22
-P 3300 3750
+P 3350 3750
 AR Path="/5F95DC76/5F9B5E22" Ref="D?"  Part="1" 
 AR Path="/5F8B5DB4/5F9B5E22" Ref="D9"  Part="1" 
-F 0 "D9" H 3300 3550 50  0000 C CNN
-F 1 "D_Small" H 3500 3550 50  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3300 3750 50  0001 C CNN
-F 3 "~" V 3300 3750 50  0001 C CNN
-	1    3300 3750
+F 0 "D9" H 3350 3550 50  0000 C CNN
+F 1 "D_Small" H 3550 3550 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3350 3750 50  0001 C CNN
+F 3 "~" V 3350 3750 50  0001 C CNN
+	1    3350 3750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3200 3750 3200 3650
-Connection ~ 3200 3650
-Text HLabel 3400 3750 2    50   Input ~ 0
+	3250 3750 3250 3650
+Connection ~ 3250 3650
+Text HLabel 3450 3750 2    50   Input ~ 0
 IO_ADDR_IN
 Wire Wire Line
-	3200 3450 3200 3500
+	3250 3450 3250 3500
 Wire Wire Line
 	2300 3450 2300 3500
 Wire Wire Line
-	3200 3350 3200 3450
+	3250 3350 3250 3450
 Wire Wire Line
-	3200 3500 3050 3500
-Connection ~ 3200 3500
+	3250 3500 3150 3500
+Connection ~ 3250 3500
 Wire Wire Line
-	3200 3500 3200 3550
+	3250 3500 3250 3550
 Wire Wire Line
 	2400 3600 2400 3500
 Wire Wire Line
@@ -436,14 +436,14 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F9B5E41
-P 3050 3600
+P 3050 3750
 AR Path="/5F95DC76/5F9B5E41" Ref="#PWR?"  Part="1" 
 AR Path="/5F8B5DB4/5F9B5E41" Ref="#PWR0135"  Part="1" 
-F 0 "#PWR0135" H 3050 3350 50  0001 C CNN
-F 1 "GND" H 3055 3427 50  0000 C CNN
-F 2 "" H 3050 3600 50  0001 C CNN
-F 3 "" H 3050 3600 50  0001 C CNN
-	1    3050 3600
+F 0 "#PWR0135" H 3050 3500 50  0001 C CNN
+F 1 "GND" H 3055 3577 50  0000 C CNN
+F 2 "" H 3050 3750 50  0001 C CNN
+F 3 "" H 3050 3750 50  0001 C CNN
+	1    3050 3750
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -499,45 +499,38 @@ Wire Notes Line
 	4050 6450 4050 750 
 Text Notes 850  4150 0    50   Italic 0
 We use diodes to implement the OR\nfunction as there will only be one \nactive at the same time
-Text HLabel 1250 3450 0    50   Input ~ 0
+Text HLabel 1200 3450 0    50   Input ~ 0
 IO_OUT
-Text HLabel 1250 3550 0    50   Input ~ 0
+Text HLabel 1200 3550 0    50   Input ~ 0
 IO_OUTB
 $Comp
 L Device:D_Small D?
 U 1 1 5F9E6C34
-P 1350 3450
+P 1300 3450
 AR Path="/5F95DC76/5F9E6C34" Ref="D?"  Part="1" 
 AR Path="/5F8B5DB4/5F9E6C34" Ref="D4"  Part="1" 
-F 0 "D4" H 1350 3657 50  0000 C CNN
-F 1 "D_Small" H 1550 3650 50  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1350 3450 50  0001 C CNN
-F 3 "~" V 1350 3450 50  0001 C CNN
-	1    1350 3450
+F 0 "D4" H 1300 3657 50  0000 C CNN
+F 1 "D_Small" H 1500 3650 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1300 3450 50  0001 C CNN
+F 3 "~" V 1300 3450 50  0001 C CNN
+	1    1300 3450
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:D_Small D?
 U 1 1 5F9E6C3A
-P 1350 3550
+P 1300 3550
 AR Path="/5F95DC76/5F9E6C3A" Ref="D?"  Part="1" 
 AR Path="/5F8B5DB4/5F9E6C3A" Ref="D6"  Part="1" 
-F 0 "D6" H 1350 3757 50  0000 C CNN
-F 1 "D_Small" H 1550 3750 50  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1350 3550 50  0001 C CNN
-F 3 "~" V 1350 3550 50  0001 C CNN
-	1    1350 3550
+F 0 "D6" H 1300 3757 50  0000 C CNN
+F 1 "D_Small" H 1500 3750 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1300 3550 50  0001 C CNN
+F 3 "~" V 1300 3550 50  0001 C CNN
+	1    1300 3550
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1450 3450 1450 3500
-Wire Wire Line
 	1600 3450 1600 3500
-Wire Wire Line
-	1450 3500 1600 3500
-Connection ~ 1450 3500
-Wire Wire Line
-	1450 3500 1450 3550
 Connection ~ 1600 3500
 Wire Wire Line
 	1600 3500 1600 3550
@@ -1546,4 +1539,63 @@ Wire Wire Line
 	9150 4700 9300 4700
 Wire Wire Line
 	9200 4500 9200 4800
+$Comp
+L Device:R_Small R?
+U 1 1 60033A38
+P 1500 3600
+AR Path="/60033A38" Ref="R?"  Part="1" 
+AR Path="/5F8B5DB4/60033A38" Ref="R?"  Part="1" 
+F 0 "R?" H 1300 3600 50  0000 L CNN
+F 1 "10k" H 1250 3500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 1500 3600 50  0001 C CNN
+F 3 "~" H 1500 3600 50  0001 C CNN
+	1    1500 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6004A131
+P 3150 3600
+AR Path="/6004A131" Ref="R?"  Part="1" 
+AR Path="/5F8B5DB4/6004A131" Ref="R?"  Part="1" 
+F 0 "R?" H 2950 3600 50  0000 L CNN
+F 1 "10k" H 2900 3500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 3150 3600 50  0001 C CNN
+F 3 "~" H 3150 3600 50  0001 C CNN
+	1    3150 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 3600 3050 3700
+Connection ~ 3050 3700
+Wire Wire Line
+	3050 3700 3050 3750
+Wire Wire Line
+	3050 3500 3150 3500
+Connection ~ 3150 3500
+Wire Wire Line
+	3050 3700 3150 3700
+Connection ~ 1500 3500
+Wire Wire Line
+	1500 3500 1600 3500
+Wire Wire Line
+	1400 3500 1400 3450
+Wire Wire Line
+	1400 3500 1500 3500
+Wire Wire Line
+	1400 3550 1400 3500
+Connection ~ 1400 3500
+$Comp
+L power:GND #PWR?
+U 1 1 6010C509
+P 1500 3700
+AR Path="/5F95DC76/6010C509" Ref="#PWR?"  Part="1" 
+AR Path="/5F8B5DB4/6010C509" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1500 3450 50  0001 C CNN
+F 1 "GND" H 1505 3527 50  0000 C CNN
+F 2 "" H 1500 3700 50  0001 C CNN
+F 3 "" H 1500 3700 50  0001 C CNN
+	1    1500 3700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
