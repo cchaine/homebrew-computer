@@ -1,9 +1,0 @@
-[submodule "firmware/compute-board/alu-firmware"]
-	path = firmware/compute-board/alu-firmware
-	url = https://github.com/cchaine/alu-firmware
-[submodule "firmware/compute-board/control-logic-firmware"]
-	path = firmware/compute-board/control-logic-firmware
-	url = https://github.com/cchaine/control-logic-firmware
-[submodule "firmware/compute-board/program-counter-firmware"]
-	path = firmware/compute-board/program-counter-firmware
-	url = https://github.com/cchaine/program-counter-firmware
