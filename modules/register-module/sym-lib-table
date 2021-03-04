@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name register-module-rescue)(type Legacy)(uri ${KIPRJMOD}/register-module-rescue.lib)(options "")(descr ""))
+  (lib (name 74hc574)(type Legacy)(uri ${KIPRJMOD}/libs/74hc574.lib)(options "")(descr ""))
+  (lib (name 74hc04)(type Legacy)(uri ${KIPRJMOD}/libs/74hc04.lib)(options "")(descr ""))
+  (lib (name 74hc161)(type Legacy)(uri ${KIPRJMOD}/libs/74hc161.lib)(options "")(descr ""))
+)
