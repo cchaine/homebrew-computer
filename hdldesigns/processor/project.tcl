@@ -1,39 +1,6 @@
 # 
 # Project automation script for processor 
 # 
-# Created for ISE version 13.4
-# 
-# This file contains several Tcl procedures (procs) that you can use to automate
-# your project by running from xtclsh or the Project Navigator Tcl console.
-# If you load this file (using the Tcl command: source processor.tcl), then you can
-# run any of the procs included here.
-# 
-# This script is generated assuming your project has HDL sources.
-# Several of the defined procs won't apply to an EDIF or NGC based project.
-# If that is the case, simply remove them from this script.
-# 
-# You may also edit any of these procs to customize them. See comments in each
-# proc for more instructions.
-# 
-# This file contains the following procedures:
-# 
-# Top Level procs (meant to be called directly by the user):
-#    run_process: you can use this top-level procedure to run any processes
-#        that you choose to by adding and removing comments, or by
-#        adding new entries.
-#    rebuild_project: you can alternatively use this top-level procedure
-#        to recreate your entire project, and the run selected processes.
-# 
-# Lower Level (helper) procs (called under in various cases by the top level procs):
-#    show_help: print some basic information describing how this script works
-#    add_source_files: adds the listed source files to your project.
-#    set_project_props: sets the project properties that were in effect when this
-#        script was generated.
-#    create_libraries: creates and adds file to VHDL libraries that were defined when
-#        this script was generated.
-#    set_process_props: set the process properties as they were set for your project
-#        when this script was generated.
-# 
 
 set buildDir "build"
 catch {cd $buildDir}
@@ -41,12 +8,6 @@ catch {cd $buildDir}
 set myProject "processor"
 set myScript "project.tcl"
 
-# 
-# set_project_props
-# 
-# This procedure sets the project properties as they were set in the project
-# at the time this script was generated.
-# 
 proc set_project_props {} {
 
    global myScript
@@ -69,13 +30,6 @@ proc set_project_props {} {
 
 }
 
-
-# 
-# add_source_files
-# 
-# This procedure add the source files that were known to the project at the
-# time this script was generated.
-# 
 proc add_source_files {} {
 
    global myScript
@@ -93,18 +47,8 @@ proc add_source_files {} {
 
    puts "$myScript: project sources reloaded."
 
-} ; # end add_source_files
+} ;
 
-# 
-# rebuild_project
-# 
-# This procedure renames the project file (if it exists) and recreates the project.
-# It then sets project properties and adds project sources as specified by the
-# set_project_props and add_source_files support procs. It recreates VHDL Libraries
-# as they existed at the time this script was generated.
-# 
-# It then calls run_process to set process properties and run selected processes.
-# 
 proc build_project {} {
    global myScript
    global myProject
