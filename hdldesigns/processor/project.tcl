@@ -41,6 +41,7 @@ proc add_source_files {} {
    puts "$myScript: Adding sources to project..."
 
    xfile add "../src/processor.vhd"
+   xfile add "../src/program_counter.vhd"
 
    # Set the Top Module as well...
    project set top "Behavioral" "processor"
