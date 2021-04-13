@@ -25,7 +25,7 @@ proc set_project_props {} {
    project set top_level_module_type "HDL"
    project set synthesis_tool "XST (VHDL/Verilog)"
    project set simulator "ISim (VHDL/Verilog)"
-   project set "Preferred Language" "Verilog"
+   project set "Preferred Language" "VHDL"
    project set "Enable Message Filtering" "false"
 
 }
@@ -41,7 +41,8 @@ proc add_source_files {} {
    puts "$myScript: Adding sources to project..."
 
    xfile add "../src/processor.vhd"
-   xfile add "../src/program_counter.vhd"
+   xfile add "../src/counter.vhd"
+   xfile add "../tests/counter_test.vhd"
 
    # Set the Top Module as well...
    project set top "Behavioral" "processor"
