@@ -1,21 +1,13 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
+-- Company: cchaine
+-- Engineer: Clément Chaine
 -- 
 -- Create Date:    18:31:09 04/13/2021 
--- Design Name: 
+-- Design Name:    Synchronous 3-state binary counter with parallel load and asynchronous reset
 -- Module Name:    counter - Behavioral 
--- Project Name: 
--- Target Devices: 
--- Tool versions: 
--- Description: 
---
--- Dependencies: 
---
+-- Project Name:   processor
 -- Revision: 
 -- Revision 0.01 - File Created
--- Additional Comments: 
---
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;

@@ -1,29 +1,16 @@
 --------------------------------------------------------------------------------
--- Company: 
--- Engineer:
+-- Company: cchaine
+-- Engineer: Clément Chaine
 --
 -- Create Date:   18:37:55 04/13/2021
--- Design Name:   
+-- Design Name:    Synchronous 3-state binary counter with parallel load and asynchronous reset
 -- Module Name:   /home/cchaine/Documents/homebrew-computer/hdldesigns/processor/src/counter_test.vhd
 -- Project Name:  processor
--- Target Device:  
--- Tool versions:  
--- Description:   
 -- 
 -- VHDL Test Bench Created by ISE for module: counter
 -- 
--- Dependencies:
--- 
 -- Revision:
 -- Revision 0.01 - File Created
--- Additional Comments:
---
--- Notes: 
--- This testbench has been automatically generated using types std_logic and
--- std_logic_vector for the ports of the unit under test.  Xilinx recommends
--- that these types always be used for the top-level I/O of a design in order
--- to guarantee that the testbench will bind correctly to the post-implementation 
--- simulation model.
 --------------------------------------------------------------------------------
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
