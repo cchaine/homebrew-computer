@@ -35,7 +35,7 @@ ARCHITECTURE behavior OF counter_test IS
          CEN : IN  std_logic;
          DIR : IN  std_logic;
          LOAD : IN  std_logic;
-         B_Addr : INOUT  std_logic_vector(15 downto 0)
+         Binout : INOUT  std_logic_vector(15 downto 0)
         );
     END COMPONENT;
     
@@ -49,7 +49,7 @@ ARCHITECTURE behavior OF counter_test IS
    signal LOAD : std_logic := '0';
 
 	--BiDirs
-   signal B_Addr : std_logic_vector(15 downto 0);
+   signal Binout : std_logic_vector(15 downto 0);
 
    -- Clock period definitions
    constant CLK_period : time := 10 ns;
@@ -65,7 +65,7 @@ BEGIN
           CEN => CEN,
           DIR => DIR,
           LOAD => LOAD,
-          B_Addr => B_Addr
+          Binout => Binout
         );
 
    -- Clock process definitions
@@ -88,7 +88,7 @@ BEGIN
 
       -- insert stimulus here 
       OE <= '1';
-      B_Addr <= (others => 'Z');
+      Binout <= (others => 'Z');
       
       -- Count up 4 times
       DIR <= '1';
@@ -103,7 +103,7 @@ BEGIN
 
       -- Load value
       OE <= '0';
-      B_Addr <= X"ABCD";
+      Binout <= X"ABCD";
       LOAD <= '1';
       wait for CLK_period;
 

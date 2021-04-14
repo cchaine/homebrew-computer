@@ -30,13 +30,13 @@ entity counter is
            CEN : in  STD_LOGIC;
            DIR : in  STD_LOGIC;
            LOAD : in  STD_LOGIC;
-           B_Addr : inout  STD_LOGIC_VECTOR (Size-1 downto 0));
+           Binout : inout  STD_LOGIC_VECTOR (Size-1 downto 0));
 end counter;
 
 architecture Behavioral of counter is
    signal value : STD_LOGIC_VECTOR (Size-1 downto 0) := (others => '0');
 begin
-   B_Addr <= value when OE = '1' else (others => 'Z');
+   Binout <= value when OE = '1' else (others => 'Z');
    
    process(RST, CLK)
    begin
@@ -51,7 +51,7 @@ begin
         end if;
         -- Parallel loading feature
         if LOAD = '1' and OE /= '1' then
-          value <= B_Addr;
+          value <= Binout;
         end if;
       end if;
       -- Asynchronous reset feature
