@@ -31,11 +31,11 @@ ARCHITECTURE behavior OF counter_test IS
     PORT(
          CLK : IN  std_logic;
          RST : IN  std_logic;
-         OE : IN  std_logic;
          CEN : IN  std_logic;
          DIR : IN  std_logic;
          LOAD : IN  std_logic;
-         Binout : INOUT  std_logic_vector(15 downto 0)
+         Bin : IN std_logic_vector(15 downto 0);
+         Bout : INOUT  std_logic_vector(15 downto 0)
         );
     END COMPONENT;
     
@@ -43,17 +43,15 @@ ARCHITECTURE behavior OF counter_test IS
    --Inputs
    signal CLK : std_logic := '0';
    signal RST : std_logic := '0';
-   signal OE : std_logic := '0';
    signal CEN : std_logic := '0';
    signal DIR : std_logic := '0';
    signal LOAD : std_logic := '0';
 
-	--BiDirs
-   signal Binout : std_logic_vector(15 downto 0);
+   signal Bin : std_logic_vector(15 downto 0);
+   signal Bout : std_logic_vector(15 downto 0);
 
    -- Clock period definitions
    constant CLK_period : time := 10 ns;
- 
 BEGIN
  
 	-- Instantiate the Unit Under Test (UUT)
@@ -61,11 +59,11 @@ BEGIN
         PORT MAP (
           CLK => CLK,
           RST => RST,
-          OE => OE,
           CEN => CEN,
           DIR => DIR,
           LOAD => LOAD,
-          Binout => Binout
+          Bin=> Bin,
+          Bout => Bout
         );
 
    -- Clock process definitions
@@ -87,9 +85,6 @@ BEGIN
       wait for CLK_period*10;
 
       -- insert stimulus here 
-      OE <= '1';
-      Binout <= (others => 'Z');
-      
       -- Count up 4 times
       DIR <= '1';
       CEN <= '1';
@@ -102,8 +97,7 @@ BEGIN
       CEN <= '0';
 
       -- Load value
-      OE <= '0';
-      Binout <= X"ABCD";
+      Bin <= X"ABCD";
       LOAD <= '1';
       wait for CLK_period;
 

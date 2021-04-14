@@ -26,17 +26,17 @@ entity counter is
     Generic (Size : integer := 16);
     Port ( CLK : in  STD_LOGIC;
            RST : in STD_LOGIC;
-           OE : in STD_LOGIC;
            CEN : in  STD_LOGIC;
            DIR : in  STD_LOGIC;
            LOAD : in  STD_LOGIC;
-           Binout : inout  STD_LOGIC_VECTOR (Size-1 downto 0));
+           Bin : in STD_LOGIC_VECTOR (Size-1 downto 0);
+           Bout : inout  STD_LOGIC_VECTOR (Size-1 downto 0));
 end counter;
 
 architecture Behavioral of counter is
    signal value : STD_LOGIC_VECTOR (Size-1 downto 0) := (others => '0');
 begin
-   Binout <= value when OE = '1' else (others => 'Z');
+   Bout <= value;
    
    process(RST, CLK)
    begin
@@ -50,8 +50,8 @@ begin
           end if;
         end if;
         -- Parallel loading feature
-        if LOAD = '1' and OE /= '1' then
-          value <= Binout;
+        if LOAD = '1' then
+          value <= Bin;
         end if;
       end if;
       -- Asynchronous reset feature
