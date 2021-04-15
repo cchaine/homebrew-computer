@@ -4,7 +4,7 @@
 -- 
 -- Create Date:    08:52:50 04/15/2021 
 -- Design Name: 
--- Module Name:    registers - Behavioral 
+-- Module Name:    registerbank - Behavioral 
 -- Project Name: 
 -- Target Devices: 
 -- Tool versions: 
@@ -29,9 +29,9 @@ use IEEE.NUMERIC_STD.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity registers is
-    Generic (Rs : integer := 16; -- Size of registers
-             N : integer := 3; -- Number of registers
+entity registerbank is
+    Generic (Rs : integer := 16; -- Size of registerbank
+             N : integer := 3; -- Number of registerbank
              Ras : integer := 2); -- Address size
     Port ( CLK : in  STD_LOGIC;
            RST : in  STD_LOGIC;
@@ -42,9 +42,9 @@ entity registers is
            A_Data : out  STD_LOGIC_VECTOR (Rs-1 downto 0); -- A output
            B_Data : out  STD_LOGIC_VECTOR (Rs-1 downto 0); -- B output
            W_Data : in  STD_LOGIC_VECTOR  (Rs-1 downto 0)); -- Write data
-end registers;
+end registerbank;
 
-architecture Behavioral of registers is
+architecture Behavioral of registerbank is
   type register_array is array(0 to N-1) of std_logic_vector(Rs-1 downto 0);
   signal registers : register_array;
 begin

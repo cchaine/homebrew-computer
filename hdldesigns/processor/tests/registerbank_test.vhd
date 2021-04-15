@@ -10,7 +10,7 @@
 -- Tool versions:  
 -- Description:   
 -- 
--- VHDL Test Bench Created by ISE for module: registers
+-- VHDL Test Bench Created by ISE for module: registerbank
 -- 
 -- Dependencies:
 -- 
@@ -39,7 +39,7 @@ ARCHITECTURE behavior OF register_test IS
  
     -- Component Declaration for the Unit Under Test (UUT)
  
-    COMPONENT registers
+    COMPONENT registerbank
     PORT(
          CLK : IN  std_logic;
          RST : IN  std_logic;
@@ -73,7 +73,7 @@ ARCHITECTURE behavior OF register_test IS
 BEGIN
  
 	-- Instantiate the Unit Under Test (UUT)
-   uut: registers PORT MAP (
+   uut: registerbank PORT MAP (
           CLK => CLK,
           RST => RST,
           W => W,
