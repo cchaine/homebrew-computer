@@ -45,11 +45,16 @@ proc add_source_files {} {
    xfile add "../src/counter.vhd"
    xfile add "../src/alu.vhd"
    xfile add "../src/registerbank.vhd"
+   xfile add "../src/reg.vhd"
+   xfile add "../src/control.vhd"
 
    # Testbenches
    xfile add "../tests/counter_test.vhd" -view Simulation
    xfile add "../tests/alu_test.vhd" -view Simulation
    xfile add "../tests/registerbank_test.vhd" -view Simulation
+   xfile add "../tests/reg_test.vhd" -view Simulation
+   xfile add "../tests/control_test.vhd" -view Simulation
+   xfile add "../tests/processor_test.vhd" -view Simulation
 
    # Set the Top Module as well...
    project set top "Behavioral" "processor"
