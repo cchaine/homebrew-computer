@@ -23,7 +23,8 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 --use UNISIM.VComponents.all;
 
 entity counter is
-    Generic (Size : integer := 16);
+    Generic (Size : integer := 16;
+             Increment : integer := 1);
     Port ( CLK : in  STD_LOGIC;
            RST : in STD_LOGIC;
            CEN : in  STD_LOGIC;
@@ -44,9 +45,9 @@ begin
         -- Counting feature
         if CEN = '1' then
           if DIR = '0' then
-            value <= value - 1;
+            value <= value - std_logic_vector(to_unsigned(Increment, value'length));
           else
-            value <= value + 1;
+            value <= value + std_logic_vector(to_unsigned(Increment, value'length));
           end if;
         end if;
         -- Parallel loading feature

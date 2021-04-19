@@ -31,8 +31,8 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity registerbank is
     Generic (Rs : integer := 16; -- Size of registerbank
-             N : integer := 3; -- Number of registerbank
-             Ras : integer := 2); -- Address size
+             N : integer := 8; -- Number of registerbank
+             Ras : integer := 3); -- Address size
     Port ( CLK : in  STD_LOGIC;
            RST : in  STD_LOGIC;
            W : in  STD_LOGIC; -- Write enable
@@ -44,9 +44,20 @@ entity registerbank is
            W_Data : in  STD_LOGIC_VECTOR  (Rs-1 downto 0)); -- Write data
 end registerbank;
 
+
+
 architecture Behavioral of registerbank is
   type register_array is array(0 to N-1) of std_logic_vector(Rs-1 downto 0);
-  signal registers : register_array;
+
+  function init_array return register_array is
+    variable v : register_array := (others => (others => '0'));
+  begin
+    v(N-1) := (others => '1');
+    v(N-2) := (others => '1');
+    return v;
+  end init_array;
+
+  signal registers : register_array := init_array;
 begin
   A_Data <= registers(to_integer(unsigned(A_Addr)));
   B_Data <= registers(to_integer(unsigned(B_Addr)));
@@ -62,9 +73,7 @@ begin
 
     -- Reset is asynchronous
     if rising_edge(RST) then
-      for i in 0 to N-1 loop
-          registers(i) <= (others => '0');
-      end loop;
+      registers <= init_array;
     end if;
   end process;
 end Behavioral;

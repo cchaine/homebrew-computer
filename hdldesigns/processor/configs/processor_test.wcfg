@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/cchaine/Documents/homebrew-computer/hdldesigns/processor/build/processor_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="processor_test" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="20" />
+   <wave_markers>
+      <marker time="5000000" label="" />
+      <marker time="65000000" label="" />
+      <marker time="125000000" label="" />
+      <marker time="165133000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/processor_test/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_test/uut/pc_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_test/uut/microsequence" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">microsequence[2:0]</obj_property>
+      <obj_property name="ObjectShortName">microsequence[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_test/uut/microsequence_reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">microsequence_reset</obj_property>
+      <obj_property name="ObjectShortName">microsequence_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_test/rd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rd</obj_property>
+      <obj_property name="ObjectShortName">rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_test/wr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wr</obj_property>
+      <obj_property name="ObjectShortName">wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_test/data_bus" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_bus[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_bus[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_test/addr_bus" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_bus[15:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_bus[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_test/uut/ir_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ir_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ir_out[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider35" type="divider">
+      <obj_property name="label">Registers</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#2c2c2c</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_test/uut/reg_inst/w_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">w_addr[2:0]</obj_property>
+      <obj_property name="ObjectShortName">w_addr[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_test/uut/reg_inst/w_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">w_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">w_data[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_test/uut/reg_w" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_w</obj_property>
+      <obj_property name="ObjectShortName">reg_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_test/uut/reg_inst/registers" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">registers[0:7]</obj_property>
+      <obj_property name="ObjectShortName">registers[0:7]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="/processor_test/uut/reg_inst/registers[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">registers[0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_test/uut/reg_inst/registers[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">registers[1]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_test/uut/reg_inst/registers[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">registers[2]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_test/uut/reg_inst/registers[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">registers[3]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_test/uut/reg_inst/registers[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">registers[4]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_test/uut/reg_inst/registers[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">registers[5]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_test/uut/reg_inst/registers[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">registers[6]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_test/uut/reg_inst/registers[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">registers[7]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider34" type="divider">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#2c2c2c</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_test/uut/alu_a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_a[15:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_a[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_test/uut/alu_b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_b[15:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_b[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_test/uut/alu_op" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_op[2:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_op[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_test/uut/alu_inst/bout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">bout[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

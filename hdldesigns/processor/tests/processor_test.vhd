@@ -27,10 +27,11 @@
 --------------------------------------------------------------------------------
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
+USE IEEE.STD_LOGIC_UNSIGNED.ALL;
  
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
---USE ieee.numeric_std.ALL;
+USE ieee.numeric_std.ALL;
  
 ENTITY processor_test IS
 END processor_test;
@@ -65,6 +66,17 @@ ARCHITECTURE behavior OF processor_test IS
 
    -- Clock period definitions
    constant CLK_period : time := 10 ns;
+	
+	type instrmem is array(0 to 65535) of STD_LOGIC_VECTOR(15 downto 0);
+	constant instr : instrmem := (
+    X"0001",
+    X"ABCD",
+    X"0100",
+    X"0100",
+    X"0200",
+    X"0000",
+    others => X"0000"
+  );
  
 BEGIN
  
@@ -86,7 +98,21 @@ BEGIN
 		CLK <= '1';
 		wait for CLK_period/2;
    end process;
- 
+	
+	-- Memory process
+	--	    data_bus <= instr(to_integer(unsigned(addr_bus))) when RD = '1' else
+	--						 (others => 'Z');
+	memory: process
+	begin
+		wait on addr_bus;
+		if RD = '1' then
+			data_bus <= (others => 'U');
+			wait for 2ns;
+			data_bus <= instr(to_integer(unsigned(addr_bus)));
+		else
+			data_bus <= (others => 'Z');
+		end if;
+	end process;
 
    -- Stimulus process
    stim_proc: process
@@ -94,9 +120,7 @@ BEGIN
       -- hold reset state for 100 ns.
 		RST <= '1';
 		wait for 1ns;
-		
-		data_bus <= X"0000";
-      wait for 100 ns;	
+		RST <= '0';
 
       wait for CLK_period*10;
 
