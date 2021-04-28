@@ -443,10 +443,6 @@
     [
       "deae845a-ed89-4dc8-b611-a45627046b99",
       "Power Supply"
-    ],
-    [
-      "f783d73c-35cd-4718-afa1-f83ec8c78fac",
-      "JTAG"
     ]
   ],
   "text_variables": {}
