@@ -437,16 +437,16 @@
       "Processor"
     ],
     [
-      "8ac5cdc4-b102-45f3-8410-9d92d6267eb3",
-      "IO Interface"
-    ],
-    [
       "82fcb530-a5b5-40a4-adf5-fce5b9ae2e58",
-      "JTAG"
+      "USB interface"
     ],
     [
       "deae845a-ed89-4dc8-b611-a45627046b99",
       "Power Supply"
+    ],
+    [
+      "f783d73c-35cd-4718-afa1-f83ec8c78fac",
+      "JTAG"
     ]
   ],
   "text_variables": {}
