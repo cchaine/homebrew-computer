@@ -1,3 +1,5 @@
 (sym_lib_table
   (lib (name "tps541620")(type "KiCad")(uri "${KIPRJMOD}/libs/tps541620.kicad_sym")(options "")(descr ""))
+  (lib (name "vccint")(type "KiCad")(uri "${KIPRJMOD}/libs/vccint.kicad_sym")(options "")(descr ""))
+  (lib (name "vccaux")(type "KiCad")(uri "${KIPRJMOD}/libs/vccaux.kicad_sym")(options "")(descr ""))
 )

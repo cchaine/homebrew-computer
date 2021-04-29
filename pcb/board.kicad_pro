@@ -434,7 +434,11 @@
     ],
     [
       "c036d866-c247-4a79-8c95-1926a9c8f9b9",
-      "Processor"
+      "Processor Decoupling"
+    ],
+    [
+      "69291240-c6dc-4685-bede-62676e04aaad",
+      "Memory"
     ],
     [
       "82fcb530-a5b5-40a4-adf5-fce5b9ae2e58",
@@ -443,6 +447,22 @@
     [
       "deae845a-ed89-4dc8-b611-a45627046b99",
       "Power Supply"
+    ],
+    [
+      "2ef5813e-a66c-41a0-8b00-d76353e48edf",
+      "IO connector"
+    ],
+    [
+      "6d2ebb82-764a-43fe-bed5-f6547786187e",
+      "Processor Bank1 & 2"
+    ],
+    [
+      "c9dea0d8-d327-478c-80df-93aecd323f5f",
+      "Processor Bank3 & 4"
+    ],
+    [
+      "7bd13317-33a2-4944-bb39-4c410a78dc85",
+      "Processor JTAG"
     ]
   ],
   "text_variables": {}
