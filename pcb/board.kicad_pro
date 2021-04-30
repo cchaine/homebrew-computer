@@ -438,7 +438,7 @@
     ],
     [
       "69291240-c6dc-4685-bede-62676e04aaad",
-      "Memory"
+      "Flash Memory"
     ],
     [
       "82fcb530-a5b5-40a4-adf5-fce5b9ae2e58",
@@ -463,6 +463,10 @@
     [
       "7bd13317-33a2-4944-bb39-4c410a78dc85",
       "Processor JTAG"
+    ],
+    [
+      "0be1d9ef-fa4b-47fd-b680-b0faa4db6d37",
+      "DRAM"
     ]
   ],
   "text_variables": {}
