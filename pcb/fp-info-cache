@@ -1,4 +1,4 @@
-19447116213245248
+19453596192365082
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -44779,6 +44779,13 @@ connector TE MATE-N-LOK top entry ATA PATA IDE 5.25 inch floppy drive power
 4
 4
 Connector_USB
+BEL_SS-52300-001
+
+
+0
+6
+6
+Connector_USB
 USB3_A_Molex_48393-001
 USB 3.0, type A, right angle (http://www.molex.com/pdm_docs/sd/483930003_sd.pdf)
 USB 3.0 type A right angle
@@ -52051,6 +52058,20 @@ heatsink
 0
 2
 1
+Inductor_SMD
+IND_XAL6030-122MEB
+
+
+0
+2
+2
+Inductor_SMD
+IND_XAL6030-561MEB
+
+
+0
+2
+2
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -68263,6 +68284,13 @@ Sanyo SIP-15
 0
 15
 15
+Package_SO
+DO-214AC
+<b>SURFACE MOUNT GENERAL RECTIFIER</b> JEDEC DO-214AC molded platic body<p>Method 2026<br>Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf
+
+0
+2
+2
 Package_SO
 Diodes_PSOP-8
 8-Lead Plastic PSOP, Exposed Die Pad (see https://www.diodes.com/assets/Datasheets/AP2204.pdf)

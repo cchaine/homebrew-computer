@@ -2263,7 +2263,7 @@
   (symbol (lib_id "FPGA_Xilinx_Spartan6:XC6SLX16-FTG256") (at 161.29 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f929e15f-721d-462a-a8f6-1a53c4a78a00)
-    (property "Reference" "U?" (id 0) (at 161.29 214.63 0))
+    (property "Reference" "U1" (id 0) (at 161.29 214.63 0))
     (property "Value" "XC6SLX16-FTG256" (id 1) (at 161.29 217.17 0))
     (property "Footprint" "" (id 2) (at 161.29 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
