@@ -1,4 +1,4 @@
-19453596192365082
+19458456504037317
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -48005,6 +48005,13 @@ DCDC-Converter XP_POWER JTE06 Dual
 0
 8
 8
+Converter_DCDC
+TPS541620
+
+
+0
+25
+25
 Crystal
 Crystal_AT310_D3.0mm_L10.0mm_Horizontal
 Crystal THT AT310 10.0mm-10.5mm length 3.0mm diameter http://www.cinetech.com.tw/upload/2011/04/20110401165201.pdf
@@ -59710,6 +59717,13 @@ IR Receiver Vishay TSOP-xxxx MOLD
 3
 3
 Oscillator
+ECS-7050MV
+
+
+0
+4
+4
+Oscillator
 Oscillator_DIP-8
 Oscillator, DIP8,http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf
 oscillator
@@ -60416,6 +60430,13 @@ BGA 8 0.4
 0
 8
 8
+Package_BGA
+IS42S16100H
+
+
+0
+60
+60
 Package_BGA
 Infineon_LFBGA-292_17x17mm_Layout20x20_P0.8mm_Ball0.5mm_Pad0.35
 Infineon LFBGA-292, 0.35mm pad, 17.0x17.0mm, 292 Ball, 20x20 Layout, 0.8mm Pitch, https://www.infineon.com/cms/en/product/packages/PG-LFBGA/PG-LFBGA-292-11/
