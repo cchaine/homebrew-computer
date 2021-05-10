@@ -1,4 +1,4 @@
-19460077386345058
+19461698046436509
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -1546,6 +1546,13 @@ SPST Tactile Switch
 0
 4
 2
+Button_Switch_THT
+2-1825027-0
+
+
+0
+0
+0
 Button_Switch_THT
 KSA_Tactile_SPST
 KSA http://www.ckswitches.com/media/1457/ksa_ksl.pdf
@@ -56557,8 +56564,8 @@ WP42WUM,GYW
 
 
 0
-0
-0
+3
+3
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet

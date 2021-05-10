@@ -640,7 +640,7 @@
       (reference "FB3") (unit 1) (value "600R/0.5A") (footprint "Inductor_SMD:L_0603_1608Metric")
     )
     (path "/82fcb530-a5b5-40a4-adf5-fce5b9ae2e58/f4bc78a5-9069-4b82-97fe-d065795c522a"
-      (reference "J1") (unit 1) (value "Conn_02x03_Counter_Clockwise") (footprint "")
+      (reference "J1") (unit 1) (value "Conn_02x03_Counter_Clockwise") (footprint "Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical")
     )
     (path "/82fcb530-a5b5-40a4-adf5-fce5b9ae2e58/51413e06-5869-4247-9a60-361d4286d05b"
       (reference "J2") (unit 1) (value "USB_B") (footprint "Connector_USB:BEL_SS-52300-001")
@@ -1030,7 +1030,7 @@
       (reference "R39") (unit 1) (value "470k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/7bd13317-33a2-4944-bb39-4c410a78dc85/99bed952-2c7a-49ae-bfff-d59db78fed55"
-      (reference "SW1") (unit 1) (value "SW_Push") (footprint "")
+      (reference "SW1") (unit 1) (value "SW_Push") (footprint "Button_Switch_THT:2-1825027-0")
     )
     (path "/7bd13317-33a2-4944-bb39-4c410a78dc85/30f80dc6-ee59-4fd9-b102-be71fc314c03"
       (reference "U1") (unit 3) (value "XC6SLX16-FTG256") (footprint "Package_BGA:Xilinx_FTG256")
