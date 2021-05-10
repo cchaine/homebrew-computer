@@ -1,5 +1,5 @@
 (footprint "TPS541620" (version 20210424) (generator pcbnew) (layer "F.Cu")
-  (tedit 60995EB3)
+  (tedit 6099A0ED)
   (fp_text reference "REF**" (at 0 -8.5 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 6a2f8f7c-d1ec-4862-bbcc-a821b51e995b)
@@ -122,4 +122,9 @@
       ) (width 0) (fill yes))
     ) (tstamp 8d534f01-0846-4287-9480-897d0e219eb5))
   (pad "25" smd rect (at -0.025 0 180) (size 0.25 2.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 036a36ce-1f6d-49f7-b16c-3885277b95ce))
+  (model "${KIPRJMOD}/libs/TPS541620/DFN-16-1EP_3x5mm_P0.5mm_EP1.66x4.4mm.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
