@@ -1,4 +1,18 @@
-19461698046436509
+19504922122298332
+2-1825027-0
+2-1825027-0
+
+
+0
+4
+2
+650913-5
+TE_650913-5
+
+
+0
+96
+96
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -1546,13 +1560,6 @@ SPST Tactile Switch
 0
 4
 2
-Button_Switch_THT
-2-1825027-0
-
-
-0
-0
-0
 Button_Switch_THT
 KSA_Tactile_SPST
 KSA http://www.ckswitches.com/media/1457/ksa_ksl.pdf
@@ -7840,6 +7847,13 @@ Power Jack
 3
 3
 Connector_BarrelJack
+BarrelJack_GCT_DCJ200-10-A_Horizontal
+Barrel jack connector (5.5 mm outer diameter, 2.05 inner diameter ), https://gct.co/files/drawings/dcj200-10.pdf
+connector barrel jack
+0
+3
+3
+Connector_BarrelJack
 BarrelJack_Horizontal
 DC Barrel Jack
 Power Jack
@@ -8634,13 +8648,6 @@ Connector_DIN
 DIN41612_R_3x32_Male_Vertical_THT
 DIN41612 connector, type R, Vertical, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
 DIN 41612 IEC 60603 R
-0
-96
-96
-Connector_DIN
-TE_650913-5
-
-
 0
 96
 96
@@ -44786,13 +44793,6 @@ connector TE MATE-N-LOK top entry ATA PATA IDE 5.25 inch floppy drive power
 4
 4
 Connector_USB
-BEL_SS-52300-001
-
-
-0
-6
-6
-Connector_USB
 USB3_A_Molex_48393-001
 USB 3.0, type A, right angle (http://www.molex.com/pdm_docs/sd/483930003_sd.pdf)
 USB 3.0 type A right angle
@@ -48012,13 +48012,6 @@ DCDC-Converter XP_POWER JTE06 Dual
 0
 8
 8
-Converter_DCDC
-TPS541620
-
-
-0
-25
-25
 Crystal
 Crystal_AT310_D3.0mm_L10.0mm_Horizontal
 Crystal THT AT310 10.0mm-10.5mm length 3.0mm diameter http://www.cinetech.com.tw/upload/2011/04/20110401165201.pdf
@@ -49272,6 +49265,13 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+DO-214AC
+DO-214AC
+<b>SURFACE MOUNT GENERAL RECTIFIER</b> JEDEC DO-214AC molded platic body<p>Method 2026<br>Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf
+
+0
+2
+2
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -51169,6 +51169,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ECS-7050MV
+ECS-7050MV
+
+
+0
+4
+4
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -52072,20 +52079,13 @@ heatsink
 0
 2
 1
-Inductor_SMD
-IND_XAL6030-122MEB
+IS42S16100H
+IS42S16100H
 
 
 0
-2
-2
-Inductor_SMD
-IND_XAL6030-561MEB
-
-
-0
-2
-2
+60
+60
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -56559,13 +56559,6 @@ Yellow 5381 Series LED
 0
 2
 2
-LED_THT
-WP42WUM,GYW
-
-
-0
-3
-3
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -59731,13 +59724,6 @@ IR Receiver Vishay TSOP-xxxx MOLD
 3
 3
 Oscillator
-ECS-7050MV
-
-
-0
-4
-4
-Oscillator
 Oscillator_DIP-8
 Oscillator, DIP8,http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf
 oscillator
@@ -60444,13 +60430,6 @@ BGA 8 0.4
 0
 8
 8
-Package_BGA
-IS42S16100H
-
-
-0
-60
-60
 Package_BGA
 Infineon_LFBGA-292_17x17mm_Layout20x20_P0.8mm_Ball0.5mm_Pad0.35
 Infineon LFBGA-292, 0.35mm pad, 17.0x17.0mm, 292 Ball, 20x20 Layout, 0.8mm Pitch, https://www.infineon.com/cms/en/product/packages/PG-LFBGA/PG-LFBGA-292-11/
@@ -62321,6 +62300,13 @@ HVQFN NoLead
 21
 17
 Package_DFN_QFN
+HVQFN-24-1EP_4x4mm_P0.5mm_EP2.1x2.1mm
+HVQFN, 24 Pin (https://www.nxp.com/docs/en/package-information/SOT616-1.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+HVQFN NoLead
+0
+34
+25
+Package_DFN_QFN
 HVQFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm
 HVQFN, 24 Pin (https://www.nxp.com/docs/en/package-information/SOT616-3.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
 HVQFN NoLead
@@ -62481,6 +62467,20 @@ MLPQ- 0.65
 0
 21
 17
+Package_DFN_QFN
+Micrel_MLF-8-1EP_2x2mm_P0.5mm_EP0.6x1.2mm
+Micrel  MLF, 8 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/mic23050.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+Micrel MLF NoLead
+0
+11
+9
+Package_DFN_QFN
+Micrel_MLF-8-1EP_2x2mm_P0.5mm_EP0.6x1.2mm_ThermalVias
+Micrel  MLF, 8 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/mic23050.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+Micrel MLF NoLead
+0
+16
+9
 Package_DFN_QFN
 Micrel_MLF-8-1EP_2x2mm_P0.5mm_EP0.8x1.3mm_ThermalVias
 http://ww1.microchip.com/downloads/en/DeviceDoc/mic2290.pdf
@@ -68319,13 +68319,6 @@ Sanyo SIP-15
 0
 15
 15
-Package_SO
-DO-214AC
-<b>SURFACE MOUNT GENERAL RECTIFIER</b> JEDEC DO-214AC molded platic body<p>Method 2026<br>Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf
-
-0
-2
-2
 Package_SO
 Diodes_PSOP-8
 8-Lead Plastic PSOP, Exposed Die Pad (see https://www.diodes.com/assets/Datasheets/AP2204.pdf)
@@ -75390,6 +75383,13 @@ WiFi IEEE802.11 b/g/n
 44
 44
 Relay_SMD
+Relay_2P2T_10x6mm_TE_IMxxG
+Signal Relay, 10x6mm, 2 Form C, Gull Wings, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F108-98001%7FZ.1%7Fpdf%7FEnglish%7FENG_DS_108-98001_Z.1.pdf
+TE IM-Series Relay DPDT Form C
+0
+8
+8
+Relay_SMD
 Relay_DPDT_AXICOM_IMSeries_JLeg
 http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7F108-98001%7FW5%7Fpdf%7FEnglish%7FENG_SS_108-98001_W5.pdf
 AXICOM IM-Series Relay J JLeg
@@ -77293,6 +77293,13 @@ rotary encoder
 0
 5
 4
+SS-52300-001
+BEL_SS-52300-001
+
+
+0
+6
+5
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -78749,6 +78756,13 @@ Logo WEEE
 0
 0
 0
+TPS541620
+TPS541620
+
+
+0
+25
+25
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -84213,6 +84227,27 @@ Varistor
 RV_Disc_D21.5mm_W11.4mm_P10mm
 Varistor, diameter 21.5mm, width 11.4mm, pitch 10mm
 varistor SIOV
+0
+2
+2
+WP42WUMGYW
+WP42WUM,GYW
+
+
+0
+3
+3
+XAL6030-122MEB
+IND_XAL6030-122MEB
+
+
+0
+2
+2
+XAL6030-561MEB
+IND_XAL6030-561MEB
+
+
 0
 2
 2

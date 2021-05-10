@@ -1,8 +1,8 @@
 (sym_lib_table
-  (lib (name "tps541620")(type "KiCad")(uri "${KIPRJMOD}/libs/tps541620.kicad_sym")(options "")(descr ""))
-  (lib (name "74lvc157")(type "KiCad")(uri "${KIPRJMOD}/libs/74lvc157.kicad_sym")(options "")(descr ""))
-  (lib (name "tmux1219")(type "KiCad")(uri "${KIPRJMOD}/libs/tmux1219.kicad_sym")(options "")(descr ""))
-  (lib (name "is42s16100h")(type "KiCad")(uri "${KIPRJMOD}/libs/is42s16100h.kicad_sym")(options "")(descr ""))
+  (lib (name "tps541620")(type "KiCad")(uri "${KIPRJMOD}/libs/tps541620/tps541620.kicad_sym")(options "")(descr ""))
+  (lib (name "74lvc157")(type "KiCad")(uri "${KIPRJMOD}/libs/74lvc157/74lvc157.kicad_sym")(options "")(descr ""))
+  (lib (name "tmux1219")(type "KiCad")(uri "${KIPRJMOD}/libs/tmux1219/tmux1219.kicad_sym")(options "")(descr ""))
+  (lib (name "is42s16100h")(type "KiCad")(uri "${KIPRJMOD}/libs/is42s16100h/is42s16100h.kicad_sym")(options "")(descr ""))
   (lib (name "650913-5")(type "KiCad")(uri "${KIPRJMOD}/libs/650913-5/650913-5.kicad_sym")(options "")(descr ""))
-  (lib (name "bcm56ds")(type "KiCad")(uri "${KIPRJMOD}/libs/bcm56ds.kicad_sym")(options "")(descr ""))
+  (lib (name "bcm56ds")(type "KiCad")(uri "${KIPRJMOD}/libs/BCM56DS/bcm56ds.kicad_sym")(options "")(descr ""))
 )

@@ -1,4 +1,6 @@
-(kicad_sch (version 20210126) (generator eeschema)
+(kicad_sch (version 20210406) (generator eeschema)
+
+  (uuid 5b4eec2a-15df-4731-bed0-18b43cca2d1a)
 
   (paper "User" 240.005 200)
 
@@ -2175,7 +2177,7 @@
     (uuid 1a47d07a-7384-4227-b9df-6fe0643fe3aa)
     (property "Reference" "J3" (id 0) (at 167.64 26.67 0))
     (property "Value" "650913-5" (id 1) (at 167.64 29.21 0))
-    (property "Footprint" "Connector_DIN:TE_650913-5" (id 2) (at 167.64 93.98 0)
+    (property "Footprint" "650913-5:TE_650913-5" (id 2) (at 167.64 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 167.64 93.98 0)

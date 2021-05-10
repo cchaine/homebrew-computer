@@ -384,7 +384,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "board.net",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -429,7 +429,7 @@
   },
   "sheets": [
     [
-      "c036d866-c247-4a79-8c95-1926a9c8f9b9",
+      "8e6aa946-f1f0-40fa-bc78-f5309c415f41",
       ""
     ],
     [

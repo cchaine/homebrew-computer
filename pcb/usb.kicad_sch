@@ -1,4 +1,6 @@
-(kicad_sch (version 20210126) (generator eeschema)
+(kicad_sch (version 20210406) (generator eeschema)
+
+  (uuid e6d6f1e2-fc8f-4cff-b27f-fcfcb26fe189)
 
   (paper "User" 389.992 219.989)
 
@@ -3434,7 +3436,7 @@
     (property "Value" "D_TVS" (id 1) (at 124.46 56.5149 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Footprint" "Package_SO:DO-214AC" (id 2) (at 121.92 54.61 0)
+    (property "Footprint" "DO-214AC:DO-214AC" (id 2) (at 121.92 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 121.92 54.61 0)
@@ -3456,7 +3458,7 @@
     (property "Value" "D_TVS" (id 1) (at 132.08 56.5149 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Footprint" "Package_SO:DO-214AC" (id 2) (at 129.54 54.61 0)
+    (property "Footprint" "DO-214AC:DO-214AC" (id 2) (at 129.54 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 129.54 54.61 0)
@@ -3532,7 +3534,7 @@
     (uuid 51413e06-5869-4247-9a60-361d4286d05b)
     (property "Reference" "J2" (id 0) (at 100.457 33.02 0))
     (property "Value" "USB_B" (id 1) (at 100.457 35.56 0))
-    (property "Footprint" "Connector_USB:BEL_SS-52300-001" (id 2) (at 104.14 48.26 0)
+    (property "Footprint" "SS-52300-001:BEL_SS-52300-001" (id 2) (at 104.14 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" " ~" (id 3) (at 104.14 48.26 0)

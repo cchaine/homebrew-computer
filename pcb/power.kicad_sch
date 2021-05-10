@@ -1,4 +1,6 @@
-(kicad_sch (version 20210126) (generator eeschema)
+(kicad_sch (version 20210406) (generator eeschema)
+
+  (uuid fd9aa332-670a-4e68-96e3-2a7dbc33ac18)
 
   (paper "A4")
 
@@ -1493,7 +1495,7 @@
     (uuid 02794d2e-5473-4454-accb-f831861c1aa3)
     (property "Reference" "NT1" (id 0) (at 52.07 102.87 0))
     (property "Value" "NetTie_2" (id 1) (at 52.07 105.41 0))
-    (property "Footprint" "" (id 2) (at 52.07 106.68 0)
+    (property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm" (id 2) (at 52.07 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 52.07 106.68 0)
@@ -1935,7 +1937,7 @@
     (uuid 88e5c57b-5c2e-42a1-a276-1dfea9dee583)
     (property "Reference" "L1" (id 0) (at 194.31 49.53 90))
     (property "Value" "560nH" (id 1) (at 194.31 52.07 90))
-    (property "Footprint" "Inductor_SMD:IND_XAL6030-561MEB" (id 2) (at 194.31 54.61 0)
+    (property "Footprint" "XAL6030-561MEB:IND_XAL6030-561MEB" (id 2) (at 194.31 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 194.31 54.61 0)
@@ -1953,7 +1955,7 @@
     (uuid f1f3520b-cb73-4395-bbf2-46cc2c0733cc)
     (property "Reference" "L2" (id 0) (at 194.31 76.2 90))
     (property "Value" "1.2uH" (id 1) (at 194.31 78.74 90))
-    (property "Footprint" "Inductor_SMD:IND_XAL6030-122MEB" (id 2) (at 194.31 81.28 0)
+    (property "Footprint" "XAL6030-122MEB:IND_XAL6030-122MEB" (id 2) (at 194.31 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 194.31 81.28 0)
@@ -2357,11 +2359,11 @@
   )
 
   (symbol (lib_id "Regulator_Switching:TPS541620") (at 146.05 50.8 0) (unit 1)
-    (in_bom no) (on_board no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 81b627cf-5319-441a-a352-0ba594e1e752)
     (property "Reference" "U10" (id 0) (at 146.05 52.07 0))
     (property "Value" "TPS541620" (id 1) (at 146.05 54.61 0))
-    (property "Footprint" "Converter_DCDC:TPS541620" (id 2) (at 146.05 50.8 0)
+    (property "Footprint" "TPS541620:TPS541620" (id 2) (at 146.05 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 146.05 50.8 0)

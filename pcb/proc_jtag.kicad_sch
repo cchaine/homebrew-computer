@@ -1,4 +1,6 @@
-(kicad_sch (version 20210126) (generator eeschema)
+(kicad_sch (version 20210406) (generator eeschema)
+
+  (uuid a11d9896-6db4-4987-a83b-4200c04a75f1)
 
   (paper "User" 299.999 180.01)
 
@@ -3589,7 +3591,7 @@
     (property "Value" "SW_Push" (id 1) (at 241.3 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Button_Switch_THT:2-1825027-0" (id 2) (at 241.3 49.53 0)
+    (property "Footprint" "2-1825027-0:2-1825027-0" (id 2) (at 241.3 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 241.3 49.53 0)
@@ -3782,7 +3784,7 @@
     (uuid 658d205e-f274-4b32-882c-1cca63c701e6)
     (property "Reference" "D3" (id 0) (at 270.51 104.14 0))
     (property "Value" "LED_Dual_AKA" (id 1) (at 270.51 106.68 0))
-    (property "Footprint" "LED_THT:WP42WUM,GYW" (id 2) (at 257.81 107.95 0)
+    (property "Footprint" "WP42WUMGYW:WP42WUM,GYW" (id 2) (at 257.81 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 257.81 107.95 0)

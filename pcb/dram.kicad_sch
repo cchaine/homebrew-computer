@@ -1,4 +1,6 @@
-(kicad_sch (version 20210126) (generator eeschema)
+(kicad_sch (version 20210406) (generator eeschema)
+
+  (uuid 94f0e67f-f637-4192-8b58-2f70db2c40c4)
 
   (paper "User" 299.999 159.995)
 
@@ -1916,7 +1918,7 @@
     (uuid d6b9e7d2-f4e1-4ed2-a08a-53f8497cbf7d)
     (property "Reference" "U12" (id 0) (at 182.88 30.48 0))
     (property "Value" "IS42S16100H" (id 1) (at 182.88 33.02 0))
-    (property "Footprint" "Package_BGA:IS42S16100H" (id 2) (at 167.64 34.29 0)
+    (property "Footprint" "IS42S16100H:IS42S16100H" (id 2) (at 167.64 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 167.64 34.29 0)
@@ -1981,7 +1983,7 @@
     (uuid ab9cf7b9-9607-441c-b559-a47593ab2f77)
     (property "Reference" "U13" (id 0) (at 257.81 30.48 0))
     (property "Value" "IS42S16100H" (id 1) (at 257.81 33.02 0))
-    (property "Footprint" "Package_BGA:IS42S16100H" (id 2) (at 242.57 34.29 0)
+    (property "Footprint" "IS42S16100H:IS42S16100H" (id 2) (at 242.57 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 242.57 34.29 0)

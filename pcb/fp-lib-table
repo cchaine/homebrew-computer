@@ -1,3 +1,12 @@
 (fp_lib_table
-  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
+  (lib (name "DO-214AC")(type "KiCad")(uri "${KIPRJMOD}/libs/DO-214AC")(options "")(descr ""))
+  (lib (name "TPS541620")(type "KiCad")(uri "${KIPRJMOD}/libs/TPS541620")(options "")(descr ""))
+  (lib (name "SS-52300-001")(type "KiCad")(uri "${KIPRJMOD}/libs/SS-52300-001")(options "")(descr ""))
+  (lib (name "WP42WUMGYW")(type "KiCad")(uri "${KIPRJMOD}/libs/WP42WUMGYW")(options "")(descr ""))
+  (lib (name "650913-5")(type "KiCad")(uri "${KIPRJMOD}/libs/650913-5")(options "")(descr ""))
+  (lib (name "XAL6030-561MEB")(type "KiCad")(uri "${KIPRJMOD}/libs/XAL6030-561MEB")(options "")(descr ""))
+  (lib (name "ECS-7050MV")(type "KiCad")(uri "${KIPRJMOD}/libs/ECS-7050MV")(options "")(descr ""))
+  (lib (name "IS42S16100H")(type "KiCad")(uri "${KIPRJMOD}/libs/IS42S16100H")(options "")(descr ""))
+  (lib (name "2-1825027-0")(type "KiCad")(uri "${KIPRJMOD}/libs/2-1825027-0")(options "")(descr ""))
+  (lib (name "XAL6030-122MEB")(type "KiCad")(uri "${KIPRJMOD}/libs/XAL6030-122MEB")(options "")(descr ""))
 )

@@ -1,4 +1,6 @@
-(kicad_sch (version 20210126) (generator eeschema)
+(kicad_sch (version 20210406) (generator eeschema)
+
+  (uuid 9ca5ae83-c5c7-4857-8b76-f2a9dae3cd7b)
 
   (paper "User" 319.989 280.01)
 
@@ -2546,7 +2548,7 @@
     (property "Value" "ECS-7050MV" (id 1) (at 74.93 220.3449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Oscillator:ECS-7050MV" (id 2) (at 64.77 219.71 0)
+    (property "Footprint" "ECS-7050MV:ECS-7050MV" (id 2) (at 64.77 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 64.77 219.71 0)
