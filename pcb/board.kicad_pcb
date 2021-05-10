@@ -81,10 +81,10 @@
 
 
   (net 0 "")
-  (net 1 "Net-(MK1-Pad1)")
-  (net 2 "Net-(MK2-Pad1)")
-  (net 3 "Net-(MK3-Pad1)")
-  (net 4 "Net-(MK4-Pad1)")
+  (net 1 "Net-(MK4-Pad1)")
+  (net 2 "Net-(MK3-Pad1)")
+  (net 3 "Net-(MK2-Pad1)")
+  (net 4 "Net-(MK1-Pad1)")
 
   (footprint "Mounting_Holes:MountingHole_2.7mm" (layer "F.Cu")
     (tedit 5A6CF9C5) (tstamp 00000000-0000-0000-0000-0000597559b3)
@@ -104,7 +104,7 @@
     (fp_circle (center 0 0) (end 2.7 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp 2201f2be-7702-4d1a-857d-6ce55cd56a51))
     (fp_circle (center 0 0) (end 2.95 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp fb1dedfd-c43a-4aa6-9caf-a306e34426ba))
     (pad "1" np_thru_hole circle (at 0 0) (locked) (size 2.7 2.7) (drill 2.7) (layers *.Cu *.Mask)
-      (net 3 "Net-(MK3-Pad1)") (tstamp 15a64bac-8a6f-458a-a777-21a80f7e7012))
+      (net 2 "Net-(MK3-Pad1)") (tstamp 15a64bac-8a6f-458a-a777-21a80f7e7012))
   )
 
   (footprint "Mounting_Holes:MountingHole_2.7mm" (layer "F.Cu")
@@ -125,7 +125,7 @@
     (fp_circle (center 0 0) (end 2.7 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp 560a4d5b-1f07-4d01-8a4e-b60ed7d53391))
     (fp_circle (center 0 0) (end 2.95 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp cbd21122-c0e1-48df-8210-f6f851577f3d))
     (pad "1" np_thru_hole circle (at 0 0) (locked) (size 2.7 2.7) (drill 2.7) (layers *.Cu *.Mask)
-      (net 1 "Net-(MK1-Pad1)") (tstamp 48dc97d6-2e26-401f-8d4d-85080ffbe094))
+      (net 4 "Net-(MK1-Pad1)") (tstamp 48dc97d6-2e26-401f-8d4d-85080ffbe094))
   )
 
   (footprint "Mounting_Holes:MountingHole_2.7mm" (layer "F.Cu")
@@ -146,7 +146,7 @@
     (fp_circle (center 0 0) (end 2.7 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp c4cf86b7-38cb-4b26-b36d-9209dfd37d44))
     (fp_circle (center 0 0) (end 2.95 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 6c5c9d33-bec4-44b2-968b-85bb208d5664))
     (pad "1" np_thru_hole circle (at 0 0) (locked) (size 2.7 2.7) (drill 2.7) (layers *.Cu *.Mask)
-      (net 2 "Net-(MK2-Pad1)") (tstamp 14888e42-892b-4cb9-81c5-2bbd32aac8f9))
+      (net 3 "Net-(MK2-Pad1)") (tstamp 14888e42-892b-4cb9-81c5-2bbd32aac8f9))
   )
 
   (footprint "Mounting_Holes:MountingHole_2.7mm" (layer "F.Cu")
@@ -167,7 +167,7 @@
     (fp_circle (center 0 0) (end 2.7 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp 6430639e-1220-4d2e-aa58-11ae84828380))
     (fp_circle (center 0 0) (end 2.95 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp dfc045ca-ab2c-4789-81ec-cf2cdc2479cf))
     (pad "1" np_thru_hole circle (at 0 0) (locked) (size 2.7 2.7) (drill 2.7) (layers *.Cu *.Mask)
-      (net 4 "Net-(MK4-Pad1)") (tstamp a35cbdb8-1ab4-4bcb-b10f-0e7add117f96))
+      (net 1 "Net-(MK4-Pad1)") (tstamp a35cbdb8-1ab4-4bcb-b10f-0e7add117f96))
   )
 
   (gr_line (start 214.925 45.075) (end 55.075 45.075) (angle 90) (layer "Edge.Cuts") (width 0.15) (tstamp 0fbcbbf8-71b1-4e1f-b9e6-c873af3b37eb))
