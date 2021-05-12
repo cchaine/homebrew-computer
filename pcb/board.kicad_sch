@@ -670,7 +670,7 @@
       (reference "C33") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/82fcb530-a5b5-40a4-adf5-fce5b9ae2e58/2e9b4254-fbb8-4c5f-a2b6-7b5b191229f0"
-      (reference "C34") (unit 1) (value "3.3uF") (footprint "Capacitor_SMD:CP_Elec_4x4.5")
+      (reference "C34") (unit 1) (value "3.3uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
     (path "/82fcb530-a5b5-40a4-adf5-fce5b9ae2e58/b56652fe-58e7-4d2d-861d-2506f8f20059"
       (reference "C35") (unit 1) (value "100pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
