@@ -1,5 +1,5 @@
-(footprint "IS42S16100H" (version 20210228) (generator pcbnew) (layer "F.Cu")
-  (tedit 60905D42)
+(footprint "IS42S16100H" (version 20210424) (generator pcbnew) (layer "F.Cu")
+  (tedit 609A235B)
   (attr through_hole)
   (fp_text reference "REF**" (at 0 -6.05) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -92,4 +92,9 @@
   (pad "R2" smd circle (at -1.3 4.55) (size 0.4 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 24c7b73b-3010-4130-9f56-7594315e9526))
   (pad "R6" smd circle (at 1.3 4.55) (size 0.4 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 24c7b73b-3010-4130-9f56-7594315e9526))
   (pad "R7" smd circle (at 1.95 4.55) (size 0.4 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 24c7b73b-3010-4130-9f56-7594315e9526))
+  (model "${KIPRJMOD}/libs/IS42S16100H/is42s16100h.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 4.8 5.4 1))
+    (rotate (xyz 0 0 0))
+  )
 )

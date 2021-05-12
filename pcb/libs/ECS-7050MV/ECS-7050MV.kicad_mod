@@ -1,5 +1,5 @@
 (footprint "ECS-7050MV" (version 20210424) (generator pcbnew) (layer "F.Cu")
-  (tedit 60995EC6)
+  (tedit 609B6FD4)
   (fp_text reference "REF**" (at 0 -6 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp fcb63e25-a0bb-49d8-b971-78a95cf99be7)
@@ -23,4 +23,9 @@
   (pad "2" smd roundrect (at 5.08 0) (size 1.4 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp 3a30d54d-b2fa-4872-bb09-1e77c6a023a2))
   (pad "3" smd roundrect (at 0 4.2) (size 1.4 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp 1ff364c1-8f2a-499c-ac50-2507f5e75bc3))
   (pad "4" smd roundrect (at 5.08 4.2) (size 1.4 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp d40c1900-1bf3-4622-9a45-b67984739f47))
+  (model "${KIPRJMOD}/libs/ECS-7050MV/Oscillator_SMD_Abracon_ASV-4Pin_7.0x5.iges"
+    (offset (xyz 2.5 -2 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

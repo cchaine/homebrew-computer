@@ -1,5 +1,5 @@
 (footprint "2-1825027-0" (version 20210424) (generator pcbnew) (layer "F.Cu")
-  (tedit 60995EE6)
+  (tedit 609B7296)
   (fp_text reference "REF**" (at 0 -6.91 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e21376e8-bb57-4e6f-b8ad-77b35b36a4f6)
@@ -29,4 +29,9 @@
   (pad "" thru_hole circle (at 7.01 0) (size 2.6 2.6) (drill 1.3) (layers *.Cu *.Mask) (tstamp ee8e2f85-fdf1-4988-9f83-04d8ce6d5639))
   (pad "1" thru_hole circle (at 1.26 2.49) (size 1.98 1.98) (drill 0.99) (layers *.Cu *.Mask) (tstamp f117f72f-8afd-4fa1-977b-cb327502840a))
   (pad "2" thru_hole circle (at 5.76 2.49) (size 1.98 1.98) (drill 0.99) (layers *.Cu *.Mask) (tstamp 431070b3-25b5-402d-a2c1-eeca34e1fd84))
+  (model "${KIPRJMOD}/libs/2-1825027-0/2-1825027-0.iges"
+    (offset (xyz 3.6 -1.3 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

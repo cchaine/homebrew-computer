@@ -1,5 +1,5 @@
 (footprint "WP42WUM,GYW" (version 20210424) (generator pcbnew) (layer "F.Cu")
-  (tedit 60995EFF)
+  (tedit 609A3474)
   (fp_text reference "REF**" (at 0 -5.18 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 369a2950-ea32-4240-8d0b-6e832e92bd84)
@@ -27,4 +27,9 @@
   (pad "1" thru_hole circle (at 1.9 0) (size 1.778 1.778) (drill 0.889) (layers *.Cu *.Mask) (tstamp b1a5aef5-97e0-4acf-ba9f-2af517004fcf))
   (pad "2" thru_hole circle (at 0 0) (size 1.778 1.778) (drill 0.889) (layers *.Cu *.Mask) (tstamp 01df18d4-407e-4ad2-9cd8-b54d4d13ae97))
   (pad "3" thru_hole circle (at -1.9 0) (size 1.778 1.778) (drill 0.889) (layers *.Cu *.Mask) (tstamp 6294d1d6-7124-482b-8ff9-5e0577d9c4eb))
+  (model "${KIPRJMOD}/libs/WP42WUMGYW/WP32WUM.step"
+    (offset (xyz 1.7 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
