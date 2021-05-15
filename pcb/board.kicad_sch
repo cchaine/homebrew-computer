@@ -763,7 +763,7 @@
       (reference "C64") (unit 1) (value "open") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/deae845a-ed89-4dc8-b611-a45627046b99/40163c6a-a268-4a7f-a838-b2977d651b0a"
-      (reference "C65") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C65") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/deae845a-ed89-4dc8-b611-a45627046b99/dc526996-b4b7-4621-b54d-eeadbcba5da7"
       (reference "C66") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
