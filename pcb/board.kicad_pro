@@ -94,7 +94,7 @@
         "tracks_crossing": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "warning",
+        "via_dangling": "ignore",
         "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
@@ -466,7 +466,7 @@
     ],
     [
       "0be1d9ef-fa4b-47fd-b680-b0faa4db6d37",
-      "DRAM"
+      "SRAM"
     ]
   ],
   "text_variables": {}
