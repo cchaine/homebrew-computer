@@ -6,4 +6,5 @@
   (lib (name "650913-5")(type "KiCad")(uri "${KIPRJMOD}/libs/650913-5/650913-5.kicad_sym")(options "")(descr ""))
   (lib (name "bcm56ds")(type "KiCad")(uri "${KIPRJMOD}/libs/BCM56DS/bcm56ds.kicad_sym")(options "")(descr ""))
   (lib (name "LTC3633EFEPBF")(type "KiCad")(uri "${KIPRJMOD}/libs/LTC3633EFEPBF/LTC3633EFEPBF.kicad_sym")(options "")(descr ""))
+  (lib (name "is61wv25616efbll")(type "KiCad")(uri "${KIPRJMOD}/libs/IS64WV25616EFBLL/is61wv25616efbll.kicad_sym")(options "")(descr ""))
 )

@@ -867,6 +867,9 @@
     (path "/7bd13317-33a2-4944-bb39-4c410a78dc85/044186dc-88cd-4af6-aaa9-69e94b9b14bb"
       (reference "U19") (unit 1) (value "LMC555xMM") (footprint "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm")
     )
+    (path "/0be1d9ef-fa4b-47fd-b680-b0faa4db6d37/9d297158-2aea-4087-8b2b-bbe78b84de75"
+      (reference "U?") (unit 1) (value "IS61WV25616EFBLL") (footprint "")
+    )
     (path "/82fcb530-a5b5-40a4-adf5-fce5b9ae2e58/5a16af7e-d5cb-4df9-8c1b-40ab464968d8"
       (reference "Y1") (unit 1) (value "12MHz") (footprint "Crystal:Crystal_SMD_EuroQuartz_MT-4Pin_3.2x2.5mm")
     )
