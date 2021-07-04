@@ -9,4 +9,6 @@
   (lib (name "IS42S16100H")(type "KiCad")(uri "${KIPRJMOD}/libs/IS42S16100H")(options "")(descr ""))
   (lib (name "2-1825027-0")(type "KiCad")(uri "${KIPRJMOD}/libs/2-1825027-0")(options "")(descr ""))
   (lib (name "XAL6030-122MEB")(type "KiCad")(uri "${KIPRJMOD}/libs/XAL6030-122MEB")(options "")(descr ""))
+  (lib (name "SOP65P640X120-29N")(type "KiCad")(uri "${KIPRJMOD}/libs/LTC3633EFEPBF")(options "")(descr ""))
+  (lib (name "2020_5252_Inductor")(type "KiCad")(uri "${KIPRJMOD}/libs/2020_5252_Inductor")(options "")(descr ""))
 )
