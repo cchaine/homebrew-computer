@@ -1,4 +1,4 @@
-(kicad_sch (version 20210406) (generator eeschema)
+(kicad_sch (version 20210621) (generator eeschema)
 
   (uuid 0df0830a-985b-4ecf-96c9-76a203d2227c)
 
@@ -249,7 +249,7 @@
           (stroke (width 0.254)) (fill (type background))
         )
         (pin input line (at -10.16 -2.54 0) (length 2.54)
-          (name "~CS" (effects (font (size 1.27 1.27))))
+          (name "~{CS}" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
         (pin tri_state line (at 10.16 -2.54 180) (length 2.54)
@@ -257,7 +257,7 @@
           (number "2" (effects (font (size 1.27 1.27))))
         )
         (pin input line (at -10.16 2.54 0) (length 2.54)
-          (name "~WP" (effects (font (size 1.27 1.27))))
+          (name "~{WP}" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at 0 -7.62 90) (length 2.54)
@@ -273,7 +273,7 @@
           (number "6" (effects (font (size 1.27 1.27))))
         )
         (pin input line (at -10.16 0 0) (length 2.54)
-          (name "~HOLD" (effects (font (size 1.27 1.27))))
+          (name "~{HOLD}" (effects (font (size 1.27 1.27))))
           (number "7" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at 0 7.62 270) (length 2.54)
