@@ -585,6 +585,9 @@
     (path "/2ef5813e-a66c-41a0-8b00-d76353e48edf/e258b941-4a80-4daf-9205-53bad1c79780"
       (reference "#PWR0136") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/0be1d9ef-fa4b-47fd-b680-b0faa4db6d37/875fb236-e50f-4ea8-9073-ac5825b76838"
+      (reference "#PWR0137") (unit 1) (value "GND") (footprint "")
+    )
     (path "/c036d866-c247-4a79-8c95-1926a9c8f9b9/e6584723-5d62-4d26-9efc-adc73fe63e60"
       (reference "C1") (unit 1) (value "100uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
@@ -650,6 +653,9 @@
     )
     (path "/c036d866-c247-4a79-8c95-1926a9c8f9b9/710fe600-93e2-42bf-9d6c-f74db799476c"
       (reference "C22") (unit 1) (value "470nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/6d2ebb82-764a-43fe-bed5-f6547786187e/73328fe9-6adf-4177-9bd7-099c4fc23d13"
+      (reference "C23") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/69291240-c6dc-4685-bede-62676e04aaad/25b60d01-3b4f-4f7e-9177-736024f2fc69"
       (reference "C24") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -834,8 +840,8 @@
     (path "/c036d866-c247-4a79-8c95-1926a9c8f9b9/08d35688-1388-4814-ac08-2f09fc89e198"
       (reference "C84") (unit 1) (value "470nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/6d2ebb82-764a-43fe-bed5-f6547786187e/86e02892-58fe-4be5-9d85-ba936db2263a"
-      (reference "C90") (unit 1) (value "100uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
+    (path "/6d2ebb82-764a-43fe-bed5-f6547786187e/2602154a-5164-49a2-879d-f154f1e65e40"
+      (reference "C85") (unit 1) (value "470nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/7bd13317-33a2-4944-bb39-4c410a78dc85/5067b755-ae59-4bb1-b74d-c0cd5d70ae52"
       (reference "C91") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -874,7 +880,7 @@
       (reference "FB3") (unit 1) (value "600R/0.5A") (footprint "Inductor_SMD:L_0603_1608Metric")
     )
     (path "/82fcb530-a5b5-40a4-adf5-fce5b9ae2e58/f4bc78a5-9069-4b82-97fe-d065795c522a"
-      (reference "J1") (unit 1) (value "Conn_02x03_Counter_Clockwise") (footprint "Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical")
+      (reference "J1") (unit 1) (value "Conn_02x03_Counter_Clockwise") (footprint "Connector_IDC:IDC-Header_2x03_P2.54mm_Horizontal")
     )
     (path "/82fcb530-a5b5-40a4-adf5-fce5b9ae2e58/51413e06-5869-4247-9a60-361d4286d05b"
       (reference "J2") (unit 1) (value "USB_B") (footprint "SS-52300-001:BEL_SS-52300-001")
